@@ -1,0 +1,11 @@
+
+.mainRow{
+    color: red;
+    background: green !important;
+    cursor: pointer;
+}
+
+
+.mainRow:hover{
+    background: green !important;
+}
