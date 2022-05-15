@@ -5,9 +5,10 @@
     error_reporting(E_ALL);
     
     $_DEBUG = false;
+    $_LOCAL = "C:/Apache24/www/clients/";
+
     //$_ADDRESS = "http://localhost/";
     $_ADDRESS = "http://clients.technomobile.lan:85/";
-    $_LOCAL = "C:/Apache24/www/clients/";
     //$_ADDRESS = "https://endirecto-cuba.000webhostapp.com/";
 
     $cfg['database'] = "database/clients.db";
@@ -17,12 +18,6 @@
 
     $cfg['title'] = 'Endirecto';
     //$cfg['title'] = 'Cuba4u-DMC';
-
-    /*$cfg['pending_status'][1] = 'Pendiente';
-    $cfg['pending_status'][2] = 'Confirmado';
-    $cfg['pending_status'][3] = 'en Progreso';
-    $cfg['pending_status'][4] = 'Completado';
-    $cfg['pending_status'][5] = 'Cancelado';*/
 
     // Check if is a new instalation and Create a Root User
     if ( !file_exists($cfg['users']) && @isset ($_GET['gen_user']) )
