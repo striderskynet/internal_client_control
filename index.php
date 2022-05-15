@@ -95,9 +95,6 @@
         
         
         file_put_contents($cfg['database'], json_encode($var['data'], JSON_PRETTY_PRINT));
-
-        //print_r ( $var['data']);
-        //$var['data'] = json_decode(file_get_contents($cfg['database']));
         die ("<header><script>window.location = '/';</script>");
     }
 
