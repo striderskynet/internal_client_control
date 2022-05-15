@@ -202,8 +202,8 @@ C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"America
     '       <div class="tab-content" id="myTabContent">' + 
     '        <div class="modal-body clientCard tab-pane fade show active" id="data" role="tabpanel" aria-labelledby="data-tab">'  +
     '                   <div class="form-group">'+
-    //'                       <label class="leftLabel col-form-label">Nombre:</label>'+
-    '                       Sr. / Sra.<label class="rightLabel"> '+ data[id].name +'</label>'+
+    '                       <label class="leftLabel col-form-label">Nombre:</label>'+
+    '                       <label class="rightLabel">'+ data[id].prefix +' '+ data[id].name +'</label>'+
     '                   </div>'+
     '                   <div class="form-group">'+
     '                         <label class="leftLabel col-form-label">Pasaporte:</label>'+

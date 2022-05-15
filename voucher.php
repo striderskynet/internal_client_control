@@ -8,6 +8,9 @@
     $res = $db->query($query);
     $data = $res->fetchArray();
 
+    $cfg['database'] = "database/clients.db";
+    $userData = (array) json_decode(file_get_contents($cfg['database']));
+
     $typeFirstLine = explode("\n",trim($data['data']))[0];
     $typeRest = str_replace($typeFirstLine, "",trim($data['data']));
 
@@ -125,7 +128,7 @@
                 Nombre del Cliente
             </div>
             <div class='left span-3'>
-                Sr. <?php echo $data['main_client_name'] ?> <br>
+                <?php echo $userData[$data['main_client']]->prefix . " " . $data['main_client_name'] ?> <br>
                 <?php echo $companions ?>
             </div>
 
@@ -167,7 +170,7 @@
         </div>
     </div>
 <script>
-    window.print();
+    //window.print();
 </script>
 </body>
 </html>

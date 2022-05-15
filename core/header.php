@@ -67,6 +67,22 @@
 </head>
 <body>
 
+<?php
+  function is_active($id)
+  {
+    if ($id == "main" & !isset(array_keys($_GET)[0]))
+    {
+     // php_info();
+      return "active";
+    }
+    elseif ( isset($_GET) )
+    {
+      if (@array_keys($_GET)[0] == $id)
+        return "active";
+    }
+      return "";
+  }
+?>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
@@ -77,12 +93,12 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="<?php echo $_ADDRESS ?>">Clientes</a>
+          <a class="nav-link <?php echo is_active('main')?>" aria-current="page" href="<?php echo $_ADDRESS ?>">Clientes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php echo $_ADDRESS ?>?reservas">Reservas</a>
+          <a class="nav-link <?php echo is_active('reservas')?>" href="<?php echo $_ADDRESS ?>?reservas">Reservas</a>
         </li>
-        <li class="nav-item dropdown">
+        <!--<li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Herramientas
           </a>
@@ -93,7 +109,7 @@
             <li><a class="dropdown-item" href="?lista_de_reserva">Actualizar tabla de Reservas</a></li>
           </ul>
         </li>
-       
+-->
       </ul>
       <?php if (@isset($_SESSION['userUUID']))
       { ?>

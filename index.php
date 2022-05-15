@@ -13,7 +13,7 @@
     $cfg['reservations'] = "database/reserv.db";
 
 
-    $cfg['title'] = 'Endirecto GmbH';
+    $cfg['title'] = 'Endirecto';
     //$cfg['title'] = 'Cuba4u-DMC';
 
     /*$cfg['pending_status'][1] = 'Pendiente';
@@ -82,7 +82,8 @@
         // Get varData from $_POST
         $var['data']->$count =  array(
             'id' => $count,
-            'name' => $_POST['modal_contact_lastname'] . ", " . $_POST['modal_contact_firstname'],
+            'prefix' => $_POST['modal_contact_prefix'],
+            'name' => $_POST['modal_contact_firstname'] . " " . $_POST['modal_contact_lastname'],
             'passport' => $_POST['modal_contact_passport'],
             'phone' => $_POST['modal_contact_phone'],
             'email' => $_POST['modal_contact_email'],

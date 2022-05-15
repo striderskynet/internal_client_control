@@ -75,6 +75,18 @@
                         <div class="form-group">
                             <div class="input-group">
                                 <span class="input-group-text"><i class="fa fa-user"></i></span>
+                                <select name='modal_contact_prefix' id="modal_contact_prefix" class='form-select'>
+                                    <option value="Sr.">Sr.</option>
+                                    <option value="Sra.">Sra.</option>
+                                    <option value="Dr.">Dr.</option>
+                                    <option value="Msc">MSc</option>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa fa-user"></i></span>
                                 <input type="text" id="modal_contact_firstname" name="modal_contact_firstname" aria-label="First name" class="form-control" placeholder="Nombre">
                                 <span class="input-group-text"><i class="fa fa-link"></i></span>
                                 <input type="text" id="modal_contact_lastname" name="modal_contact_lastname" aria-label="Last name" class="form-control" placeholder="Apellidos">
