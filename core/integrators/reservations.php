@@ -34,10 +34,13 @@
         if ( $row['additional_clients'] == null)
           $row['additional_clients'] = 0;
 
+        $date = DateTime::createFromFormat("Y-m-d", $row['inDate']);
+        $vID = $date->format("Y") . str_pad( $row['id'], 3, '0', STR_PAD_LEFT);
+
        
 ?>
     <tr>
-      <th scope="row"><?php echo $row['id']?></th>
+      <th scope="row"><?php echo $vID?></th>
       <td id='clientRow-<?php echo $q ?>'></td>
       <script>
           $( "#clientRow-<?php echo $q ?>" ).append( data[<?php echo $row['main_client']?>].name );

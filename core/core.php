@@ -1,4 +1,6 @@
-
+<div class='search-input-div'>
+      <input id='search-input' class="search-input" type='text' placeholder="Buscar..." onkeyup="searchInput()">
+    </div>
 <div role="table" aria-label="Clients Table" aria-describedby="QuanticaLabs">
 	<!--DESCRIPTION / COLUMN FILTERING -->
     <input id="col-1" class="column" name="#" type="checkbox">
@@ -19,14 +21,14 @@
     <input id="col-16" class="column" name="#" type="checkbox">
     
     <input id="filter-column" name="#" type="checkbox">
+   
     <input id="wrap-text" name="#" type="checkbox">
         <div class="table-desc">
-            <span><input id='search-input' class="search-input" placeholder="Buscar..." onkeyup="searchInput()"></span>
-            
+           <span></span>
             <div class="filter-panel">
                 <label for="filter-column">Filtros</label>
                 <a href="#_" class="add-content" data-bs-toggle="modal" data-bs-target="#modal_contact">Agregar</a>                
-
+                
                 <ul>
                     <li><label for="col-1">ID</label></li>
                     <li><label for="col-2">Nombre</label></li>
@@ -44,7 +46,7 @@
 	<!--TABLE HEADER-->
         <div role="row-group">
             <div role="row">
-                <span role="column-header" style='text-align: center; max-width: 50px !important'>ID</span>
+                <span role="column-header" style='text-align: center;'>ID</span>
                 <span role="column-header">Nombre</span>
                 <span role="column-header">Pasaporte</span>
                 <span role="column-header">Telefono</span>
