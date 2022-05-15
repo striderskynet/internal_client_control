@@ -134,6 +134,7 @@
         }
     }
     
+    // Load Footer only if its OK
     if (@array_keys($_GET)[0]!="agregar_reserva")
         require ( "./core/footer.php" );
 
