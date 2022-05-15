@@ -17,11 +17,14 @@
 -->
 
 <script>
-$.ajax({
+/*$.ajax({
             url: "core/integrators/reservations.php",
             cache: false
           })
             .done(function( result ) {
                insertHTML("wrapperReservations", result);
-            });
+            });*/
 </script>
+<?php
+  require_once ( "./core/integrators/reservations.php");
+?>

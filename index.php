@@ -7,6 +7,8 @@
     $_DEBUG = false;
     //$_ADDRESS = "http://localhost/";
     $_ADDRESS = "http://clients.technomobile.lan:85/";
+    $_LOCAL = "C:/Apache24/www/clients/";
+    //$_ADDRESS = "https://endirecto-cuba.000webhostapp.com/";
 
     $cfg['database'] = "database/clients.db";
     $cfg['users'] = "database/users.db";

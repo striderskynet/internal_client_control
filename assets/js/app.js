@@ -308,27 +308,36 @@ C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"America
             });
     })
 
-function delRes(id, clientID)
+function delRes(id, clientID, exit)
   {
     
-    $.ajax({
-            url: "?agregar_reserva&delete=" + id,
-            cache: false
-          })
-            .done(function( html ) {
-              $.ajax({
-                url: "core/integrators/reservations.php?client=" + clientID,
+    confVar = confirm("Esta seguro de eliminar la reserva con ID: " + id);
+
+    if (confVar == true)
+    {
+        $.ajax({
+                url: "?agregar_reserva&delete=" + id,
                 cache: false
-              })
-                .done(function( result ) {
-                  insertHTML("reservation-body", result);
+            })
+                .done(function( html ) {
+                $.ajax({
+                    url: "core/integrators/reservations.php?client=" + clientID,
+                    cache: false
+                })
+                    .done(function( result ) {
+                    insertHTML("reservation-body", result);
 
-                  $("#toast-body").html("Se ha eliminado la reserva correctamente");
-                  $("#myToast").toast("show");
+                    $("#toast-body").html("Se ha eliminado la reserva correctamente");
+                    $("#myToast").toast("show");
+
+                    if (exit == true)
+                        window.location = "/?reservas";
+                    });
                 });
-            });
 
-    console.log("Deleting data \"" + id + "\" from client \"" + clientID + "\"");
+        
+        console.log("Deleting data \"" + id + "\" from client \"" + clientID + "\"");
+    }   
   }
 
 function insertHTML(elem, content)

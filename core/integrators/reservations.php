@@ -15,14 +15,23 @@
   <tbody>
   <?php
     error_reporting(E_ALL);
-    include ("../addons/sqlite.php");
+    if ( !isset ( $_LOCAL ) )
+    {
+      $database = "../../database/reserv.db";
+      include ("../addons/sqlite.php");
+    }
+    else
+    {
+      $database = $_LOCAL . $cfg['reservations'];
+      include ($_LOCAL . "core/addons/sqlite.php");
+    }
 
     if ( @isset($_GET['client']) )
       $query = 'SELECT * FROM `main_reservations` WHERE `main_client` = "' . $_GET['client'] . '"';
     else
-    $query = 'SELECT * FROM `main_reservations`';
+      $query = 'SELECT * FROM `main_reservations`';
 
-    $db = new SQLite3("../../database/reserv.db");
+    $db = new SQLite3($database);
     $res = $db->query($query);
 
     $q = 0;
@@ -54,7 +63,7 @@
       <td><?php echo $row['outDate']?></td>
       <td class='text-end'>
       <!--<button type="button" class="btn btn-warning btn-sm">Editar</button>-->
-      <button onClick='delRes(<?php echo $row['id']?>, <?php echo $row['main_client']?>)' type="button" class="btn btn-danger btn-sm">Eliminar</button>
+      <button onClick='delRes(<?php echo $row['id']?>, <?php echo $row['main_client']?>, true)' type="button" class="btn btn-danger btn-sm">Eliminar</button>
       <button onClick='voucher(<?php echo $row['id']?>);' type="button" class="btn btn-primary btn-sm">Imprimir</button></td>
     </tr>
 <?php   
