@@ -151,7 +151,7 @@ C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"America
                 "<input  id=\"row-" + data[key].id + "\" name=\"#\" type=\"checkbox\" />\n" +
                 "<div class=\"expandable\" role=\"cell\">\n<div role=\"row\">" + data[key].message + "</div>\n</div>\n" +
                 "<span data-toggle=\"tooltip\" data-placement=\"top\" title=\"Click para ver el cliente\" class='clickable' onClick=\"showCard(" + data[key].id + ")\"  role=\"cell\" data-header=\"ID\" style='text-align: center; max-width: 40px !important'><a  href=\"#\">" + data[key].id + "</a></span>" + 
-                "<span role=\"cell\" data-header=\"Nombre\">" + data[key].name + "</span>" + 
+                "<span role=\"cell\" data-header=\"Nombre\" >" + data[key].name + "</span>" + 
                 "<span role=\"cell\" data-header=\"Pasaporte\"><span>" + data[key].passport + "</span></span>" + 
                 "<span role=\"cell\" data-header=\"Telefono\">" + data[key].phone + "</span>" + 
                 "<span role=\"cell\" data-header=\"eMail\">" + data[key].email + "</span>" + 

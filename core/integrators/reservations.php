@@ -34,19 +34,7 @@
         if ( $row['additional_clients'] == null)
           $row['additional_clients'] = 0;
 
-       /* $add_clients = explode (",", $row['additional_clients']);
-
-        $rel_clients = "";
-        $t = 1;
-        foreach ($add_clients as $r )
-        {
-            if ($t == count($add_clients))
-                $rel_clients .= " $( \"#addclientRow-$q\" ).append( data[$r].name );\n";
-            else
-            $rel_clients .= " $( \"#addclientRow-$q\" ).append( data[$r].name + ', ' );\n";
-            $t++;
-        }*/
-        
+       
 ?>
     <tr>
       <th scope="row"><?php echo $row['id']?></th>

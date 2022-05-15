@@ -1,5 +1,4 @@
-<div id='wrapperReservations'>
-</div>
+<div id='wrapperReservations'></div>
 
 <!--
 <div class="modal-dialog modal-xl">
@@ -18,7 +17,6 @@
 -->
 
 <script>
-
 $.ajax({
             url: "core/integrators/reservations.php",
             cache: false
