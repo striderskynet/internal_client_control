@@ -42,12 +42,14 @@
         
         .rightLabel
         {
-            font-weight: normal;
+            font-weight: bold;
             margin: 0px 10px 0px 5px;
-            border: 1px solid #ddd;
+            /*border: 1px solid #ddd;
             padding: 5px 20px 5px 10px;
             border-radius: 5px;
-            background: #eee;
+            background: #eee;*/
+
+            border-bottom: 1px dotted #333;
         }
 
         .clientCard .form-group{

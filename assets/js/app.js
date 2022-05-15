@@ -202,8 +202,8 @@ C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"America
     '       <div class="tab-content" id="myTabContent">' + 
     '        <div class="modal-body clientCard tab-pane fade show active" id="data" role="tabpanel" aria-labelledby="data-tab">'  +
     '                   <div class="form-group">'+
-    '                       <label class="leftLabel col-form-label">Nombre:</label>'+
-    '                       <label class="rightLabel">'+ data[id].name +'</label>'+
+    //'                       <label class="leftLabel col-form-label">Nombre:</label>'+
+    '                       Sr. / Sra.<label class="rightLabel"> '+ data[id].name +'</label>'+
     '                   </div>'+
     '                   <div class="form-group">'+
     '                         <label class="leftLabel col-form-label">Pasaporte:</label>'+
@@ -214,19 +214,19 @@ C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"America
     '                   <div class="form-group">'+
     '                       <label class="leftLabel col-form-label">eMail:</label>'+
     '                       <label class="rightLabel">'+ data[id].email +'</label>'+
+    '                          <label class="col-form-label">Empresa:</label>'+
+    '                           <label class="rightLabel">'+ data[id].source +'</label>'+
     '                   </div>'+
     '                   <div class="form-group">'+
     '                       <label class="leftLabel col-form-label">Pais:</label>'+
     '                       <label class="rightLabel"><span><span class="f16"><i class="flag '+ data[id].country.toLowerCase() +'"></i></span></span> ' + C.countries[data[id].country] +'</label>'+
     '                   </div>'+
     '                       <div class="form-group">'+
-    '                           <label class="leftLabel col-form-label">Fecha:</label>'+
+    '                           <label class="leftLabel col-form-label">Agregado:</label>'+
     '                           <label class="rightLabel">'+ data[id].date +'</label>'+
-    '                          <label class="col-form-label">Empresa:</label>'+
-    '                           <label class="rightLabel">'+ data[id].source +'</label>'+
     '                       </div>'+
     '                   <hr>'+
-    '                   <div class="form-group">'+
+    '                   <div class="form-group" style="font-size: 10px;">'+
     '                       <label style="color: red;" class="col-form-label">Ultimo Accesso:</label>'+
     '                       <label class="rightLabel">'+ data[id].lastTouch +'</label>'+
     '                   </div>'+
