@@ -24,6 +24,7 @@
 <script src="assets/js/bootstrap-datepicker.min.js"></script>
 <script src="assets/js/plugins/jquery-validation/localization/messages_es.min.js"></script>
 
+
    <?php if (@isset($_SESSION['userUUID'])) { ?>
     <script>
         let dataText = '<?php echo str_replace("\\\"", "", json_encode(json_decode(file_get_contents($cfg['database']))))?>';
@@ -172,31 +173,31 @@ myModal.show();
   <div id="myModal" class="modal fade" data-backdrop="static">
 	<div class="modal-dialog modal-login">
 		<div class="modal-content">
-			<form action="?gen_user" method="post">
+			<form id='createUserForm' action="?gen_user" method="post">
 				<div class="modal-header">				
 					<h4 class="modal-title">Instalacion</h4>
 				</div>
 				<div class="modal-body">				
 					<div class="form-group">
 						<label>Crear Usuario</label>
-						<input name='user' type="text" class="form-control" required="required">
+						<input name='user' autocomplete='username' type="text" class="form-control" required="required">
 					</div>
 					<div class="form-group">
 						<div class="clearfix">
 							<label>Crear Contraseña</label>
 						</div>
-						<input name='password' type="password" class="form-control" required="required">
+						<input name='password' autocomplete='new-password' type="password" class="form-control" required="required">
 					</div>
           <div class="form-group">
 						<div class="clearfix">
 							<label>Repetir Contraseña</label>
 						</div>
-						<input name='password2' type="password" class="form-control" required="required">
+						<input name='password2' autocomplete='new-password' type="password" class="form-control" required="required">
 					</div>
 				</div>
 				<div class="modal-footer">
-					
-					<input type="submit" class="btn btn-primary" value="Crear">
+          <label>Crear usuario principal</label>
+					<input type="submit" class="btn btn-success" value="Crear">
 				</div>
 			</form>
 		</div>
@@ -210,6 +211,6 @@ var myModal = new bootstrap.Modal(document.getElementById('myModal'), {
   backdrop: "static"
 })
 
-myModal.show(); 
+myModal.show();
 </script>
 <?php } ?>
