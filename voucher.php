@@ -1,5 +1,5 @@
 <?php
-    error_reporting(E_ALL);
+    error_reporting(0);
 
     $db = new SQLite3("./database/reserv.db");
     $voucherID = $_GET['id'];
@@ -110,7 +110,7 @@
     <div class="voucher">
         <div class="top">
             <span class="logo">
-                <img alt="asd" src="../assets/images/mainlogo.png" >
+                <img alt="logo" src="assets/images/mainlogo.png" >
             </span>
         </div>
         <div class='vtable'>
@@ -142,7 +142,7 @@
                 <span>No. Confirmacion</span>
             </div>
             <div>
-                <span>RL 139614</span>
+                <span><?php echo strtoupper($data['reservation_number']) ?></span>
             </div>
 
             <div class='left bold row-2'>
@@ -170,7 +170,7 @@
         </div>
     </div>
 <script>
-    //window.print();
+    window.print();
 </script>
 </body>
 </html>

@@ -259,6 +259,7 @@ C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"America
 
     function addReservation()
     {
+       
         var mres_data = [];
         mres_data['main_client'] = document.getElementById("mres_client_id").value;
         mres_data['main_client_name'] = document.getElementById("mres_client_name").value;
@@ -269,6 +270,8 @@ C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"America
         mres_data['outDate'] = document.getElementById("mres_outDate").value;
         mres_data['servicePartner'] = document.getElementById("mres_servicePartner").value;
         mres_data['observations'] = document.getElementById("mres_observations").value;
+        mres_data['reservation_number'] = document.getElementById("mres_confNumber").value;
+
 
         $.ajax('/?agregar_reserva', {
             type: 'POST',  // http method
@@ -281,7 +284,8 @@ C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"America
             inDate: mres_data['inDate'],
             outDate: mres_data['outDate'],
             servicePartner: mres_data['servicePartner'],
-            observations: mres_data['observations']
+            observations: mres_data['observations'],
+            reservation_number: mres_data['reservation_number']
              },  // data to submit
             success: function (data, status, xhr) {
                 $('#addReservation').modal('hide');

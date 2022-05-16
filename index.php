@@ -4,20 +4,26 @@
     ini_set('display_errors', 1); 
     error_reporting(E_ALL);
     
-    $_DEBUG = false;
-    $_LOCAL = "C:/Apache24/www/clients/";
+    $_DEBUG = true;
 
     //$_ADDRESS = "http://localhost/";
     $_ADDRESS = "http://clients.technomobile.lan:85/";
-    //$_ADDRESS = "https://endirecto-cuba.000webhostapp.com/";
 
-    $cfg['database'] = "database/clients.db";
-    $cfg['users'] = "database/users.db";
-    $cfg['reservations'] = "database/reserv.db";
+
+    $cfg['database'] = $_SERVER['DOCUMENT_ROOT'] . "/database/clients.db";
+    $cfg['users'] = $_SERVER['DOCUMENT_ROOT'] . "/database/users.db";
+    $cfg['reservations'] = $_SERVER['DOCUMENT_ROOT'] . "/database/reserv.db";
 
 
     $cfg['title'] = 'Endirecto';
     //$cfg['title'] = 'Cuba4u-DMC';
+
+
+    // --------------------------- \\
+    // Do not touch below this point
+
+
+    require_once("./core/debug.php");
 
     // Check if is a new instalation and Create a Root User
     if ( !file_exists($cfg['users']) && @isset ($_GET['gen_user']) )
@@ -26,13 +32,15 @@
         $users[0][0] = $_POST['user'];
         $users[0][1] = md5($_POST['password']);
         $users[0][2] = 'root';
+        
+        debug(1, "Detected new instalation, asking for new user and password");
 
         if ( $_POST['password'] != $_POST['password2'] )
         {
             session_destroy();
             die ("<header><script>window.location = '/';</script>");
         }
-
+        debug(1, "Saving username and password for ROOT access");
         file_put_contents($cfg['users'], json_encode($users, JSON_PRETTY_PRINT));
     }
 
@@ -91,7 +99,7 @@
             'lastTouch' => $_SESSION['userUUID']['username'] . " | " . date('m/d/Y h:i:s a', time()),
         );
         
-        
+        debug(0, "Adding new user to the database");
         file_put_contents($cfg['database'], json_encode($var['data'], JSON_PRETTY_PRINT));
         die ("<header><script>window.location = '/';</script>");
     }
@@ -101,7 +109,8 @@
     {
         $val = $_GET['del_user'];
         unset($var['data']->$val);
-      
+        
+        debug(0, "Deleting user from database");
         file_put_contents($cfg['database'], json_encode($var['data'], JSON_PRETTY_PRINT));
     }
 

@@ -7,9 +7,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php if ($_DEBUG == true) { ?>
-        <meta http-equiv="refresh" content="5; URL=<?php echo $_ADDRESS ?>">
-    <?php } ?>
     <title><?php echo $cfg['title'] ?> - Listado de Clientes</title>    
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
 <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css" type="text/css" />

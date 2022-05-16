@@ -228,10 +228,11 @@
                                 <label for="mres_observations">Observaciones</label>
 </div>
                             </div><br>
-                            <!--<div class="input-group">
+                            <div class="input-group">
                                 <span class="input-group-text"><i class="fa fa-hashtag"></i></span>
-                                <input type="text" id="mres_kd_number" name="mres_kd_number" class="form-control" placeholder="Numero de Cliente" >
-                               </div><br>
+                                <input type="text" id="mres_confNumber" name="mres_confNumber" class="form-control" placeholder="Numero de Confirmacion" >
+                               </div>
+                            <!--<br>
                             <div class="input-group">
                                 <span class="input-group-text"><i class="fa fa-hashtag"></i></span>
                                 <input type="text" id="mres_reserv_number" name="mres_reserv_number" class="form-control" placeholder="Numero de Reserva" >
