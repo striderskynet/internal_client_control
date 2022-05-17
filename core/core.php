@@ -259,3 +259,4 @@
             itemTotal.value = parseInt(item.value) + 1;
         }
 </script>
+

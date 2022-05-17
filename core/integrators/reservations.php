@@ -41,18 +41,12 @@
 
         $date = DateTime::createFromFormat("Y-m-d", $row['inDate']);
         $vID = $date->format("Y") . str_pad( $row['id'], 3, '0', STR_PAD_LEFT);
-
        
 ?>
     <tr>
       <th scope="row"><?php echo $vID?></th>
-      <td id='clientRow-<?php echo $q ?>'></td>
-      <script>
-          $( "#clientRow-<?php echo $q ?>" ).append( data[<?php echo $row['main_client']?>].name );
-      </script>
-      <td id='addclientRow-<?php echo $q ?>'>
-            <b><?php echo $row['additional_clients']+1 ?></b> (total)
-      </td>
+      <td id='clientRow'><?php echo $row['main_client_name'] ?></td>
+      <td id='addclientRow'> <b><?php echo $row['additional_clients']+1 ?></b> (total) </td>
       <td><?php echo $row['type']?></td>
       <td><a href="#" class='button' title="<?php echo $row['data']?>"><?php echo $data_line?></a></td>
       <td><?php echo $row['inDate']?></td>
