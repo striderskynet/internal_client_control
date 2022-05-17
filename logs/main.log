@@ -1,1 +1,1 @@
-2022-05-16 23:07:53  | Info    |   Executing query into the Database:DELETE FROM main_reservations WHERE `id`='13'
+2022-05-16 23:18:45  | Info    |   Executing query into the Database:DELETE FROM main_reservations WHERE `id`='17'

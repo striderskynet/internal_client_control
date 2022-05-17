@@ -1,6 +1,5 @@
 
 
-
 <link rel="stylesheet" type="text/css" href="assets/css/app.css">
 <script src="assets/js/app.js"></script>
 <?php if ( isset ( $_SESSION['userUUID'] ) ) { ?>
@@ -17,6 +16,5 @@
     });
 </script>
 <?php } ?>
-
 </body>
 </html>

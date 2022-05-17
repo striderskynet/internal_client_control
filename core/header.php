@@ -1,7 +1,3 @@
-<?php
-     if ($_DEBUG == true)
-     //require_once ("static/debug.js")
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,67 +17,9 @@
 <script src="assets/js/bootstrap-datepicker.min.js"></script>
 <script src="assets/js/plugins/jquery-validation/localization/messages_es.min.js"></script>
 
-
-   <?php if (@isset($_SESSION['userUUID'])) { ?>
-    <script>
-        let dataText = '<?php echo str_replace("\\\"", "", json_encode(json_decode(file_get_contents($cfg['database']))))?>';
-    </script>
-    <?php } ?>
-    <style>
-        body
-        {
-            margin: 10px;
-        }
-
-        .body{
-          margin-left: 30px;
-          margin-right: 30px;
-        }
-        
-        .rightLabel
-        {
-            font-weight: bold;
-            margin: 0px 10px 0px 5px;
-            /*border: 1px solid #ddd;
-            padding: 5px 20px 5px 10px;
-            border-radius: 5px;
-            background: #eee;*/
-
-            border-bottom: 1px dotted #333;
-        }
-
-        .clientCard .form-group{
-           margin-top: 10px;
-        }
-
-        .button-left
-        {
-            position: absolute;
-            float: left;
-            left: 20px;
-        }
-        
-    </style>
+<script>let dataText = '<?php echo $mData ?>';</script>
 </head>
 <body>
-
-<?php
-  function is_active($id)
-  {
-    if ($id == "main" & !isset(array_keys($_GET)[0]))
-    {
-     // php_info();
-      return "active";
-    }
-    elseif ( isset($_GET) )
-    {
-      if (@array_keys($_GET)[0] == $id)
-        return "active";
-    }
-      return "";
-  }
-?>
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
     <a class="navbar-brand" href="/"><?php echo $cfg['title'] ?></a>
@@ -99,18 +37,6 @@
         </li>
         <li class="nav-item">
         </li>
-        <!--<li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Herramientas
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#"></a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="?lista_de_reserva">Actualizar tabla de Reservas</a></li>
-          </ul>
-        </li>
--->
       </ul>
       
       <?php if (@isset($_SESSION['userUUID']))
@@ -157,15 +83,14 @@
 	</div>
 </div>    
 
-
-
 <script>
-var myModal = new bootstrap.Modal(document.getElementById('myModal'), {
-  backdrop: "static"
-})
+  var myModal = new bootstrap.Modal(document.getElementById('myModal'), {
+    backdrop: "static"
+  })
 
-myModal.show(); 
+  myModal.show(); 
 </script>
+
 <?php } elseif (!isset($_SESSION['userUUID']) && !file_exists($cfg['users'])) { ?>
   <div id="myModal" class="modal fade" data-backdrop="static">
 	<div class="modal-dialog modal-login">
@@ -201,13 +126,11 @@ myModal.show();
 	</div>
 </div>    
 
-
-
 <script>
-var myModal = new bootstrap.Modal(document.getElementById('myModal'), {
-  backdrop: "static"
-})
+  var myModal = new bootstrap.Modal(document.getElementById('myModal'), {
+    backdrop: "static"
+  })
 
-myModal.show();
+  myModal.show();
 </script>
 <?php } ?>

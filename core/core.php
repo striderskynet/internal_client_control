@@ -222,8 +222,6 @@
                             <div class="input-group"><span class="input-group-text"><i class="fa fa-edit"></i></span>
                             <div class="form-floating">
                                 
-                                <!--<textarea id="modal_contact_message" name="modal_contact_message" class="form-control"></textarea>
-                                <label for="floatingTextarea2">Detalles</label>-->
                                 <textarea class="form-control" placeholder="Observaciones" id="mres_observations" style="height: 100px; width:213%;"></textarea>
                                 <label for="mres_observations">Observaciones</label>
 </div>
@@ -232,14 +230,6 @@
                                 <span class="input-group-text"><i class="fa fa-hashtag"></i></span>
                                 <input type="text" id="mres_confNumber" name="mres_confNumber" class="form-control" placeholder="Numero de Confirmacion" >
                                </div>
-                            <!--<br>
-                            <div class="input-group">
-                                <span class="input-group-text"><i class="fa fa-hashtag"></i></span>
-                                <input type="text" id="mres_reserv_number" name="mres_reserv_number" class="form-control" placeholder="Numero de Reserva" >
-                                <span class="input-group-text"><i class="fa fa-hashtag"></i></span>
-                                <input type="text" id="mres_voucher_number" name="mres_voucher_number" class="form-control" placeholder="Numero de Voucher" >
-                               </div>-->
-                            
                         </div>
                         
                     </div>
@@ -257,12 +247,10 @@
 <div id="myToast" class="toast text-white bg-primary border-0 bottom-0 start-50 translate-middle-x" role="alert" aria-live="assertive" aria-atomic="true" style="position: absolute;">
   <div class="d-flex">
     <div class="toast-body" id='toast-body'>
-      Hello, world! This is a toast message.
     </div>
     <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
   </div>
 </div>
-
 <script>
         function countClients()
         {
@@ -270,4 +258,4 @@
             itemTotal = document.getElementById("mres_total_clients");
             itemTotal.value = parseInt(item.value) + 1;
         }
-    </script>
+</script>

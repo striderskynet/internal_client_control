@@ -24,7 +24,7 @@
 
 
     require_once("./core/debug.php");
-
+    require_once("./core/misc.php");
     // Check if is a new instalation and Create a Root User
     if ( !file_exists($cfg['users']) && @isset ($_GET['gen_user']) )
     {
@@ -113,6 +113,12 @@
         debug(0, "Deleting user from database");
         file_put_contents($cfg['database'], json_encode($var['data'], JSON_PRETTY_PRINT));
     }
+
+    $mData = null;
+
+    if (@isset($_SESSION['userUUID'])) 
+        $mData = str_replace("\\\"", "", json_encode(json_decode(file_get_contents($cfg['database']))));
+
 
     // Show the exact site page
     if (@array_keys($_GET)[0]!="agregar_reserva")

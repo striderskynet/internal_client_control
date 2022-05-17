@@ -1,6 +1,6 @@
 <table class="table table-sm table-light table-striped table-hover table-bordered caption-top table-responsive">
 <caption>Listado de reservas</caption>
-  <thead>
+  <thead class='reservHead'>
     <tr>
       <th scope="col">ID</th>
       <th scope="col">Cliente</th>
@@ -26,6 +26,9 @@
 
     $db = new SQLite3($database);
     $res = $db->query($query);
+
+    if ( !stristr($_SERVER['SCRIPT_FILENAME'],"reservations.php") )
+    { $rebound = "true"; } else { $rebound = "false"; }
 
     $q = 0;
     while ($row = $res->fetchArray()) {
@@ -56,10 +59,6 @@
       <td><?php echo $row['outDate']?></td>
       <td class='text-end'>
       <!--<button type="button" class="btn btn-warning btn-sm">Editar</button>-->
-      <?php
-        if ( !stristr($_SERVER['SCRIPT_FILENAME'],"reservations.php") )
-        { $rebound = "true"; } else { $rebound = "false"; }
-      ?>
       <button onClick='delRes(<?php echo $row['id']?>, <?php echo $row['main_client']?>, <?php echo $rebound ?>)' type="button" class="btn btn-danger btn-sm">Eliminar</button>
       <button onClick='voucher(<?php echo $row['id']?>);' type="button" class="btn btn-primary btn-sm">Imprimir</button></td>
     </tr>
@@ -68,8 +67,6 @@
     }
 ?>
   </tbody>
-
-
 </table>
 <div class='text-end'>
   <?php if ( @isset($_GET['client']) ) { ?>
