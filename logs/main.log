@@ -1,2 +1,3 @@
-2022-05-17 00:59:31  | Info    |   Executing query into the Database:INSERT INTO main_reservations ( main_client, main_client_name, additional_clients, type, data, inDate, outDate, observations, servicePartner, reservation_number) 
-    VALUES (1, 'Jose Olazabal', '5', 'Hotel / House', 'asd', '2022-05-16', '2022-05-16', 'asd', 'asd', 'asd');
+2022-05-17 03:59:36  | Info    |   Executing query into the Database: DELETE FROM main_reservations WHERE `id`='19'
+2022-05-17 04:04:40  | Info    |   Executing query into the Database: INSERT INTO main_reservations ( main_client, main_client_name, additional_clients, type, data, inDate, outDate, observations, servicePartner, reservation_number) 
+    VALUES (1, 'Jose Olazabal', '5', 'Hotel / House', 'asd', '2022-04-27', '2022-04-20', 'asd', 'Gaviota', 'asd');

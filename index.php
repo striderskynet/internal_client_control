@@ -99,7 +99,7 @@
             'lastTouch' => $_SESSION['userUUID']['username'] . " | " . date('m/d/Y h:i:s a', time()),
         );
         
-        debug(0, "Adding new user to the database");
+        debug(0, "Adding new client to the database");
         file_put_contents($cfg['database'], json_encode($var['data'], JSON_PRETTY_PRINT));
         die ("<header><script>window.location = '/';</script>");
     }
@@ -129,17 +129,13 @@
         require ( "./core/core.php" );
     } else {
         switch (array_keys($_GET)[0]){
-            case "lista_de_reserva":
-                require ( "./core/rList.php" );
-                break;
-
             case "reservas":
-                    require ( "./core/reserv.php" );
+                    require ( "./core/integrators/reservations.php");
                     break;
 
             case "agregar_reserva":
-                        require ( "./core/manipulators/mg_reserva.php" );
-                        break;
+                    require ( "./core/manipulators/man_reserva.php" );
+                    break;
 
             default:
                 require ( "./core/core.php" );
