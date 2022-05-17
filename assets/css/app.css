@@ -30,7 +30,6 @@ body
     background:  #0d6efd !important;
     color: #eee;
     font-weight: bold;
-    text-align: center;
     font-size: 12px;
     padding: 10px;
     border: 0px !important; 
@@ -48,5 +47,9 @@ body
     border-top-right-radius: 10px;
 }
 
-
+.login_error {
+    text-align: center; 
+    color: rgb(255, 117, 117);
+    font-weight: bold;
+}
 

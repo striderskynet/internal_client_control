@@ -4,8 +4,10 @@
 <script src="assets/js/app.js"></script>
 <?php if ( isset ( $_SESSION['userUUID'] ) ) { ?>
 <script>
-    rg = document.getElementById("row-group");
-    rg.innerHTML = populateTable();
+    if ( data != null ){
+        rg = document.getElementById("row-group");
+        rg.innerHTML = populateTable();
+    }
 
     $(function(){
         $('.date_picker input').datepicker({

@@ -35,7 +35,14 @@
         <li class="nav-item">
           <a class="nav-link <?php echo is_active('reservas')?>" href="<?php echo $_ADDRESS ?>?reservas">Reservas</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="toolsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Sistema
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="?create_user">Crear usuario</a></li>
+            <li><a class="dropdown-item" href="#">Analizar tabla</a></li>
+          </ul>
         </li>
       </ul>
       
@@ -50,7 +57,7 @@
     <Br>
   <div class='body'>
 <?php 
-    if (!isset($_SESSION['userUUID']) && file_exists($cfg['users']))
+    if (!isset($_SESSION['userUUID']) && api("users", "total") > 0)
     {
 ?>
 <div id="myModal" class="modal fade" data-backdrop="static">
@@ -60,7 +67,8 @@
 				<div class="modal-header">				
 					<h4 class="modal-title">Login</h4>
 				</div>
-				<div class="modal-body">				
+				<div class="modal-body">
+							
 					<div class="form-group">
 						<label>Usuario</label>
 						<input name='user' type="text" class="form-control" required="required">
@@ -70,9 +78,9 @@
 							<label>Contraseña</label>
 
 						</div>
-						
 						<input name='password' type="password" class="form-control" required="required">
 					</div>
+					<div class='login_error'><?php echo @$login_error ?></div>		
 				</div>
 				<div class="modal-footer justify-content-between">
 					<label class="form-check-label"><input type="checkbox"> Recuerdame</label>
@@ -91,7 +99,8 @@
   myModal.show(); 
 </script>
 
-<?php } elseif (!isset($_SESSION['userUUID']) && !file_exists($cfg['users'])) { ?>
+<?php } elseif (!isset($_SESSION['userUUID']) && api("users", "total") == 0 ) {
+?>
   <div id="myModal" class="modal fade" data-backdrop="static">
 	<div class="modal-dialog modal-login">
 		<div class="modal-content">

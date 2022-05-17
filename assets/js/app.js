@@ -10,7 +10,7 @@ function deleteUser(id, name)
 
     if ( confVar )
     {
-        window.location = "/?del_user=" + id;
+        window.location = "/?del_client=" + id;
     }
 }
 
@@ -128,18 +128,20 @@ C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"America
 
     function populateTable(search)
     {
-
         var output = "";
         var lastDate = new Date("1977/02/02");
+        q = 0;
         Object.keys(data).forEach(key => {
            
-            inDate = new Date(data[key].date.toLowerCase());
+            inDate = new Date(data[key].date_added.toLowerCase());
 
             if ( !search || 
             data[key].name.toLowerCase().search(search.toLowerCase()) >= 0 || 
+            data[key].lastname.toLowerCase().search(search.toLowerCase()) >= 0 || 
             data[key].passport.toLowerCase().search(search.toLowerCase()) >= 0 ||
-           //data[key].phone.toLowerCase().search(search.toLowerCase()) >= 0 ||
-            data[key].date.toLowerCase().search(search.toLowerCase()) >= 0 ||
+            data[key].phone.toLowerCase().search(search.toLowerCase()) >= 0 ||
+            //data[key].id.toLowerCase().search(search.toLowerCase()) >= 0 ||
+            data[key].date_added.toLowerCase().search(search.toLowerCase()) >= 0 ||
             C.countries[data[key].country].toLowerCase().search(search.toLowerCase()) >= 0 ||
             data[key].email.toLowerCase().search(search.toLowerCase()) >= 0)
             {
@@ -149,22 +151,21 @@ C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"America
                 sid = data[key].status;
                 output += ("\n<div class=\"mainRow\" role=\"row\">\n" + 
                 "<input  id=\"row-" + data[key].id + "\" name=\"#\" type=\"checkbox\" />\n" +
-                "<div class=\"expandable\" role=\"cell\">\n<div role=\"row\">" + data[key].message + "</div>\n</div>\n" +
-                "<span role=\"cell\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Click para ver el cliente\" class='clickable' onClick=\"showCard(" + data[key].id + ")\"  role=\"cell\" data-header=\"ID\" style='text-align: center;'><a  href=\"#\">" + data[key].id + "</a></span>" + 
-                "<span role=\"cell\" data-header=\"Nombre\" >" + data[key].name + "</span>" + 
+                "<div class=\"expandable\" role=\"cell\">\n<div role=\"row\">" + data[key].observations + "</div>\n</div>\n" +
+                "<span role=\"cell\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Click para ver el cliente\" class='clickable' onClick=\"showCard(" + q + ")\"  role=\"cell\" data-header=\"ID\" style='text-align: center;'><a  href=\"#\">" + data[key].id + "</a></span>" + 
+                "<span role=\"cell\" data-header=\"Nombre\" >" + data[key].name + " " + data[key].lastname + "</span>" + 
                 "<span role=\"cell\" data-header=\"Pasaporte\"><span>" + data[key].passport + "</span></span>" + 
                 "<span role=\"cell\" data-header=\"Telefono\">" + data[key].phone + "</span>" + 
                 "<span role=\"cell\" data-header=\"eMail\">" + data[key].email + "</span>" + 
                 "<span role=\"cell\" data-header=\"Pais\"><span><span class='f16'><i class='flag "+ data[key].country.toLowerCase() +"'></i></span></span> " + C.countries[data[key].country] + "</span>" + 
-                "<span role=\"cell\" data-header=\"Fecha\"><span>" + data[key].date + "</span></span>" + 
-                "<span role=\"cell\" data-header=\"Empresa\">" + data[key].source + "</span>" + 
+                "<span role=\"cell\" data-header=\"Fecha\"><span>" + data[key].date_added + "</span></span>" + 
+                "<span role=\"cell\" data-header=\"Empresa\">" + data[key].company + "</span>" + 
                 "<span role=\"cell\" data-header=\"Informacion\"><label for=\"row-" + data[key].id + "\"></label>" +
                 "<label onclick=\"deleteUser(" + data[key].id + ", '" + data[key].name + "')\" class='delete-user'></label></span>" + 
                 "</div>");
                 lastDate = inDate;
             }
-           
-            //console.log(data[key]);
+           q++;
         });
         
         return output;
@@ -181,6 +182,9 @@ C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"America
 
     function showCard(id)
     {
+        console.log("Show " + id + " card")
+        console.log(data);
+
        var popupTemplate = 
     '    <div class="modal-dialog modal-xl">' +
     '        <div class="modal-content">' +
@@ -203,7 +207,7 @@ C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"America
     '        <div class="modal-body clientCard tab-pane fade show active" id="data" role="tabpanel" aria-labelledby="data-tab">'  +
     '                   <div class="form-group">'+
     '                       <label class="leftLabel col-form-label">Nombre:</label>'+
-    '                       <label class="rightLabel">'+ data[id].prefix +' '+ data[id].name +'</label>'+
+    '                       <label class="rightLabel">'+ data[id].prefix +' '+ data[id].name +' '+ data[id].lastname +'</label>'+
     '                   </div>'+
     '                   <div class="form-group">'+
     '                         <label class="leftLabel col-form-label">Pasaporte:</label>'+
@@ -215,7 +219,7 @@ C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"America
     '                       <label class="leftLabel col-form-label">eMail:</label>'+
     '                       <label class="rightLabel">'+ data[id].email +'</label>'+
     '                          <label class="col-form-label">Empresa:</label>'+
-    '                           <label class="rightLabel">'+ data[id].source +'</label>'+
+    '                           <label class="rightLabel">'+ data[id].company +'</label>'+
     '                   </div>'+
     '                   <div class="form-group">'+
     '                       <label class="leftLabel col-form-label">Pais:</label>'+
@@ -223,12 +227,12 @@ C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"America
     '                   </div>'+
     '                       <div class="form-group">'+
     '                           <label class="leftLabel col-form-label">Agregado:</label>'+
-    '                           <label class="rightLabel">'+ data[id].date +'</label>'+
+    '                           <label class="rightLabel">'+ data[id].date_added +'</label>'+
     '                       </div>'+
     '                   <hr>'+
     '                   <div class="form-group" style="font-size: 10px;">'+
     '                       <label style="color: red;" class="col-form-label">Ultimo Accesso:</label>'+
-    '                       <label class="rightLabel">'+ data[id].lastTouch +'</label>'+
+    '                       <label class="rightLabel">'+ data[id].last_touch +'</label>'+
     '                   </div>'+
     '        </div>' +
     '       <div class="modal-body tab-pane fade" id="reserv" role="tabpanel" aria-labelledby="reserv-tab">'+

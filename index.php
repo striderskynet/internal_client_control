@@ -1,61 +1,43 @@
 <?php
     session_start();
 
-    ini_set('display_errors', 1); 
-    error_reporting(E_ALL);
-    
-    $_DEBUG = true;
-
-    //$_ADDRESS = "http://localhost/";
-    $_ADDRESS = "http://clients.technomobile.lan:85/";
-
-
-    $cfg['database'] = $_SERVER['DOCUMENT_ROOT'] . "/database/clients.db";
-    $cfg['users'] = $_SERVER['DOCUMENT_ROOT'] . "/database/users.db";
-    $cfg['reservations'] = $_SERVER['DOCUMENT_ROOT'] . "/database/reserv.db";
-
-
-    $cfg['title'] = 'Endirecto';
-    //$cfg['title'] = 'Cuba4u-DMC';
-
-
     // --------------------------- \\
     // Do not touch below this point
-
-
-    require_once("./core/debug.php");
+    require_once ("./config.php");
     require_once("./core/misc.php");
+    
     // Check if is a new instalation and Create a Root User
-    if ( !file_exists($cfg['users']) && @isset ($_GET['gen_user']) )
+    if ( @isset ($_GET['gen_user']) )
     {
-        
-        $users[0][0] = $_POST['user'];
-        $users[0][1] = md5($_POST['password']);
-        $users[0][2] = 'root';
-        
-        debug(1, "Detected new instalation, asking for new user and password");
+        print_r ($_POST);
 
+        debug(1, "Detected new instalation, asking for new user and password");
         if ( $_POST['password'] != $_POST['password2'] )
-        {
             session_destroy();
-            die ("<header><script>window.location = '/';</script>");
-        }
+
         debug(1, "Saving username and password for ROOT access");
-        file_put_contents($cfg['users'], json_encode($users, JSON_PRETTY_PRINT));
+        //file_get_contents($_ADDRESS . "core/api/main.php?users&add&username={$_POST['user']}&password={$_POST['password']}&password2={$_POST['password2']}");
+        api("users","add","username={$_POST['user']}&password={$_POST['password']}&password2={$_POST['password2']}");
+        
+        reload();
     }
 
     // Check if username and password are correct and login
     if ( @isset ($_POST['user']) && @isset( $_POST['password'] ) )
     {
-        $var['users'] = json_decode(file_get_contents($cfg['users']));
+        $password = md5($_POST['password']);
+        //$result = json_decode(file_get_contents($_ADDRESS . "core/api/main.php?users&verify&username={$_POST['user']}&password={$password}"));
+        $result = api("users","verify","username={$_POST['user']}&password={$password}", true);
 
-        foreach ($var['users'] as $u )
+        if ( isset($result->role) )
         {
-            if (strtolower($u[0]) == strtolower($_POST['user']) && $u[1] == md5($_POST['password']) )
-            {
-                $_SESSION['userUUID']['username'] = $u[0];
-                $_SESSION['userUUID']['category'] = $u[2];
-            }
+            $_SESSION['userUUID']['username'] = $result->username;
+            $_SESSION['userUUID']['category'] = $result->role;
+
+            debug(0, "Login as username ($result->username) from ({$_SERVER['REMOTE_ADDR']})");
+        } else {
+            debug(1, "Failed login attempt for ({$_POST['user']}) from ({$_SERVER['REMOTE_ADDR']})");
+            $login_error = "<br>Username or password incorrect";
         }
     }
 
@@ -63,62 +45,43 @@
     if ( @isset ($_GET['logout'] ) )
     {
             session_destroy();
-            die ("<header><script>window.location = '/';</script>");
+            debug(0, "Logout username ({$_SESSION['userUUID']['username']}) from ({$_SERVER['REMOTE_ADDR']})");
+            reload();
     }
 
-    // Import variable from user Database
-    $var['data'] = json_decode(file_get_contents($cfg['database']));
-
     // Check if add_user is set and execute
-    if (@isset($_GET['add_user']) && @isset ( $_POST ))
+    if (@isset($_GET['add_client']) && @isset ( $_POST ))
     {
-            $count = 0;
-        if (!isset($var['data']))
-            $count = 1;
-        else
-        {
-            foreach ( $var['data'] as $v)
-            {
-                $count = $v->id;
-            }
-            $count++;
-        }
-       
-        // Get varData from $_POST
-        $var['data']->$count =  array(
-            'id' => $count,
-            'prefix' => $_POST['modal_contact_prefix'],
-            'name' => $_POST['modal_contact_firstname'] . " " . $_POST['modal_contact_lastname'],
-            'passport' => $_POST['modal_contact_passport'],
-            'phone' => $_POST['modal_contact_phone'],
-            'email' => $_POST['modal_contact_email'],
-            'country' => $_POST['modal_contact_country'],
-            'date' => date("Y/m/d"),
-            'source' => $_POST['modal_contact_source'],
-            'message' => trim($_POST['modal_contact_message']),
-            'lastTouch' => $_SESSION['userUUID']['username'] . " | " . date('m/d/Y h:i:s a', time()),
-        );
-        
         debug(0, "Adding new client to the database");
-        file_put_contents($cfg['database'], json_encode($var['data'], JSON_PRETTY_PRINT));
+        $result = api("clients", "add", "prefix=". urlencode($_POST['modal_contact_prefix']) . "&" .
+                                       "name=". urlencode($_POST['modal_contact_firstname']) . "&" .
+                                       "lastname=". urlencode($_POST['modal_contact_lastname']) . "&" .
+                                       "passport=". urlencode($_POST['modal_contact_passport']) . "&" .
+                                       "phone=". urlencode($_POST['modal_contact_phone']) . "&" .
+                                       "email=". urlencode($_POST['modal_contact_email']) . "&" .
+                                       "country=". urlencode($_POST['modal_contact_country']) . "&" .
+                                       "company=". urlencode($_POST['modal_contact_source']) . "&" .
+                                       "observations=". urlencode($_POST['modal_contact_message']) . "&" .
+                                       "last_touch=". urlencode($_SESSION['userUUID']['username'] . " | " . date('m/d/Y h:i:s a', time())) );
         die ("<header><script>window.location = '/';</script>");
     }
 
     // Check if del_user is set and execute
-    if ( @isset($_GET['del_user']) )
+    if ( @isset($_GET['del_client']) )
     {
-        $val = $_GET['del_user'];
-        unset($var['data']->$val);
-        
-        debug(0, "Deleting user from database");
-        file_put_contents($cfg['database'], json_encode($var['data'], JSON_PRETTY_PRINT));
+        debug(0, "Deleting client {$_GET['del_client']} by ({$_SESSION['userUUID']['username']}) from ({$_SERVER['REMOTE_ADDR']})");
+        api("clients", "delete", "id={$_GET['del_client']}");
+
+        reload();
     }
 
+    // Read the clients information into JS Variable
     $mData = null;
-
     if (@isset($_SESSION['userUUID'])) 
-        $mData = str_replace("\\\"", "", json_encode(json_decode(file_get_contents($cfg['database']))));
-
+    {
+        $mData = str_replace("\\\"", "", api("clients", "list"));
+ 
+    }
 
     // Show the exact site page
     if (@array_keys($_GET)[0]!="agregar_reserva")
@@ -146,5 +109,4 @@
     // Load Footer only if its OK
     if (@array_keys($_GET)[0]!="agregar_reserva")
         require ( "./core/footer.php" );
-
 ?>

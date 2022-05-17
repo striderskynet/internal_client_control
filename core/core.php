@@ -66,7 +66,7 @@
 
 <div class="modal fade" id="modal_contact" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
-        <form action='?add_user' method='post' id="modal_form_contact" novalidate="novalidate">
+        <form action='?add_client' method='post' id="modal_form_contact" novalidate="novalidate">
             <div class="modal-content">
                 <div class="modal-header">
                         <h5 class="modal-title">

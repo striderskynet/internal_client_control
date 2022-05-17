@@ -1,3 +1,11 @@
-2022-05-17 03:59:36  | Info    |   Executing query into the Database: DELETE FROM main_reservations WHERE `id`='19'
-2022-05-17 04:04:40  | Info    |   Executing query into the Database: INSERT INTO main_reservations ( main_client, main_client_name, additional_clients, type, data, inDate, outDate, observations, servicePartner, reservation_number) 
-    VALUES (1, 'Jose Olazabal', '5', 'Hotel / House', 'asd', '2022-04-27', '2022-04-20', 'asd', 'Gaviota', 'asd');
+2022-05-17 20:56:55	| Info	|	Logout username (jose) from (127.0.0.1)
+2022-05-17 20:57:03	| Info	|	Login as username (jose) from (127.0.0.1)
+2022-05-17 20:57:05	| Info	|	Logout username (jose) from (127.0.0.1)
+2022-05-17 20:57:08	| Warn	|	Failed login attempt for (asd) from (127.0.0.1)
+2022-05-17 20:57:12	| Warn	|	Failed login attempt for (asdasd) from (127.0.0.1)
+2022-05-17 20:57:16	| Info	|	Login as username (jose) from (127.0.0.1)
+2022-05-17 20:57:59	| Info	|	Adding new client to the database
+2022-05-17 20:57:59	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `observations`, `last_touch`) VALUES
+        ('Sra.', 'Herenia Ivet', 'Perez-Corona Baez', '1231231231', '+53 7 6490729', 'hereniaivet@gmail.com', 'CU', now(), 'JovenClub', 'Ama de Casa, 2 hijos, Soltera', 'jose | 05/17/2022 08:57:59 pm');
+2022-05-17 20:59:22	| Info	|	Executing query into the Database: INSERT INTO main_reservations ( main_client, main_client_name, additional_clients, type, data, inDate, outDate, observations, servicePartner, reservation_number) 
+    VALUES (1, 'Herenia Ivet', '2', 'Hotel / House', 'Hospedaje en Hotel Nacional de Cuba', '2022-05-18', '2022-05-26', '3 Habitaciones dobles, vista al mar.', 'Gaviota', 'RJ 123321');

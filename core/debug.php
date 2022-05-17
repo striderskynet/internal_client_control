@@ -4,11 +4,12 @@
         global $_DEBUG;
 
         $lvl[0] = "Info";
-        $lvl[1] = "Warning";
-        $lvl[2] = "Error";
-        $lvl[3] = "Critical";
+        $lvl[1] = "Warn";
+        $lvl[2] = "Erro";
+        $lvl[3] = "Crit";
+        $lvl[4] = "Data";
 
-        $log = date('Y-m-d H:i:s') . "  | ".$lvl[$level] . "    |   ". $info . "\n";
+        $log = date('Y-m-d H:i:s') . "\t| ".$lvl[$level] . "\t|\t". $info . "\n";
 
         //if ( $_DEBUG )
             file_put_contents($_SERVER['DOCUMENT_ROOT'] . "/logs/main.log", $log, FILE_APPEND);
