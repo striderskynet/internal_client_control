@@ -154,14 +154,14 @@ C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"America
                 "<div class=\"expandable\" role=\"cell\">\n<div role=\"row\">" + data[key].observations + "</div>\n</div>\n" +
                 "<span role=\"cell\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Click para ver el cliente\" class='clickable' onClick=\"showCard(" + q + ")\"  role=\"cell\" data-header=\"ID\" style='text-align: center;'><a  href=\"#\">" + data[key].id + "</a></span>" + 
                 "<span role=\"cell\" data-header=\"Nombre\" >" + data[key].name + " " + data[key].lastname + "</span>" + 
-                "<span role=\"cell\" data-header=\"Pasaporte\"><span>" + data[key].passport + "</span></span>" + 
+                "<span role=\"cell\" data-header=\"Pasaporte\"><span><i class=\"fa fa-passport\"></i>" + data[key].passport + "</span></span>" + 
                 "<span role=\"cell\" data-header=\"Telefono\">" + data[key].phone + "</span>" + 
                 "<span role=\"cell\" data-header=\"eMail\">" + data[key].email + "</span>" + 
                 "<span role=\"cell\" data-header=\"Pais\"><span><span class='f16'><i class='flag "+ data[key].country.toLowerCase() +"'></i></span></span> " + C.countries[data[key].country] + "</span>" + 
                 "<span role=\"cell\" data-header=\"Fecha\"><span>" + data[key].date_added + "</span></span>" + 
                 "<span role=\"cell\" data-header=\"Empresa\">" + data[key].company + "</span>" + 
-                "<span role=\"cell\" data-header=\"Informacion\"><label for=\"row-" + data[key].id + "\"></label>" +
-                "<label onclick=\"deleteUser(" + data[key].id + ", '" + data[key].name + "')\" class='delete-user'></label></span>" + 
+                "<span role=\"cell\" data-header=\"Informacion\" style=\"text-align: center;\"><label class='btn btn-success btn-sm' for=\"row-" + data[key].id + "\"><i class=\"fa fa-angle-down\"></i></label>" +
+                "<button onclick=\"deleteUser(" + data[key].id + ", '" + data[key].name + "')\" class='btn btn-danger btn-sm'><i class=\"fa fa-ban\"></i></button></span>" + 
                 "</div>");
                 lastDate = inDate;
             }
@@ -213,11 +213,11 @@ C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"America
     '                         <label class="leftLabel col-form-label">Pasaporte:</label>'+
     '                         <label class="rightLabel">'+ data[id].passport +'</label>'+
     '                        <label class="col-form-label">Telefono:</label>'+
-    '                        <label class="rightLabel">'+ data[id].phone +'</label>'+
+    '                        <label class="rightLabel"><a href="tel:'+ data[id].phone +'">'+ data[id].phone +'</a></label>'+
     '                   </div>'+
     '                   <div class="form-group">'+
     '                       <label class="leftLabel col-form-label">eMail:</label>'+
-    '                       <label class="rightLabel">'+ data[id].email +'</label>'+
+    '                       <label class="rightLabel"><a href="mailto:'+ data[id].email +'">'+ data[id].email +'</a></label>'+
     '                          <label class="col-form-label">Empresa:</label>'+
     '                           <label class="rightLabel">'+ data[id].company +'</label>'+
     '                   </div>'+

@@ -87,26 +87,28 @@
     if (@array_keys($_GET)[0]!="agregar_reserva")
         require ( "./core/header.php" );
 
-    if (@count(array_keys($_GET)) == 0)
+    if (@isset($_SESSION['userUUID']))
     {
-        require ( "./core/core.php" );
-    } else {
-        switch (array_keys($_GET)[0]){
-            case "reservas":
-                    //require ( "./core/integrators/reservations.php");
-                    echo api("vouchers");
-                    break;
+        if (@count(array_keys($_GET)) == 0)
+        {
+            require ( "./core/core.php" );
+        } else {
+            switch (array_keys($_GET)[0]){
+                case "reservas":
+                        //require ( "./core/integrators/reservations.php");
+                        echo api("vouchers");
+                        break;
 
-            case "agregar_reserva":
-                    require ( "./core/manipulators/man_reserva.php" );
-                    break;
+                case "agregar_reserva":
+                        require ( "./core/manipulators/man_reserva.php" );
+                        break;
 
-            default:
-                require ( "./core/core.php" );
-                break;
+                default:
+                    require ( "./core/core.php" );
+                    break;
+            }
         }
     }
-    
     // Load Footer only if its OK
     if (@array_keys($_GET)[0]!="agregar_reserva")
         require ( "./core/footer.php" );

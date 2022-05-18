@@ -750,3 +750,576 @@
 2022-05-18 03:11:49	| Data	|	SELECT * FROM `main_vouchers`
 2022-05-18 03:11:57	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
 2022-05-18 03:12:00	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 03:26:24	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 03:27:07	| Info	|	Logout username (jose) from (127.0.0.1)
+2022-05-18 03:27:12	| Info	|	Login as username (jose) from (127.0.0.1)
+2022-05-18 03:27:14	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 03:29:45	| Warn	|	Detected new instalation, asking for new user and password
+2022-05-18 03:29:45	| Warn	|	Saving username and password for ROOT access
+2022-05-18 03:29:45	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
+        VALUES ('roberto','4297f44b13955235245b2497399d7a93','root');
+2022-05-18 03:29:47	| Info	|	Logout username (jose) from (127.0.0.1)
+2022-05-18 03:29:51	| Info	|	Login as username (roberto) from (127.0.0.1)
+2022-05-18 03:30:21	| Info	|	Logout username (roberto) from (127.0.0.1)
+2022-05-18 03:30:42	| Warn	|	Detected new instalation, asking for new user and password
+2022-05-18 03:30:42	| Warn	|	Saving username and password for ROOT access
+2022-05-18 03:30:42	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
+        VALUES ('os_nesty','a4fd01f750dabff701339a213c3be6af','root');
+2022-05-18 03:30:47	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-18 03:30:51	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 03:32:31	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-18 03:32:45	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 03:32:50	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 03:34:53	| Warn	|	Detected new instalation, asking for new user and password
+2022-05-18 03:34:53	| Warn	|	Saving username and password for ROOT access
+2022-05-18 03:34:53	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
+        VALUES ('os_nesty','a4fd01f750dabff701339a213c3be6af','root');
+2022-05-18 03:34:58	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-18 03:35:02	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 04:32:32	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
+2022-05-18 04:32:42	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 04:32:47	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 04:32:57	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 04:33:07	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 04:33:14	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
+2022-05-18 04:33:19	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
+2022-05-18 04:59:31	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 04:59:36	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 04:59:41	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:01:29	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:01:31	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:01:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:02:32	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:02:34	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:02:35	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:02:35	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:02:35	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:02:36	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:02:37	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:02:37	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:02:51	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:02:52	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:02:52	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:03:12	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:03:13	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:03:14	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:03:14	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:03:21	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:03:21	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:03:22	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:03:22	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:03:22	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:03:22	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:03:22	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:04:28	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:04:29	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:04:29	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:04:29	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:04:34	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:04:35	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:04:35	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:04:44	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:04:45	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:04:47	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:04:48	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:05:07	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:05:08	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:05:48	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:05:49	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:06:17	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:06:18	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:06:18	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:06:20	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:07:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:07:34	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:07:35	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:07:43	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:07:43	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:07:44	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:07:44	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:07:44	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:07:45	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:08:29	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:08:29	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:08:29	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:08:29	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:10:00	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:10:00	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:13:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:13:34	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:13:34	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:13:35	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:14:00	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:14:14	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:14:14	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:16:11	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:16:11	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:16:12	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:16:12	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:16:12	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:16:12	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:16:20	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:16:21	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:16:21	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:16:21	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:16:26	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:18:32	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:18:32	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:18:32	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:18:34	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:18:34	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:18:35	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:18:35	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:18:35	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:18:35	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:18:35	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:18:36	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:18:36	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:18:36	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:18:36	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:18:37	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:18:47	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:18:48	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:19:26	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:20:16	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:20:17	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:20:17	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:20:40	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:20:41	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:20:41	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:20:41	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:20:57	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:20:57	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:20:58	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:20:59	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:20:59	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:20:59	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:13	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:14	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:14	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:14	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:14	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:32	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:32	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:32	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:32	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:40	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:40	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:40	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:44	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:44	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:45	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:45	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:21:45	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:07	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:09	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:09	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:13	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:14	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:14	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:20	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:21	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:21	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:22	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:29	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:30	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:30	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:31	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:38	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:38	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:39	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:46	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:46	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:47	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:23:59	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:24:00	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:24:06	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:24:07	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:24:07	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:24:08	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:24:08	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:24:09	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:24:09	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:24:10	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:24:50	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:24:58	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:25:01	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:25:06	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:25:22	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:25:22	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:25:30	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:25:31	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:25:40	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:25:40	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:25:40	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:25:45	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 05:26:02	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:26:04	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 05:26:17	| Data	|	INSERT INTO `main_vouchers` (`main_client`, `additional_clients`, `type`, `data`, `in_date`, `out_date`, `observations`, `service_partner`, `confirmation_number`) VALUES
+        ('11', '5', 'Hotel / House', 'asd', '2022-04-27', '2022-05-17', 'asdasd', 'Gaviota', '123123');
+2022-05-18 05:26:17	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 05:26:21	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:26:41	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:26:41	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:26:42	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:26:42	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:26:47	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:26:47	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:26:47	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:26:47	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:27:39	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:27:40	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:27:40	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:27:50	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:27:50	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:27:51	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:27:54	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:27:56	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:27:57	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:28:00	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:28:01	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:28:02	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:28:02	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:28:02	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:28:13	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:28:13	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:29:30	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 05:29:37	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
+2022-05-18 05:30:02	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:30:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:30:04	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:30:04	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:30:04	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:30:04	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:30:07	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 05:30:10	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 05:30:28	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:30:30	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:30:30	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:30:31	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:30:31	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:30:39	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 4 LIMIT 1
+2022-05-18 05:30:43	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 05:31:01	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 05:31:06	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:31:44	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:31:44	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:31:45	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:31:48	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:31:48	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:31:48	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:31:52	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:31:52	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:31:52	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:31:55	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:31:55	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:31:55	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:31:55	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:31:56	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:31:56	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:31:56	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:32:00	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:32:00	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:32:00	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:32:01	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:32:01	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:32:02	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:32:02	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:32:02	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:32:02	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:32:04	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 05:32:22	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 05:32:32	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 05:33:08	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:33:08	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:33:09	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:33:09	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:33:38	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:33:39	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:33:42	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:33:43	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:33:46	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:34:02	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:34:02	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:34:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:34:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:34:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:34:22	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:34:23	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:34:29	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:34:29	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:34:47	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:34:47	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:34:52	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:34:53	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:35:00	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:35:02	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:35:17	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:35:18	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:35:18	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:35:18	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:35:23	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:35:23	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:35:24	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:35:26	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:35:37	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:35:37	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:35:43	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 05:35:55	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 05:39:11	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:39:14	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:39:17	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:39:23	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
+2022-05-18 05:39:30	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:39:48	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:39:49	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:39:55	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:40:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:43:02	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:43:02	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:43:04	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:49:06	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:49:10	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:49:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:49:53	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:49:53	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:49:56	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:50:04	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 05:50:04	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 06:01:21	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 06:01:24	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:31:11	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:31:20	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:31:35	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:31:44	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 17:31:53	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:32:57	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:32:59	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 17:33:13	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 17:33:57	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 17:35:43	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 17:35:47	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:36:48	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:36:49	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:36:49	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:36:49	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:36:49	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:36:50	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:37:00	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:37:00	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:37:00	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:37:34	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:37:35	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:37:35	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:38:02	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 17:38:37	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:38:39	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:38:39	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:38:39	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:38:39	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:38:47	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:38:48	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:45:16	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:45:19	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:45:27	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-18 17:48:40	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
+2022-05-18 17:48:45	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
+2022-05-18 17:48:58	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
+2022-05-18 17:48:59	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
+2022-05-18 17:49:00	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
+2022-05-18 17:49:00	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
+2022-05-18 17:49:01	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
+2022-05-18 17:49:02	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
+2022-05-18 17:49:03	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
+2022-05-18 17:49:03	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
+2022-05-18 17:49:08	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
+2022-05-18 17:49:09	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
+2022-05-18 17:50:12	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
+2022-05-18 17:50:19	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
+2022-05-18 17:50:27	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-18 17:50:35	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:50:39	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:50:47	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:51:01	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:51:37	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 17:51:45	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:51:59	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:53:38	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:53:39	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:54:18	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:54:19	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:54:19	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:54:25	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:54:26	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:54:26	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:54:31	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:54:32	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:54:32	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:54:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:54:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:54:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:54:56	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:54:56	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:54:56	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:54:57	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:54:57	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:55:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:55:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:55:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:55:04	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:55:04	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:55:07	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:55:09	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:57:44	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:57:49	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:58:07	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:58:08	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:58:08	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:58:17	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:58:18	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:58:28	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:58:50	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:02	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:09	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:09	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:10	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:10	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:14	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:30	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:30	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:42	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:43	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:43	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:52	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:53	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:53	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 17:59:53	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:00:05	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:00:05	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:00:05	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:00:05	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:01:40	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:01:41	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:01:41	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:01:41	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:01:41	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:01:48	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:01:48	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:01:48	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:02:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:02:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:02:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:02:05	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:02:10	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:02:11	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:02:11	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:02:12	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:02:12	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:02:29	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:52:54	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 18:52:54	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:03:48	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:03:49	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:26:38	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:26:40	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:26:44	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:26:45	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:26:46	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:26:47	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:26:48	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:26:49	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:26:50	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:27:00	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:27:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:27:04	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:27:05	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:27:08	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:43:07	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:44:25	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:45:24	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:45:26	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:45:27	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:45:39	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:45:54	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:45:54	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:45:54	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:45:56	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:45:57	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:46:00	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:46:31	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:46:31	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:46:32	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:46:32	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:46:32	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:46:32	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:46:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:46:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:46:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:46:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:46:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:46:51	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:46:52	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:46:52	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:46:54	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:46:56	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:46:58	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:46:59	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:47:18	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:47:18	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:47:19	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:47:19	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:47:20	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:47:21	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:47:22	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:47:23	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:47:25	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 19:47:56	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:47:56	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:47:57	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:47:57	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:47:57	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:47:57	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:47:57	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:47:58	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:48:00	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:48:01	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:48:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:48:28	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:48:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:49:32	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:49:32	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:49:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:49:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:49:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:49:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:49:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:49:33	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:49:39	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:49:39	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:49:40	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:49:41	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 19:49:51	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:50:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:50:04	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:50:09	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:50:10	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:50:15	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:50:52	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:50:52	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:50:52	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:50:54	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:50:54	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:50:55	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:50:59	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:50:59	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:51:00	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:51:08	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:51:24	| Data	|	SELECT * FROM `main_vouchers`

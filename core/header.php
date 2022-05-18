@@ -36,9 +36,7 @@
           <a class="nav-link <?php echo is_active('reservas')?>" href="<?php echo $_ADDRESS ?>?reservas">Reservas</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="toolsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Sistema
-          </a>
+          <a class="nav-link dropdown-toggle" href="#" id="toolsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sistema</a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="?create_user">Crear usuario</a></li>
             <li><a class="dropdown-item" href="#">Analizar tabla</a></li>
@@ -71,26 +69,27 @@
 							
 					<div class="form-group">
 						<label>Usuario</label>
-						<input name='user' type="text" class="form-control" required="required">
+						<input autocomplete='username' name='user' type="text" class="form-control" required="required">
 					</div>
 					<div class="form-group">
 						<div class="clearfix">
 							<label>Contraseña</label>
-
+							
 						</div>
-						<input name='password' type="password" class="form-control" required="required">
+						<input autocomplete='password' name='password' type="password" class="form-control" required="required">
 					</div>
 					<div class='login_error'><?php echo @$login_error ?></div>		
 				</div>
 				<div class="modal-footer justify-content-between">
 					<label class="form-check-label"><input type="checkbox"> Recuerdame</label>
-					<input type="submit" class="btn btn-primary" value="Entrar">
+					<input type="submit" class="btn btn-success" value="Entrar">
 				</div>
 			</form>
 		</div>
 	</div>
 </div>    
 
+<input type="submit" class="btn btn-success" value="Entrar">
 <script>
   var myModal = new bootstrap.Modal(document.getElementById('myModal'), {
     backdrop: "static"
@@ -99,7 +98,8 @@
   myModal.show(); 
 </script>
 
-<?php } elseif (!isset($_SESSION['userUUID']) && api("users", "total") == 0 ) {
+<?php } elseif (!isset($_SESSION['userUUID']) && api("users", "total") == 0 || @array_keys($_GET)[0] == "create_user" ) {
+
 ?>
   <div id="myModal" class="modal fade" data-backdrop="static">
 	<div class="modal-dialog modal-login">
@@ -128,6 +128,7 @@
 				</div>
 				<div class="modal-footer">
           <label>Crear usuario principal</label>
+		  			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 					<input type="submit" class="btn btn-success" value="Crear">
 				</div>
 			</form>

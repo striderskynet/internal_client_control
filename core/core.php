@@ -113,14 +113,14 @@
                             <div class="input-group">
                                 <span class="input-group-text"><i class="fa fa-edit"></i></span>
                                 <input type="text" id="modal_contact_passport" name="modal_contact_passport" aria-label="Pasaporte" class="form-control" placeholder="Pasaporte">
-                                <span class="input-group-text"><i class="fa fa-edit"></i></span>
+                                <span class="input-group-text"><i class="fa fa-flag"></i></span>
                                 <select name='modal_contact_country' id='countrypicker' class='form-select'></select>
                             </div>
                         </div>
                         <br>
                         <div class="form-group">
                             <div class="input-group">
-                                <span class="input-group-text"><i class="fa fa-edit"></i></span>
+                                <span class="input-group-text"><i class="fa fa-building"></i></span>
                                 <input type="text" id="modal_contact_source" name="modal_contact_source" aria-label="Empresa" class="form-control" placeholder="Empresa a la que pertenece el cliente">
                                 </div>
                         </div>

@@ -53,3 +53,13 @@ body
     font-weight: bold;
 }
 
+.main_footer{
+    width: 95%;
+    text-align: center;
+    bottom: 0px;
+    margin-top: auto;
+}
+
+.main_footer div{
+    margin: auto;
+}

@@ -46,7 +46,9 @@
 
 [role="table"] label
 	{
-	display: inline-block;
+		margin-right: 5px;
+	}
+	/*display: inline-block;
 	cursor: pointer;
 	text-align: center;
 	font-family: arial, sans-serif;
@@ -84,7 +86,7 @@
 	{
 	background: #1D5FD1;
 	color: #FFF;
-	}
+	}*/
 	
 /* Table Description */
 [role="table"] div.table-desc
@@ -652,7 +654,7 @@ EXPANDABLE/ COLLAPSIBLE ROWS
 	display: none;
 	}
 	
-/* Expandable/ Collapsible Button */
+/* Expandable/ Collapsible Button *//*
 [role="table"] [role="row"] label
 	{
 	width: 38px;
@@ -674,7 +676,7 @@ EXPANDABLE/ COLLAPSIBLE ROWS
 	top: -2px;
 	z-index: 1;
 	}
-	
+	*/
 /* Expandable/ Collapsible Section */
 [role="table"] [role="row"] div.expandable
 	{
@@ -890,7 +892,7 @@ EXPANDABLE/ COLLAPSIBLE ROWS
 	top: 3px;
 	color: #FFF;
 	}
-	
+	/*
 [role="table"] [role="row"] input[type="checkbox"]:checked~span>label,
 [role="table"] [role="row"] input[type="checkbox"]:checked~span>.button,
 [role="table"] [role="row"] input[type="radio"]:checked~span>label,
@@ -899,7 +901,7 @@ EXPANDABLE/ COLLAPSIBLE ROWS
 	background: #1D5FD1;
 	color: #FFF;
 	}
-	
+	*/
 [role="table"] [role="row"] input[type="checkbox"]:checked~span>.button:hover,
 [role="table"] [role="row"] input[type="radio"]:checked~span>.button:hover
 	{
