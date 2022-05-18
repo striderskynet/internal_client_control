@@ -1,8 +1,11 @@
 <?php
-    error_reporting(0);
+    error_reporting(E_ALL);
 
-    $db = new SQLite3("./database/reserv.db");
+    require_once ("./config.php");
+
     $voucherID = $_GET['id'];
+    /*$db = new SQLite3("./database/reserv.db");
+    
     $query = 'SELECT * FROM `main_reservations` where `id`=' . $voucherID;
 
     $res = $db->query($query);
@@ -10,16 +13,13 @@
 
     $cfg['database'] = "database/clients.db";
     $userData = (array) json_decode(file_get_contents($cfg['database']));
+    */
 
-    $typeFirstLine = explode("\n",trim($data['data']))[0];
-    $typeRest = str_replace($typeFirstLine, "",trim($data['data']));
+    $data = (array) json_decode( api("vouchers","print","id=" . $voucherID));
 
-    $date = DateTime::createFromFormat("Y-m-d", $data['inDate']);
+    $date = DateTime::createFromFormat("Y-m-d", $data['in_date']);
     $vID = $date->format("Y") . str_pad($voucherID, 3, '0', STR_PAD_LEFT);
 
-    if ($data['additional_clients'] == null)
-        $data['additional_clients'] = 0;
-        
     switch ($data['additional_clients']){
         case 0:
             $companions = "Sin acompañantes";
@@ -128,7 +128,7 @@
                 Nombre del Cliente
             </div>
             <div class='left span-3'>
-                <?php echo $userData[$data['main_client']]->prefix . " " . $data['main_client_name'] ?> <br>
+                <?php echo $data['full_name'] ?> <br>
                 <?php echo $companions ?>
             </div>
 
@@ -142,7 +142,7 @@
                 <span>No. Confirmacion</span>
             </div>
             <div>
-                <span><?php echo strtoupper($data['reservation_number']) ?></span>
+                <span><?php echo strtoupper($data['confirmation_number']) ?></span>
             </div>
 
             <div class='left bold row-2'>
@@ -158,10 +158,10 @@
                 <span>Hasta</span>
             </div>
             <div class='left'>
-                <span><?php echo $data['inDate'] ?></span>
+                <span><?php echo $data['in_date'] ?></span>
             </div>
             <div class='left'>
-                <span><?php echo $data['outDate'] ?></span>
+                <span><?php echo $data['out_date'] ?></span>
             </div>
         </div>
         <div class='bottom'>
@@ -170,7 +170,8 @@
         </div>
     </div>
 <script>
-    window.print();
+        window.onafterprint = window.close;
+         window.print();
 </script>
 </body>
 </html>

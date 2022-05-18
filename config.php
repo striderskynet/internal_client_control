@@ -1,15 +1,17 @@
 <?php
-     ini_set('display_errors', 1); 
+     ini_set('display_errors', 1);
+     ini_set('display_startup_errors', 1);
      error_reporting(E_ALL);
      
      $_DEBUG = true;
      require_once($_SERVER['DOCUMENT_ROOT'] . "/core/debug.php");
+     require_once($_SERVER['DOCUMENT_ROOT'] . "/core/misc.php");
 
      //$_ADDRESS = "http://localhost/";
      $_ADDRESS = "http://clients.technomobile.lan:85/";
  
  
-     $cfg['database'] = $_SERVER['DOCUMENT_ROOT'] . "/database/clients.db";
+     //$cfg['database'] = $_SERVER['DOCUMENT_ROOT'] . "/database/clients.db";
      $cfg['reservations'] = $_SERVER['DOCUMENT_ROOT'] . "/database/reserv.db";
  
     

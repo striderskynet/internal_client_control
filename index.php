@@ -4,7 +4,7 @@
     // --------------------------- \\
     // Do not touch below this point
     require_once ("./config.php");
-    require_once("./core/misc.php");
+    
     
     // Check if is a new instalation and Create a Root User
     if ( @isset ($_GET['gen_user']) )
@@ -93,7 +93,8 @@
     } else {
         switch (array_keys($_GET)[0]){
             case "reservas":
-                    require ( "./core/integrators/reservations.php");
+                    //require ( "./core/integrators/reservations.php");
+                    echo api("vouchers");
                     break;
 
             case "agregar_reserva":

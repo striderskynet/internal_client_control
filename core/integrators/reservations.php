@@ -1,3 +1,6 @@
+<?php
+?>
+
 <table class="table table-sm table-light table-striped table-hover table-bordered caption-top table-responsive">
 <caption>Listado de reservas</caption>
   <thead class='reservHead'>
@@ -17,7 +20,7 @@
     error_reporting(E_ALL);
 
     $database = $_SERVER['DOCUMENT_ROOT']."/database/reserv.db";
-    include ($_SERVER['DOCUMENT_ROOT']."/core/addons/sqlite.php");
+    //include ($_SERVER['DOCUMENT_ROOT']."/core/addons/sqlite.php");
 
     if ( @isset($_GET['client']) )
       $query = 'SELECT * FROM `main_reservations` WHERE `main_client` = "' . $_GET['client'] . '"';

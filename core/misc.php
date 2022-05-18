@@ -7,7 +7,7 @@
           return "";
       }
 
-    function api($module, $action, $values = null, $decode = false){
+    function api($module, $action = null, $values = null, $decode = false){
         global $_ADDRESS;
         $address = $_ADDRESS . "core/api/main.php?" . $module . "&" . $action . "&" . $values;
 
@@ -15,8 +15,8 @@
             return json_decode(file_get_contents($address));
         else
             return file_get_contents($address);
-        
     }
+    
     function reload($address = null)
     {
         die ("<header><script>window.location = '/" . $address . "';</script>");

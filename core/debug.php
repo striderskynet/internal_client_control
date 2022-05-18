@@ -6,7 +6,7 @@
         $lvl[0] = "Info";
         $lvl[1] = "Warn";
         $lvl[2] = "Erro";
-        $lvl[3] = "Crit";
+        $lvl[3] = "Debug";
         $lvl[4] = "Data";
 
         $log = date('Y-m-d H:i:s') . "\t| ".$lvl[$level] . "\t|\t". $info . "\n";

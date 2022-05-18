@@ -249,7 +249,7 @@ C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"America
         actModal = document.getElementById('newModal');
         actModal.innerHTML = popupTemplate;
         var newModal = new bootstrap.Modal(actModal)
-        actualClientId = id;
+        actualClientId = data[id].id;
         newModal.show(); 
     }
 
@@ -277,19 +277,19 @@ C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"America
         mres_data['reservation_number'] = document.getElementById("mres_confNumber").value;
 
 
-        $.ajax('/?agregar_reserva', {
+        $.ajax('core/api/main.php?vouchers&add', {
             type: 'POST',  // http method
             data: { 
             main_client: mres_data['main_client'],
             main_client_name: mres_data['main_client_name'],
             additional_clients: mres_data['additional_clients'],
             type: mres_data['type'],
-            details: mres_data['details'],
-            inDate: mres_data['inDate'],
-            outDate: mres_data['outDate'],
-            servicePartner: mres_data['servicePartner'],
+            data: mres_data['details'],
+            in_date: mres_data['inDate'],
+            out_date: mres_data['outDate'],
+            service_partner: mres_data['servicePartner'],
             observations: mres_data['observations'],
-            reservation_number: mres_data['reservation_number']
+            confirmation_number: mres_data['reservation_number']
              },  // data to submit
             success: function (data, status, xhr) {
                 $('#addReservation').modal('hide');
@@ -307,11 +307,11 @@ C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"America
     var myModalEl = document.getElementById('newModal');
     myModalEl.addEventListener('show.bs.modal', function (event) {
         $.ajax({
-            url: "core/integrators/reservations.php?client=" + actualClientId,
+            url: "core/api/main.php?vouchers&client=" + actualClientId,
             cache: false
           })
             .done(function( result ) {
-               console.log("Retrieving data for client" + actualClientId);
+               console.log("Retrieving data for client " + actualClientId);
                insertHTML("reservation-body", result);
             });
     })
@@ -324,12 +324,12 @@ function delRes(id, clientID, exit)
     if (confVar == true)
     {
         $.ajax({
-                url: "?agregar_reserva&delete=" + id,
+                url: "core/api/main.php?vouchers&delete&id=" + id,
                 cache: false
             })
                 .done(function( html ) {
                 $.ajax({
-                    url: "core/integrators/reservations.php?client=" + clientID,
+                    url: "core/api/main.php?vouchers&client=" + clientID,
                     cache: false
                 })
                     .done(function( result ) {
@@ -355,13 +355,13 @@ function insertHTML(elem, content)
     item.innerHTML = content;*/
 }
 
-function showAddReserv()
+function showAddReserv(clientID, clientName)
 {
     item = document.getElementById("mres_client_name");
-    item.value = data[actualClientId].name;
+    item.value = clientName;
 
     item = document.getElementById("mres_client_id");
-    item.value = actualClientId;
+    item.value = clientID;
 }
 
 
