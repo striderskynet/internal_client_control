@@ -1323,3 +1323,49 @@
 2022-05-18 19:51:00	| Data	|	SELECT * FROM `main_vouchers`
 2022-05-18 19:51:08	| Data	|	SELECT * FROM `main_vouchers`
 2022-05-18 19:51:24	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:53:14	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 19:53:38	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:03:53	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:03:56	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 20:03:59	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
+2022-05-18 20:11:16	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:11:18	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:11:19	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:11:20	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:11:22	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:11:23	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:11:27	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:11:53	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-18 20:12:25	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-18 20:13:01	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:23:05	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:23:12	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:23:55	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:31:50	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:31:53	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:31:57	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:32:21	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-18 20:32:30	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-18 20:32:37	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:32:43	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
+2022-05-18 20:32:53	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 20:42:14	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:42:16	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 20:42:28	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:42:35	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:42:37	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
+2022-05-18 20:42:40	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 20:42:45	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:43:49	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 20:43:50	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 21:58:53	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-18 21:59:00	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-18 21:59:14	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
+2022-05-18 21:59:20	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
+2022-05-18 21:59:32	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
+2022-05-18 21:59:34	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 21:59:37	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
+2022-05-18 21:59:45	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
+2022-05-18 21:59:59	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 22:00:14	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 22:00:30	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"

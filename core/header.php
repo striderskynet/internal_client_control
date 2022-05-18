@@ -36,10 +36,15 @@
           <a class="nav-link <?php echo is_active('reservas')?>" href="<?php echo $_ADDRESS ?>?reservas">Reservas</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="toolsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sistema</a>
+          <a class="nav-link dropdown-toggle" href="#" id="toolsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tablas</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Analizar tabla</a></li>
+          </ul>
+        </li>
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="toolsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Usuarios</a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="?create_user">Crear usuario</a></li>
-            <li><a class="dropdown-item" href="#">Analizar tabla</a></li>
           </ul>
         </li>
       </ul>
@@ -52,90 +57,90 @@
     </div>
   </div>
 </nav>
-    <Br>
+<br>
   <div class='body'>
-<?php 
-    if (!isset($_SESSION['userUUID']) && api("users", "total") > 0)
-    {
-?>
-<div id="myModal" class="modal fade" data-backdrop="static">
-	<div class="modal-dialog modal-login">
-		<div class="modal-content">
-			<form action="" method="post">
-				<div class="modal-header">				
-					<h4 class="modal-title">Login</h4>
-				</div>
-				<div class="modal-body">
-							
-					<div class="form-group">
-						<label>Usuario</label>
-						<input autocomplete='username' name='user' type="text" class="form-control" required="required">
+	<?php 
+		if (!isset($_SESSION['userUUID']) && api("users", "total") > 0)
+		{
+	?>
+	<div id="myModal" class="modal fade" data-backdrop="static">
+		<div class="modal-dialog modal-login">
+			<div class="modal-content">
+				<form action="" method="post">
+					<div class="modal-header">				
+						<h4 class="modal-title">Login</h4>
 					</div>
-					<div class="form-group">
-						<div class="clearfix">
-							<label>Contraseña</label>
-							
+					<div class="modal-body">
+								
+						<div class="form-group">
+							<label>Usuario</label>
+							<input autocomplete='username' name='user' type="text" class="form-control" required="required">
 						</div>
-						<input autocomplete='password' name='password' type="password" class="form-control" required="required">
+						<div class="form-group">
+							<div class="clearfix">
+								<label>Contraseña</label>
+								
+							</div>
+							<input autocomplete='password' name='password' type="password" class="form-control" required="required">
+						</div>
+						<div class='login_error'><?php echo @$login_error ?></div>		
 					</div>
-					<div class='login_error'><?php echo @$login_error ?></div>		
-				</div>
-				<div class="modal-footer justify-content-between">
-					<label class="form-check-label"><input type="checkbox"> Recuerdame</label>
-					<input type="submit" class="btn btn-success" value="Entrar">
-				</div>
-			</form>
+					<div class="modal-footer justify-content-between">
+						<label class="form-check-label"><input type="checkbox"> Recuerdame</label>
+						<input type="submit" class="btn btn-success" value="Entrar">
+					</div>
+				</form>
+			</div>
 		</div>
-	</div>
-</div>    
-
-<input type="submit" class="btn btn-success" value="Entrar">
+	</div>    
 <script>
   var myModal = new bootstrap.Modal(document.getElementById('myModal'), {
     backdrop: "static"
   })
-
   myModal.show(); 
 </script>
-
-<?php } elseif (!isset($_SESSION['userUUID']) && api("users", "total") == 0 || @array_keys($_GET)[0] == "create_user" ) {
-
+<?php } elseif (!isset($_SESSION['userUUID']) && api("users", "total") == 0 || @array_keys($_GET)[0] == "create_user" ) { 
+if ( @array_keys($_GET)[0] == "create_user")
+	$title = "Crear Usuario";
+else
+	$title = "Instalacion";
 ?>
-  <div id="myModal" class="modal fade" data-backdrop="static">
-	<div class="modal-dialog modal-login">
-		<div class="modal-content">
-			<form id='createUserForm' action="?gen_user" method="post">
-				<div class="modal-header">				
-					<h4 class="modal-title">Instalacion</h4>
-				</div>
-				<div class="modal-body">				
-					<div class="form-group">
-						<label>Crear Usuario</label>
-						<input name='user' autocomplete='username' type="text" class="form-control" required="required">
+	
+	<div id="myModal" class="modal fade" data-backdrop="static">
+	
+		<div class="modal-dialog modal-login">
+			<div class="modal-content">
+				<form id='createUserForm' action="?gen_user" method="post">
+					<div class="modal-header">				
+						<h4 class="modal-title"><?php echo $title ?></h4>
 					</div>
-					<div class="form-group">
-						<div class="clearfix">
-							<label>Crear Contraseña</label>
+					<div class="modal-body">				
+						<div class="form-group">
+							<label>Nuevo Usuario</label>
+							<input name='user' autocomplete='username' type="text" class="form-control" required="required">
 						</div>
-						<input name='password' autocomplete='new-password' type="password" class="form-control" required="required">
-					</div>
-          <div class="form-group">
-						<div class="clearfix">
-							<label>Repetir Contraseña</label>
+						<div class="form-group">
+							<div class="clearfix">
+								<label>Crear Contraseña</label>
+							</div>
+							<input name='password' autocomplete='new-password' type="password" class="form-control" required="required">
 						</div>
-						<input name='password2' autocomplete='new-password' type="password" class="form-control" required="required">
+			<div class="form-group">
+							<div class="clearfix">
+								<label>Repetir Contraseña</label>
+							</div>
+							<input name='password2' autocomplete='new-password' type="password" class="form-control" required="required">
+						</div>
 					</div>
-				</div>
-				<div class="modal-footer">
-          <label>Crear usuario principal</label>
-		  			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-					<input type="submit" class="btn btn-success" value="Crear">
-				</div>
-			</form>
+					<div class="modal-footer">
+					<label style='left: 15px; position: absolute;'>Crear usuario principal</label>
+						<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+						<input type="submit" class="btn btn-primary" value="Crear">
+					</div>
+				</form>
+			</div>
 		</div>
-	</div>
-</div>    
-
+	</div>    
 <script>
   var myModal = new bootstrap.Modal(document.getElementById('myModal'), {
     backdrop: "static"

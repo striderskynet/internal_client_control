@@ -1592,15 +1592,12 @@ PRINT
 	top: 1px;
     
 }
+
 .modal-login .btn {
 	min-width: 100px;
-	background: #3498db;
 	border: none;
 	line-height: normal;
     width: 100px !important;
-}
-.modal-login .btn:hover, .modal-login .btn:focus {
-	background: #248bd0;
 }
 .modal-login .hint-text a {
 	color: #999;
