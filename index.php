@@ -107,8 +107,7 @@
 
     $populate = false;
     // Show the exact site page
-    if (@array_keys($_GET)[0]!="agregar_reserva")
-        require ( "./core/header.php" );
+    require ( "./core/header.php" );
 
     if (@isset($_SESSION['userUUID']))
     {
@@ -120,10 +119,6 @@
                 case "reservas":
                         //require ( "./core/integrators/reservations.php");
                         echo api("vouchers");
-                        break;
-
-                case "agregar_reserva":
-                        require ( "./core/manipulators/man_reserva.php" );
                         break;
 
                 default:

@@ -21,7 +21,7 @@
 
         $query = 'SELECT * FROM `main_vouchers` WHERE `id` = ' . $_GET['id'] . ' LIMIT 1';
 
-        debug(4, $query);
+       // debug(4, $query);
         $voucher = $db->query($query)->fetchArray();
         
         $client_name = $db->query('SELECT concat(prefix, " ", NAME, " ",  lastname) AS full_name FROM main_clients WHERE id = ?', $voucher['main_client'])->fetchArray();
@@ -46,7 +46,7 @@
 
         if ( !$rebound )
             $visible = "none";
-        debug(4, $query);
+        //debug(4, $query);
         $dat = $db->query($query)->fetchAll();
         
         ?>

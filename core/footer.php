@@ -1,4 +1,5 @@
 <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+<script src="assets/js/misc.js"></script>
 <?php if ( isset ( $_SESSION['userUUID'] ) && $populate ) { ?>
 <script src="assets/js/app.js"></script>
 <script>
@@ -15,6 +16,9 @@
         });
     });
 
+    countryPicker = document.getElementById("countrypicker");
+    populateCountry(countryPicker);
+
 </script>
 <?php } ?>
 
@@ -27,7 +31,7 @@
       <a href="/" class="mb-3 me-4 mb-md-0 text-muted text-decoration-none lh-1">
         <i class="fa fa-user"></i>
       </a>
-      <span class="text-muted">&copy; 2022 Olazabal's, Inc</span>
+      <span class="text-muted">&copy; 2022 Sistema de Control de Clientes y Servicios (SCCS)</span>
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
