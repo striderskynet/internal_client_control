@@ -22,9 +22,26 @@
         reload();
     }
 
+        if ( !isset($_SESSION['userUUID']) && @isset ( $_COOKIE["member_login"] ) && @$_COOKIE["member_login"] != "" )
+        {
+            $cookie = explode(":",$_COOKIE["member_login"]);
+            $user['login'] = $cookie[0];
+            $user['password'] = $cookie[1];
+
+            //print_r ( $user );
+            $result = api("users","verify","username={$user['login']}&password={$user['password']}", true);
+            if ( isset($result->role) )
+            {
+                $_SESSION['userUUID']['username'] = $result->username;
+                $_SESSION['userUUID']['category'] = $result->role;
+                debug(0, "Login as username ($result->username) from ({$_SERVER['REMOTE_ADDR']}) with cookies");
+            }
+        }
+
     // Check if username and password are correct and login
     if ( @isset ($_POST['user']) && @isset( $_POST['password'] ) )
     {
+
         $password = md5($_POST['password']);
         //$result = json_decode(file_get_contents($_ADDRESS . "core/api/main.php?users&verify&username={$_POST['user']}&password={$password}"));
         $result = api("users","verify","username={$_POST['user']}&password={$password}", true);
@@ -33,6 +50,9 @@
         {
             $_SESSION['userUUID']['username'] = $result->username;
             $_SESSION['userUUID']['category'] = $result->role;
+
+            if (@isset($_POST['remember']))
+                setcookie ("member_login",$result->username.":".$password,time()+ (10 * 365 * 24 * 60 * 60));
 
             debug(0, "Login as username ($result->username) from ({$_SERVER['REMOTE_ADDR']})");
         } else {
@@ -44,8 +64,10 @@
     // Check if logout is set and execute logout
     if ( @isset ($_GET['logout'] ) )
     {
-            session_destroy();
             debug(0, "Logout username ({$_SESSION['userUUID']['username']}) from ({$_SERVER['REMOTE_ADDR']})");
+            session_destroy();
+            setcookie ("member_login","",time()+ (10 * 365 * 24 * 60 * 60));
+            
             reload();
     }
 
@@ -83,17 +105,18 @@
  
     }
 
+    $populate = false;
     // Show the exact site page
     if (@array_keys($_GET)[0]!="agregar_reserva")
         require ( "./core/header.php" );
 
     if (@isset($_SESSION['userUUID']))
     {
-        if (@count(array_keys($_GET)) == 0)
+      /*  if (@count(array_keys($_GET)) == 0)
         {
             require ( "./core/core.php" );
-        } else {
-            switch (array_keys($_GET)[0]){
+        } else {*/
+            switch (@array_keys($_GET)[0]){
                 case "reservas":
                         //require ( "./core/integrators/reservations.php");
                         echo api("vouchers");
@@ -105,9 +128,10 @@
 
                 default:
                     require ( "./core/core.php" );
+                    $populate = true;
                     break;
             }
-        }
+       // }
     }
     // Load Footer only if its OK
     if (@array_keys($_GET)[0]!="agregar_reserva")

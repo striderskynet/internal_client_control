@@ -14,6 +14,13 @@ function deleteUser(id, name)
     }
 }
 
+function countClients()
+{
+    item = document.getElementById("mres_additional_clients");
+    itemTotal = document.getElementById("mres_total_clients");
+    itemTotal.value = parseInt(item.value) + 1;
+}
+
 // initialize validation messages variable
 $.validation = {
     messages: {}

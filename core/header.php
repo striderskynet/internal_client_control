@@ -20,6 +20,7 @@
 <script>let dataText = '<?php echo $mData ?>';</script>
 </head>
 <body>
+<div class="wrapper">
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
     <a class="navbar-brand" href="/"><?php echo $cfg['title'] ?></a>
@@ -86,7 +87,7 @@
 						<div class='login_error'><?php echo @$login_error ?></div>		
 					</div>
 					<div class="modal-footer justify-content-between">
-						<label class="form-check-label"><input type="checkbox"> Recuerdame</label>
+						<label class="form-check-label"><input name='remember' type="checkbox"> Recuerdame</label>
 						<input type="submit" class="btn btn-success" value="Entrar">
 					</div>
 				</form>

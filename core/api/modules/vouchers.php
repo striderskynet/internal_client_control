@@ -126,7 +126,7 @@
     <button type="button" class="btn btn-success btn-sm" onclick="showAddReserv(<?php echo $_GET['client'] ?>, '<?php echo $client_name['full_name'] ?>');" data-bs-target="#addReservation" data-bs-toggle="modal" data-bs-dismiss="modal">Agregar</button>
     <?php } ?>
     <button type="button" class="btn btn-primary btn-sm">Imprimir todos</button>
-    </div>
+    </div></div>
     <?php
 }
 

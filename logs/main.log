@@ -1,1371 +1,165 @@
-2022-05-18 01:12:56	| Crit	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root2',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:13:24	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root2',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:13:41	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:13:42	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:13:52	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:14:16	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:14:17	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:14:17	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:14:17	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:14:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:14:22	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:14:22	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:14:22	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:14:23	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:14:23	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:14:44	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:14:45	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:14:45	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:14:45	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:14:46	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:15:14	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:15:15	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:15:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:15:19	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:15:19	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:15:19	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:15:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:15:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:15:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:15:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:15:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:20:21	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:20:30	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:20:31	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:20:31	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:20:31	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:20:31	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:20:39	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:20:54	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:22:44	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:22:57	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:22:58	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:22:58	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:23:01	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:24:55	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:24:56	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:24:56	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:24:56	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:26:08	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:26:09	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:26:09	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:26:09	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:27:04	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:27:05	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:27:07	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:27:43	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:27:44	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:27:45	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:27:46	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:27:46	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:27:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:27:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:27:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:27:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:29:07	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:29:08	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:29:17	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:29:17	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:29:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:29:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:29:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:29:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:29:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:29:36	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:29:37	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:29:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:29:54	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:30:15	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:30:16	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:30:16	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:30:31	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:30:32	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:30:33	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:30:33	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:30:33	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:30:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:30:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:30:54	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:30:54	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:30:54	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:30:54	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:30:54	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:33:10	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:33:11	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:33:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:05	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:06	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:06	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:06	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:06	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:06	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:12	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:13	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:13	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:13	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:19	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:19	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:25	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:26	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:26	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:46	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:46	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:34:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:35:32	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:35:33	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:35:33	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:35:33	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:35:51	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:35:55	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:35:55	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:35:55	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:05	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:06	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:06	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:07	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:07	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:07	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:07	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:07	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:07	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:08	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:08	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:08	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:22	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:23	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:32	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:35	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:36	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:36	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:48	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:49	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:49	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:36:50	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:37:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:38:00	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:38:01	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:38:05	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:38:17	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:38:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:38:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:38:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:38:26	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:38:26	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:39:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:39:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:39:21	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:39:25	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:39:25	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:39:25	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:39:25	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:39:25	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:39:26	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:39:26	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:39:26	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:39:26	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:39:48	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:39:49	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:40:52	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:40:52	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:40:52	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:40:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:40:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:40:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:41:00	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:41:01	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:41:01	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:44:02	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:44:03	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:44:03	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:45:41	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:45:42	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:45:42	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:45:42	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:45:56	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:45:57	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:45:57	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:45:57	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:45:58	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:46:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:46:21	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:46:21	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:46:21	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:46:21	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:46:22	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:47:17	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:47:17	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:47:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:47:23	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:47:56	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:47:57	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:47:57	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:47:58	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:47:58	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:47:58	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:47:59	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:47:59	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:48:44	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:48:45	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:48:46	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:48:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:48:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:21	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:22	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:22	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:22	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:22	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:23	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:23	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:23	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:23	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:39	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:42	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:42	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:43	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:43	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:43	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:43	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:43	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:43	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:43	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:43	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:44	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:44	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:44	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:45	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:49:45	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:14	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:19	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:35	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:35	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:36	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:36	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:36	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:36	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:36	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:37	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:37	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:37	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:37	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:37	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:37	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:38	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:38	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:38	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:50	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:50	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:50	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:50	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:50	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:50	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:51	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:51	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:51	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:52	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:52	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:52	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:52	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:52	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:52	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:52	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:52	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:50:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:51:03	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:51:03	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:51:03	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:51:03	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:51:04	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:51:04	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:51:04	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:51:04	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:52:04	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:52:04	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:52:05	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:52:05	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:52:05	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:52:05	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:52:05	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:52:05	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:52:06	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:52:07	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:52:07	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:52:24	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:52:24	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:52:25	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:52:25	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:54:29	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:54:30	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:54:30	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:54:30	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:54:35	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:54:35	| Data	|	DELETE FROM main_reservations WHERE `id`='1'
-2022-05-18 01:54:35	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:54:35	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:54:38	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:54:38	| Data	|	DELETE FROM main_reservations WHERE `id`='1'
-2022-05-18 01:54:38	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:54:38	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:54:40	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:54:46	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:54:46	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:54:52	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:54:52	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:56:09	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:56:09	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:56:09	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:56:09	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:56:09	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:56:09	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:56:12	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:56:24	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:56:24	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:56:26	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:56:26	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:56:26	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:56:26	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:56:27	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:56:27	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:56:56	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:57:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:57:19	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:57:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:57:27	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:58:14	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:58:17	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:58:39	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:58:40	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:58:40	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:58:41	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:59:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:59:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 01:59:54	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:00:00	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:00:00	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:00:17	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:00:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:01:00	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:01:04	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:16	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:17	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:17	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:46	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:46	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:49	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:50	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:08:50	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:09:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:09:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:09:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:09:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:09:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:09:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:09:54	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:09:55	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:09:55	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:09:55	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:09:57	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:09:57	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:09:59	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:10:00	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:11:31	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:11:31	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:11:33	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:12:17	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:12:17	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:12:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:12:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:12:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:12:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:12:19	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:12:27	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:13:16	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:13:19	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:13:19	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:13:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:13:28	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:13:28	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:13:29	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:13:29	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:13:30	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:13:33	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:13:33	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:13:52	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:13:52	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:13:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:13:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:13:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:13:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:13:54	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:13:54	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:07	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:07	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:07	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:07	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:07	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:07	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:19	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:19	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:19	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:19	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:19	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:19	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:19	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:19	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:31	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:31	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:31	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:32	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:32	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:32	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:32	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:32	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:32	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:14:32	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:15:40	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:15:40	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:15:40	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:15:40	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:15:40	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:15:40	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:15:40	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:15:40	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:15:41	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:15:41	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:15:41	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:15:41	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:16:02	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:16:02	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:16:03	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:16:03	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:16:03	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:16:03	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:16:03	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:16:03	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:16:23	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:16:24	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:16:36	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:17:21	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:17:21	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:17:22	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:17:22	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:17:22	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:17:23	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:17:37	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:17:37	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:17:37	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:17:38	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:17:38	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:17:38	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:17:38	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:17:52	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:18:03	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:18:11	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:18:31	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:18:31	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:18:32	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:18:32	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:18:32	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:18:32	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:18:32	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:18:33	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:18:33	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:20:00	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:20:01	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:20:01	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:20:01	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:20:02	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:20:26	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:20:27	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:20:27	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:20:27	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:20:27	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:20:28	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:21:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:21:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:21:48	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:21:48	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:21:58	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:21:58	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:21:59	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:22:08	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:22:09	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:22:09	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:22:09	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:22:10	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:22:10	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:22:10	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:22:10	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:22:11	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:23:39	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:23:39	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:23:40	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:23:45	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:24:31	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:24:31	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:24:32	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:28:27	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:28:28	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:28:28	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:28:29	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:28:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:28:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:28:53	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:28:54	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:28:55	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:29:16	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:29:16	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:29:16	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:29:18	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:31:33	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:31:34	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:31:34	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:33:35	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:33:35	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:33:36	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:33:54	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:33:54	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:33:55	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:34:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:34:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:34:21	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:34:45	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:34:46	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:34:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:35:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:35:20	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:35:21	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:35:38	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:35:38	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:35:38	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:35:39	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:36:37	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:36:57	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:42:43	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:42:44	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:42:45	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:43:09	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:43:09	| Data	|	INSERT INTO `main_vouchers` (`main_client`, `additional_clients`, `type`, `data`, `in_date`, `out_date`, `observations`, `service_partner`, `confirmation_number`) VALUES
-        ('11', '5', 'Hotel / House', 'Hotel Nacional', '2022-05-18', '2022-05-21', 'Con habitacion vista al mar', 'Gaviota', '123321123');
-2022-05-18 02:43:10	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:04	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:05	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:05	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:06	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:06	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:07	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:07	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:26	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:26	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:27	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:27	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:27	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:27	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:28	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:28	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:28	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:28	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:34	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:35	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:40	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:44	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:44	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:44	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:44	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:45	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:45	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:46	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:45:47	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:46:39	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:46:39	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:46:39	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:46:39	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:46:39	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:46:39	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:46:40	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:46:41	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:46:42	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:47:07	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:47:07	| Data	|	INSERT INTO `main_vouchers` (`main_client`, `additional_clients`, `type`, `data`, `in_date`, `out_date`, `observations`, `service_partner`, `confirmation_number`) VALUES
-        ('11', '5', 'Hotel / House', 'Hotel Nacional', '2022-05-18', '2022-05-20', 'Con habitacion vista al mar', 'Gaviota', '887766');
-2022-05-18 02:47:08	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:47:39	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:47:39	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:49:11	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:49:11	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:49:11	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 02:49:11	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:49:11	| Debug	|	Connecting to mysql database: array (  'type' => 'mysql',  'host' => '127.0.0.1',  'port' => '3306',  'user' => 'root',  'pass' => '',  'data' => 'endirecto',)
-2022-05-18 02:49:11	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 02:49:45	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 02:49:52	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 02:54:05	| Data	|	
-2022-05-18 02:54:06	| Data	|	
-2022-05-18 02:54:13	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:54:14	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:54:14	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:54:14	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:54:27	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:54:28	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:54:56	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 02:54:56	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 02:54:56	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 02:57:26	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:58:23	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:58:23	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:58:24	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:58:24	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:58:24	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:58:24	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:58:24	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:58:35	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:58:36	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:58:36	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:58:37	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:59:09	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:59:10	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:59:10	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:59:10	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:59:10	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:59:11	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:59:11	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:59:11	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:59:35	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:59:35	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:59:36	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:59:57	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:59:58	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:59:58	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 02:59:58	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:00:13	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:00:13	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:00:14	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:00:14	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:01:00	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:01:01	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:01:15	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:01:55	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:01:56	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:01:56	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:01:56	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:01:57	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:01:57	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:01:57	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:01:57	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:01:57	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:01:58	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:01:58	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:01:58	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:02:14	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:02:15	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:02:15	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:02:15	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:02:50	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:02:51	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:03:44	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:03:44	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:03:44	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:03:45	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:03:45	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:03:49	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:03:49	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:04:54	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:04:55	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:04:56	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:05:39	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:07:03	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:07:04	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:07:04	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:07:05	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:07:05	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:07:05	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:07:05	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:07:46	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:07:46	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:07:46	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:07:47	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:07:47	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:07:47	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:07:47	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:08:07	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:08:08	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:08:08	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:08:34	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:08:35	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:08:35	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:08:35	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:08:35	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:08:36	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:08:36	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:08:37	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:08:37	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:08:59	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:09:24	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:09:29	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:09:36	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 03:09:37	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:10:23	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 03:10:24	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 03:10:24	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:10:32	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:11:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 03:11:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 03:11:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 03:11:34	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 03:11:34	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 03:11:35	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:11:38	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 03:11:49	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 03:11:57	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 03:12:00	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 03:26:24	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 03:27:07	| Info	|	Logout username (jose) from (127.0.0.1)
-2022-05-18 03:27:12	| Info	|	Login as username (jose) from (127.0.0.1)
-2022-05-18 03:27:14	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 03:29:45	| Warn	|	Detected new instalation, asking for new user and password
-2022-05-18 03:29:45	| Warn	|	Saving username and password for ROOT access
-2022-05-18 03:29:45	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
-        VALUES ('roberto','4297f44b13955235245b2497399d7a93','root');
-2022-05-18 03:29:47	| Info	|	Logout username (jose) from (127.0.0.1)
-2022-05-18 03:29:51	| Info	|	Login as username (roberto) from (127.0.0.1)
-2022-05-18 03:30:21	| Info	|	Logout username (roberto) from (127.0.0.1)
-2022-05-18 03:30:42	| Warn	|	Detected new instalation, asking for new user and password
-2022-05-18 03:30:42	| Warn	|	Saving username and password for ROOT access
-2022-05-18 03:30:42	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
-        VALUES ('os_nesty','a4fd01f750dabff701339a213c3be6af','root');
-2022-05-18 03:30:47	| Info	|	Login as username (os_nesty) from (127.0.0.1)
-2022-05-18 03:30:51	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 03:32:31	| Info	|	Logout username (os_nesty) from (127.0.0.1)
-2022-05-18 03:32:45	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 03:32:50	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 03:34:53	| Warn	|	Detected new instalation, asking for new user and password
-2022-05-18 03:34:53	| Warn	|	Saving username and password for ROOT access
-2022-05-18 03:34:53	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
-        VALUES ('os_nesty','a4fd01f750dabff701339a213c3be6af','root');
-2022-05-18 03:34:58	| Info	|	Login as username (os_nesty) from (127.0.0.1)
-2022-05-18 03:35:02	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 04:32:32	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
-2022-05-18 04:32:42	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 04:32:47	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 04:32:57	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 04:33:07	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 04:33:14	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
-2022-05-18 04:33:19	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
-2022-05-18 04:59:31	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 04:59:36	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 04:59:41	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:01:29	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:01:31	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:01:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:02:32	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:02:34	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:02:35	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:02:35	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:02:35	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:02:36	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:02:37	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:02:37	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:02:51	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:02:52	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:02:52	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:03:12	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:03:13	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:03:14	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:03:14	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:03:21	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:03:21	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:03:22	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:03:22	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:03:22	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:03:22	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:03:22	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:04:28	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:04:29	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:04:29	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:04:29	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:04:34	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:04:35	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:04:35	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:04:44	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:04:45	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:04:47	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:04:48	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:05:07	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:05:08	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:05:48	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:05:49	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:06:17	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:06:18	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:06:18	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:06:20	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:07:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:07:34	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:07:35	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:07:43	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:07:43	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:07:44	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:07:44	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:07:44	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:07:45	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:08:29	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:08:29	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:08:29	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:08:29	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:10:00	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:10:00	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:13:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:13:34	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:13:34	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:13:35	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:14:00	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:14:14	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:14:14	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:16:11	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:16:11	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:16:12	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:16:12	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:16:12	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:16:12	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:16:20	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:16:21	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:16:21	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:16:21	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:16:26	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:18:32	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:18:32	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:18:32	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:18:34	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:18:34	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:18:35	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:18:35	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:18:35	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:18:35	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:18:35	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:18:36	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:18:36	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:18:36	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:18:36	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:18:37	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:18:47	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:18:48	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:19:26	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:20:16	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:20:17	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:20:17	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:20:40	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:20:41	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:20:41	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:20:41	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:20:57	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:20:57	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:20:58	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:20:59	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:20:59	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:20:59	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:13	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:14	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:14	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:14	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:14	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:32	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:32	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:32	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:32	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:40	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:40	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:40	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:44	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:44	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:45	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:45	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:21:45	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:07	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:09	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:09	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:13	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:14	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:14	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:20	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:21	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:21	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:22	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:29	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:30	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:30	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:31	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:38	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:38	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:39	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:46	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:46	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:47	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:23:59	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:24:00	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:24:06	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:24:07	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:24:07	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:24:08	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:24:08	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:24:09	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:24:09	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:24:10	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:24:50	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:24:58	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:25:01	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:25:06	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:25:22	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:25:22	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:25:30	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:25:31	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:25:40	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:25:40	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:25:40	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:25:45	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 05:26:02	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:26:04	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 05:26:17	| Data	|	INSERT INTO `main_vouchers` (`main_client`, `additional_clients`, `type`, `data`, `in_date`, `out_date`, `observations`, `service_partner`, `confirmation_number`) VALUES
-        ('11', '5', 'Hotel / House', 'asd', '2022-04-27', '2022-05-17', 'asdasd', 'Gaviota', '123123');
-2022-05-18 05:26:17	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 05:26:21	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:26:41	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:26:41	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:26:42	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:26:42	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:26:47	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:26:47	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:26:47	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:26:47	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:27:39	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:27:40	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:27:40	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:27:50	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:27:50	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:27:51	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:27:54	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:27:56	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:27:57	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:28:00	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:28:01	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:28:02	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:28:02	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:28:02	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:28:13	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:28:13	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:29:30	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 05:29:37	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 05:30:02	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:30:03	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:30:04	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:30:04	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:30:04	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:30:04	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:30:07	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 05:30:10	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 05:30:28	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:30:30	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:30:30	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:30:31	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:30:31	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:30:39	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 4 LIMIT 1
-2022-05-18 05:30:43	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 05:31:01	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 05:31:06	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:31:44	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:31:44	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:31:45	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:31:48	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:31:48	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:31:48	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:31:52	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:31:52	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:31:52	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:31:55	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:31:55	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:31:55	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:31:55	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:31:56	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:31:56	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:31:56	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:32:00	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:32:00	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:32:00	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:32:01	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:32:01	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:32:02	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:32:02	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:32:02	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:32:02	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:32:04	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 05:32:22	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 05:32:32	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 05:33:08	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:33:08	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:33:09	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:33:09	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:33:38	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:33:39	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:33:42	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:33:43	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:33:46	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:34:02	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:34:02	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:34:03	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:34:03	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:34:03	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:34:22	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:34:23	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:34:29	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:34:29	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:34:47	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:34:47	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:34:52	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:34:53	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:35:00	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:35:02	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:35:17	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:35:18	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:35:18	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:35:18	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:35:23	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:35:23	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:35:24	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:35:26	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:35:37	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:35:37	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:35:43	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 05:35:55	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 05:39:11	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:39:14	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:39:17	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:39:23	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 05:39:30	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:39:48	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:39:49	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:39:55	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:40:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:43:02	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:43:02	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:43:04	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:49:06	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:49:10	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:49:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:49:53	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:49:53	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:49:56	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:50:04	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 05:50:04	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 06:01:21	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 06:01:24	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:31:11	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:31:20	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:31:35	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:31:44	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 17:31:53	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:32:57	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:32:59	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 17:33:13	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 17:33:57	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 17:35:43	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 17:35:47	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:36:48	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:36:49	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:36:49	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:36:49	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:36:49	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:36:50	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:37:00	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:37:00	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:37:00	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:37:34	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:37:35	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:37:35	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:38:02	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 17:38:37	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:38:39	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:38:39	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:38:39	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:38:39	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:38:47	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:38:48	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:45:16	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:45:19	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:45:27	| Info	|	Logout username (os_nesty) from (127.0.0.1)
-2022-05-18 17:48:40	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
-2022-05-18 17:48:45	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
-2022-05-18 17:48:58	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
-2022-05-18 17:48:59	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
-2022-05-18 17:49:00	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
-2022-05-18 17:49:00	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
-2022-05-18 17:49:01	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
-2022-05-18 17:49:02	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
-2022-05-18 17:49:03	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
-2022-05-18 17:49:03	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
-2022-05-18 17:49:08	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
-2022-05-18 17:49:09	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
-2022-05-18 17:50:12	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
-2022-05-18 17:50:19	| Warn	|	Failed login attempt for (os.nesty@gmail.com) from (127.0.0.1)
-2022-05-18 17:50:27	| Info	|	Login as username (os_nesty) from (127.0.0.1)
-2022-05-18 17:50:35	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:50:39	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:50:47	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:51:01	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:51:37	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 17:51:45	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:51:59	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:53:38	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:53:39	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:54:18	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:54:19	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:54:19	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:54:25	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:54:26	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:54:26	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:54:31	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:54:32	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:54:32	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:54:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:54:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:54:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:54:56	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:54:56	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:54:56	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:54:57	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:54:57	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:55:03	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:55:03	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:55:03	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:55:04	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:55:04	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:55:07	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:55:09	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:57:44	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:57:49	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:58:07	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:58:08	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:58:08	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:58:17	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:58:18	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:58:28	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:58:50	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:02	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:03	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:03	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:03	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:03	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:03	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:09	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:09	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:10	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:10	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:14	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:30	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:30	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:42	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:43	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:43	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:52	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:53	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:53	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 17:59:53	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:00:05	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:00:05	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:00:05	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:00:05	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:01:40	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:01:41	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:01:41	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:01:41	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:01:41	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:01:48	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:01:48	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:01:48	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:02:03	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:02:03	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:02:03	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:02:05	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:02:10	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:02:11	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:02:11	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:02:12	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:02:12	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:02:29	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:52:54	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 18:52:54	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:03:48	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:03:49	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:26:38	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:26:40	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:26:44	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:26:45	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:26:46	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:26:47	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:26:48	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:26:49	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:26:50	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:27:00	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:27:03	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:27:04	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:27:05	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:27:08	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:43:07	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:44:25	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:45:24	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:45:26	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:45:27	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:45:39	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:45:54	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:45:54	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:45:54	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:45:56	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:45:57	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:46:00	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:46:31	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:46:31	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:46:32	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:46:32	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:46:32	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:46:32	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:46:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:46:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:46:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:46:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:46:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:46:51	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:46:52	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:46:52	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:46:54	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:46:56	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:46:58	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:46:59	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:47:18	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:47:18	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:47:19	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:47:19	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:47:20	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:47:21	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:47:22	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:47:23	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:47:25	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 19:47:56	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:47:56	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:47:57	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:47:57	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:47:57	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:47:57	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:47:57	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:47:58	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:48:00	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:48:01	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:48:03	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:48:28	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:48:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:49:32	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:49:32	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:49:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:49:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:49:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:49:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:49:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:49:33	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:49:39	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:49:39	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:49:40	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:49:41	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 19:49:51	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:50:03	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:50:04	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:50:09	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:50:10	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:50:15	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:50:52	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:50:52	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:50:52	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:50:54	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:50:54	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:50:55	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:50:59	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:50:59	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:51:00	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:51:08	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:51:24	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:53:14	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 19:53:38	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:03:53	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:03:56	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 20:03:59	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 20:11:16	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:11:18	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:11:19	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:11:20	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:11:22	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:11:23	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:11:27	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:11:53	| Info	|	Logout username (os_nesty) from (127.0.0.1)
-2022-05-18 20:12:25	| Info	|	Login as username (os_nesty) from (127.0.0.1)
-2022-05-18 20:13:01	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:23:05	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:23:12	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:23:55	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:31:50	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:31:53	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:31:57	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:32:21	| Info	|	Logout username (os_nesty) from (127.0.0.1)
-2022-05-18 20:32:30	| Info	|	Login as username (os_nesty) from (127.0.0.1)
-2022-05-18 20:32:37	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:32:43	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
-2022-05-18 20:32:53	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 20:42:14	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:42:16	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 20:42:28	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:42:35	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:42:37	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
-2022-05-18 20:42:40	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 20:42:45	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:43:49	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 20:43:50	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 21:58:53	| Info	|	Logout username (os_nesty) from (127.0.0.1)
-2022-05-18 21:59:00	| Info	|	Login as username (os_nesty) from (127.0.0.1)
-2022-05-18 21:59:14	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
-2022-05-18 21:59:20	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
-2022-05-18 21:59:32	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
-2022-05-18 21:59:34	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 21:59:37	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 21:59:45	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
-2022-05-18 21:59:59	| Data	|	SELECT * FROM `main_vouchers`
-2022-05-18 22:00:14	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
-2022-05-18 22:00:30	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-18 23:16:34	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 23:17:24	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 23:17:31	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-18 23:17:33	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
+2022-05-19 01:43:30	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 01:43:42	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 01:43:50	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 01:43:53	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
+2022-05-19 01:44:00	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 01:46:37	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:04:00	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:04:03	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 02:04:25	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:04:38	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:04:41	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-19 02:06:56	| Warn	|	Failed login attempt for (os_nesty) from (127.0.0.1)
+2022-05-19 02:07:05	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:08:34	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:08:37	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:09:41	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:10:08	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:10:55	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:11:31	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:11:46	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:11:56	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:12:02	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:12:11	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:12:23	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:12:30	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:12:40	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:12:47	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:14:09	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:14:42	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:15:10	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:15:21	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:15:34	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:15:41	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:15:47	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:16:31	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:16:35	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:17:04	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:17:05	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:17:08	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:17:08	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:17:08	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:18:02	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:18:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:18:05	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:18:15	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:18:20	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:22:01	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:22:03	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:27:06	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:27:13	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-19 02:36:51	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:36:53	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:36:54	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:36:55	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:36:55	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:36:56	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:36:56	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:36:56	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:36:56	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:36:57	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:38:16	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:38:18	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:39:52	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:39:54	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-19 02:40:18	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:40:25	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:40:26	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:40:29	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-19 02:42:08	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:42:10	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-19 02:42:17	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:42:18	| Info	|	Login as username (os_nesty) from (127.0.0.1) with cookies
+2022-05-19 02:42:18	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:42:36	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:42:37	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:42:38	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:42:38	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:42:38	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:42:38	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:42:39	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:42:40	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-19 02:42:40	| Info	|	Login as username (os_nesty) from (127.0.0.1) with cookies
+2022-05-19 02:42:43	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-19 02:42:43	| Info	|	Login as username (os_nesty) from (127.0.0.1) with cookies
+2022-05-19 02:42:56	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-19 02:43:04	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:43:43	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:43:50	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:43:56	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 3 LIMIT 1
+2022-05-19 02:44:21	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 02:44:24	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 4 LIMIT 1
+2022-05-19 02:44:43	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
+2022-05-19 02:44:50	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
+2022-05-19 02:45:02	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-19 02:45:11	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:45:20	| Info	|	Login as username (os_nesty) from (127.0.0.1) with cookies
+2022-05-19 02:45:32	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-19 02:45:39	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:45:56	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:45:57	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-19 02:46:12	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:46:13	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-19 02:46:24	| Info	|	Logout username () from (127.0.0.1)
+2022-05-19 02:46:56	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:46:56	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-19 02:47:02	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:47:04	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 02:47:08	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-19 02:47:16	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:47:19	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 02:48:16	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
+2022-05-19 02:48:33	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
+2022-05-19 02:48:54	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
+2022-05-19 02:49:18	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
+2022-05-19 02:50:29	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
+2022-05-19 02:50:44	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 02:50:53	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 02:50:57	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:50:58	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:50:59	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 02:51:11	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:51:12	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:51:13	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 02:51:21	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:51:21	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:51:22	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 02:51:33	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:51:33	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 02:51:34	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 02:51:50	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 02:52:15	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 02:52:40	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 02:53:02	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 02:53:22	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 02:54:43	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 02:56:19	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 02:57:14	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 02:57:43	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 02:57:48	| Data	|	SELECT * FROM `main_vouchers` WHERE `id` = 4 LIMIT 1
+2022-05-19 02:58:02	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 02:58:36	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 03:01:59	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 03:02:13	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 03:02:52	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 03:03:04	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 03:03:04	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 03:03:04	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 03:04:49	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 03:05:04	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 03:08:51	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 03:09:37	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 03:09:39	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 03:09:41	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 03:11:37	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 03:11:38	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 03:11:40	| Data	|	SELECT * FROM `main_vouchers`
+2022-05-19 03:11:41	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 03:12:18	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "9"
+2022-05-19 03:12:22	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 03:12:42	| Data	|	SELECT * FROM `main_vouchers` WHERE `main_client` = "11"
+2022-05-19 03:12:46	| Data	|	SELECT * FROM `main_vouchers`

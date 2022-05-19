@@ -180,12 +180,12 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <div class="input-group">
                             <div class="input-group"><span class="input-group-text"><i class="fa fa-edit"></i></span>
-                            <div class="form-floating">
-                            <textarea class="form-control" id="mres_details" style="height: 100px; width:213%;"></textarea>
-                            <label for="mres_details">Detalles</label>
-</div></div>
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Detalles" id="mres_details" style="height: 100px; min-width: 180%; resize:both;"></textarea>
+                                    <label for="mres_details">Detalles</label>
+                                </div>
+                            </div>
                         </div>
                         <br>
                         <div class="form-group">
@@ -220,12 +220,13 @@
                         <br>
                         <div class="form-group">
                             <div class="input-group"><span class="input-group-text"><i class="fa fa-edit"></i></span>
-                            <div class="form-floating">
-                                
-                                <textarea class="form-control" placeholder="Observaciones" id="mres_observations" style="height: 100px; width:213%;"></textarea>
-                                <label for="mres_observations">Observaciones</label>
-</div>
-                            </div><br>
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Observaciones" id="mres_observations" style="height: 100px; min-width: 180%; resize:both;"></textarea>
+                                    <label for="mres_observations">Observaciones</label>
+                                </div>
+                            </div>
+                        </div><br>
+                        <div class="form-group">
                             <div class="input-group">
                                 <span class="input-group-text"><i class="fa fa-hashtag"></i></span>
                                 <input type="text" id="mres_confNumber" name="mres_confNumber" class="form-control" placeholder="Numero de Confirmacion" >
@@ -251,12 +252,4 @@
     <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
   </div>
 </div>
-<script>
-        function countClients()
-        {
-            item = document.getElementById("mres_additional_clients");
-            itemTotal = document.getElementById("mres_total_clients");
-            itemTotal.value = parseInt(item.value) + 1;
-        }
-</script>
 
