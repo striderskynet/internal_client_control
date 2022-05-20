@@ -22,7 +22,8 @@
         reload();
     }
 
-        if ( !isset($_SESSION['userUUID']) && @isset ( $_COOKIE["member_login"] ) && @$_COOKIE["member_login"] != "" )
+    // Check if cookies are set in this computer.
+    if ( !isset($_SESSION['userUUID']) && @isset ( $_COOKIE["member_login"] ) && @$_COOKIE["member_login"] != "" )
         {
             $cookie = explode(":",$_COOKIE["member_login"]);
             $user['login'] = $cookie[0];
@@ -34,7 +35,7 @@
             {
                 $_SESSION['userUUID']['username'] = $result->username;
                 $_SESSION['userUUID']['category'] = $result->role;
-                debug(0, "Login as username ($result->username) from ({$_SERVER['REMOTE_ADDR']}) with cookies");
+                debug(5, "Login as username ($result->username) from ({$_SERVER['REMOTE_ADDR']}) with cookies");
             }
         }
 
@@ -54,7 +55,7 @@
             if (@isset($_POST['remember']))
                 setcookie ("member_login",$result->username.":".$password,time()+ (10 * 365 * 24 * 60 * 60));
 
-            debug(0, "Login as username ($result->username) from ({$_SERVER['REMOTE_ADDR']})");
+            debug(5, "Login as username ($result->username) from ({$_SERVER['REMOTE_ADDR']})");
         } else {
             debug(1, "Failed login attempt for ({$_POST['user']}) from ({$_SERVER['REMOTE_ADDR']})");
             $login_error = "<br>Username or password incorrect";
@@ -64,7 +65,7 @@
     // Check if logout is set and execute logout
     if ( @isset ($_GET['logout'] ) )
     {
-            debug(0, "Logout username ({$_SESSION['userUUID']['username']}) from ({$_SERVER['REMOTE_ADDR']})");
+            debug(5, "Logout username ({$_SESSION['userUUID']['username']}) from ({$_SERVER['REMOTE_ADDR']})");
             session_destroy();
             setcookie ("member_login","",time()+ (10 * 365 * 24 * 60 * 60));
             
@@ -74,7 +75,7 @@
     // Check if add_user is set and execute
     if (@isset($_GET['add_client']) && @isset ( $_POST ))
     {
-        debug(0, "Adding new client to the database");
+        debug(1, "Adding new client to the database");
         $result = api("clients", "add", "prefix=". urlencode($_POST['modal_contact_prefix']) . "&" .
                                        "name=". urlencode($_POST['modal_contact_firstname']) . "&" .
                                        "lastname=". urlencode($_POST['modal_contact_lastname']) . "&" .
@@ -84,14 +85,14 @@
                                        "country=". urlencode($_POST['modal_contact_country']) . "&" .
                                        "company=". urlencode($_POST['modal_contact_source']) . "&" .
                                        "observations=". urlencode($_POST['modal_contact_message']) . "&" .
-                                       "last_touch=". urlencode($_SESSION['userUUID']['username'] . " | " . date('m/d/Y h:i:s a', time())) );
+                                       "last_touch=". urlencode($_SESSION['userUUID']['username'] . " @ " . date('m/d/Y h:i:s a', time())) );
         die ("<header><script>window.location = '/';</script>");
     }
 
     // Check if del_user is set and execute
     if ( @isset($_GET['del_client']) )
     {
-        debug(0, "Deleting client {$_GET['del_client']} by ({$_SESSION['userUUID']['username']}) from ({$_SERVER['REMOTE_ADDR']})");
+        debug(1, "Deleting client {$_GET['del_client']} by ({$_SESSION['userUUID']['username']}) from ({$_SERVER['REMOTE_ADDR']})");
         api("clients", "delete", "id={$_GET['del_client']}");
 
         reload();
@@ -119,6 +120,10 @@
                 case "reservas":
                         //require ( "./core/integrators/reservations.php");
                         echo api("vouchers");
+                        break;
+                case "logs":
+                        //require ( "./core/integrators/reservations.php");
+                        require("./core/logs.php");
                         break;
 
                 default:

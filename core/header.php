@@ -8,8 +8,7 @@
 <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css" type="text/css" />
 <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" />
 <link rel="stylesheet" href="assets/css/bootstrap-select-country.min.css" type="text/css" />
-<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="assets/css/flexbox.css">
+<link rel="stylesheet" href="assets/css/flexbox.css" type="text/css">
 
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/plugins/jquery-validation/jquery.validate.min.js"></script>
@@ -43,9 +42,11 @@
           </ul>
         </li>
 		<li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="toolsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Usuarios</a>
+          <a class="nav-link dropdown-toggle" href="#" id="toolsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sistema</a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="?create_user">Crear usuario</a></li>
+			<li><hr class="dropdown-divider"></li>
+			<li><a class="dropdown-item" href="?logs">Logs</a></li>
           </ul>
         </li>
       </ul>

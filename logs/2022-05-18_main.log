@@ -4,3 +4,10 @@
         ('11', '4', 'Hotel / House', 'asdasd', '2022-05-27', '2022-05-28', 'asdasd', 'Gaviota', '123123');
 2022-05-19 03:20:02	| Info	|	Logout username (os_nesty) from (127.0.0.1)
 2022-05-19 03:20:12	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 04:29:30	| Info	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-19 04:29:34	| Warn	|	Failed login attempt for (asdas) from (127.0.0.1)
+2022-05-19 04:29:39	| Info	|	Login as username (os_nesty) from (127.0.0.1)
+2022-05-19 04:54:32	| Info	|	Deleting client 11 by (os_nesty) from (127.0.0.1)
+2022-05-19 04:54:32	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '11'; DELETE FROM main_clients WHERE `id` = '11';
+2022-05-19 04:57:26	| Logi	|	Logout username (os_nesty) from (127.0.0.1)
+2022-05-19 04:57:33	| Logi	|	Login as username (os_nesty) from (127.0.0.1)
