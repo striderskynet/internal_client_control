@@ -3,7 +3,7 @@
     {
         $error = null;
         try{
-            $conn = new mysqli($_GET['host'], $_GET['user'], $_GET['pass'], $_GET['db']);
+            $conn = new mysqli($_GET['host'], $_GET['user'], $_GET['pass']);
         } catch (Exception $e) {
            $error = $e->getMessage();
         }
@@ -12,6 +12,56 @@
             die("<label class=\"true\">Sucess!</label>");
 
         die("<label class=\"false\">" . $error . "</label>");
+    }
+
+    if (@isset($_GET['install']))
+    {
+        $sql_file = "../database/database.sql";
+        $sql_file = file_get_contents($sql_file);
+
+        $sql_file = str_replace("endirecto", $_GET['db'], $sql_file);
+        $sql_file .= "INSERT INTO `general_users` (`username`, `password`, `role`) VALUES
+        ('" . $_GET['uname'] . "', '" . md5($_GET['upass']) . "', 'root');";
+        
+        $error = null;
+
+        try{
+            $conn = new mysqli($_GET['host'], $_GET['user'], $_GET['pass']);
+            $conn->multi_query($sql_file);
+            
+        } catch (Exception $e) {
+           $error = $e->getMessage();
+        }
+        
+        if ( $error == null )
+        {
+            $result['title'] = "Exito!";
+            $result['icon'] = "check";
+            $result['color'] = "var(--bs-primary)";
+            $result['sub_text'] = "Se ha instalado todo correcto";
+            $result['link'] = "<a href='../'>Desea ir al sitio?</a>";
+        } else {
+            $result['title'] = "Error!";
+            $result['icon'] = "warning";
+            $result['color'] = "lightred";
+            $result['sub_text'] = $error;
+            $result['link'] = "<a href='./'>Ha ocurrido un error, volver a empezar!</a>";
+        }
+            ?>
+            <h2 class="purple-text text-center" style='color: <?php echo $result['color'] ?>'><strong><?php echo $result['title'] ?></strong></h2>
+            <br>
+            <div class="row justify-content-center text-center">
+                    <i style='color: <?php echo $result['color'] ?>; font-size: 200px;' class="fa fa-5x fa-<?php echo $result['icon'] ?>"></i>
+            </div>
+            <br><br>
+            <div class="row justify-content-center">
+                <div class="col-7 text-center">
+                    <h5 class="text-center" style='color: <?php echo $result['color'] ?>;' ><?php echo $result['sub_text'] ?></h5>
+                    <h6 class="text-center"><?php echo $result['link'] ?></h6>
+                </div>
+            </div>
+            <?php
+        die();
     }
 ?>
 <link rel="stylesheet" href="../assets/css/bootstrap.min.css" type="text/css" />
@@ -66,7 +116,7 @@ p {
 #msform fieldset:not(:first-of-type) {
     /*display: none;*/
 }
-
+/*
 #msform input, #msform textarea {
     padding: 8px 15px 8px 15px;
     border: 1px solid #ccc;
@@ -74,10 +124,10 @@ p {
     margin-bottom: 25px;
     margin-top: 2px;
     width: 100%;
-    /*box-sizing: border-box;
+    box-sizing: border-box;
     font-family: montserrat;
     color: #2C3E50;
-    background-color: #ECEFF1;*/
+    background-color: #ECEFF1;
     font-size: 16px;
     letter-spacing: 1px;
 }
@@ -88,7 +138,7 @@ p {
     box-shadow: none !important;
     border: 1px solid var(--bs-blue);
     outline-width: 0;
-}
+}*/
 
 /*Next Buttons*/
 #msform .action-button {
@@ -301,13 +351,13 @@ p {
                             	</div>
                             </div>
                             <label class="fieldlabels">Username: *</label>
-                            <input type="text" id='uname' name="uname" placeholder="Username" value=""/>
+                            <input class="form-control" type="text" id='uname' name="uname" placeholder="Username" value=""/>
                             <label class="fieldlabels">Password: *</label>
-                            <input type="password" id='upwd' name="upwd" placeholder="Password" value=""/>
+                            <input class="form-control" type="password" id='upwd' name="upwd" placeholder="Password" value=""/>
                             <label class="fieldlabels">Confirmar Password: *</label>
-                            <input type="password" id='ucpwd' name="ucpwd" placeholder="Confirmar Password" value=""/>
+                            <input class="form-control" type="password" id='ucpwd' name="ucpwd" placeholder="Confirmar Password" value=""/>
                         </div>
-                        <button type="button" class="btn btn-primary next">Siguiente</button>
+                        <br><button type="button" class="btn btn-primary next">Siguiente</button>
                     </fieldset>
                     <fieldset>
                         <div class="form-card">
@@ -395,14 +445,15 @@ p {
                             	</div>
                             </div>
                             <label class="fieldlabels">Host: *</label>
-                            <input type="text" name="db_host" placeholder="localhost" value="localhost"/>
+                            <input class="form-control" type="text" name="db_host" placeholder="localhost" value="localhost"/>
                             <label class="fieldlabels">Database: *</label>
-                            <input type="text" name="db_database" placeholder="endirecto" value="endirecto"/>
+                            <input class="form-control" type="text" name="db_database" placeholder="endirecto" value="test"/>
                             <label class="fieldlabels">Username: *</label>
-                            <input type="text" name="db_user" placeholder="root" value="root"/>
+                            <input class="form-control" type="text" name="db_user" placeholder="root" value="root"/>
                             <label class="fieldlabels">Password: </label>
-                            <input type="text" name="db_password" placeholder="" value=""/>
-
+                            <input class="form-control" type="text" name="db_password" placeholder="" value=""/>
+                            
+                            <br>
                             <button id='test_sql' type="button" class="btn btn-primary">Probar conexion</button> <span id='test_db'></span>
                         </div>
                         <button type="button" class="btn btn-primary next">Siguiente</button>
@@ -412,18 +463,32 @@ p {
                         <div class="form-card">
                             <div class="row">
                         		<div class="col-7">
-                            		<h2 class="fs-title">Image Upload:</h2>
+                            		<h2 class="fs-title">Resumen:</h2>
                             	</div>
                             	<div class="col-5">
                             		<h2 class="steps">Paso 4 - 5</h2>
                             	</div>
                             </div>
-                            <label class="fieldlabels">Upload Your Photo:</label>
-                            <input type="file" name="pic" accept="image/*">
-                            <label class="fieldlabels">Upload Signature Photo:</label>
-                            <input type="file" name="pic" accept="image/*">
+                            <label style='display: block; font-weight: bold;'>Usuario</label>
+                            <label style='display: block;' class="fieldlabels">Username: <b class='true'>Correcto!</b></label>
+                            <label style='display: block;' class="fieldlabels">Contraseña: <b class='true'>Correcto!</b></label>
+                            <br>
+                            <label style='display: block; font-weight: bold;'>Servidor</label>
+                            <label style='display: block;' class="fieldlabels">Version PHP: <b class='true'>Correcto!</b></label>
+                            <label style='display: block;' class="fieldlabels">Version API: <b class='true'>Correcto</b></label>
+                            <label style='display: block;' class="fieldlabels">Directorio: <b class='true'>Modificable!</b></label>
+                            <br>
+                            <label style='display: block; font-weight: bold;'>Base de Datos</label>
+                            <label style='display: block;' class="fieldlabels">Tipo: <b class='true'>MySQL!</b></label>
+                            <label style='display: block;' class="fieldlabels">Host/Port: <b class='true'>Correcto</b></label>
+                            <label style='display: block;' class="fieldlabels">User/Password: <b class='true'>Correcto!</b></label>
+                            <label style='display: block;' class="fieldlabels">Base de Datos: <b class='true'>Correcto!</b></label>
                         </div>
-                        <button type="button" class="btn btn-primary next">Siguiente</button>
+
+                        <br><br>
+                        <label class="fieldlabels" style='float:left' >Para terminar la instalacion presione el boton "Instalar"</label>
+                        <br>
+                        <button type="button" id="install_button" class="btn btn-success next">Instalar</button>
                         <button type="button" class="btn btn-secondary previous">Atras</button>
                     </fieldset>
                     <fieldset>
@@ -437,17 +502,7 @@ p {
                             	</div>
                             </div>
                             <br><br>
-                            <h2 class="purple-text text-center"><strong>Exito!</strong></h2>
-                            <br>
-                            <div class="row justify-content-center text-center">
-                                    <i style='color: var(--bs-primary); font-size: 200px;' class="fa fa-5x fa-check"></i>
-                            </div>
-                            <br><br>
-                            <div class="row justify-content-center">
-                                <div class="col-7 text-center">
-                                    <h5 class="text-center">Se ha instalado todo correcto</h5>
-                                    <h6 class="text-center"><a href='../'>Desea ir al sitio</a></h6>
-                                </div>
+                            <div id='install_results'>
                             </div>
                         </div>
                     </fieldset>
@@ -557,14 +612,39 @@ p {
                 break;
         }
        
-         obj.style="background: #ffdddd;";
+         obj.style="background: #ffeeee;";
          return false;
             
 
     }
     
-    $(".submit").click(function(){
-        return false;
+    $("#install_button").click(function(){
+       
+        var d = [];
+        
+        // Username and Password
+        d['uname'] = document.getElementsByName("uname")[0].value;
+        d['upass'] = document.getElementsByName("upwd")[0].value;
+
+        // Database Info
+        d['host'] = document.getElementsByName("db_host")[0].value;
+        d['user'] = document.getElementsByName("db_user")[0].value;
+        d['pass'] = document.getElementsByName("db_password")[0].value;
+        d['data'] = document.getElementsByName("db_database")[0].value;
+
+        console.log("Installing...");
+        console.log(d);
+
+        $.ajax({
+                url: "./?install&host=" + d['host'] + "&user=" + d['user'] + "&pass=" + d['pass'] + "&db=" + d['data'] + "&uname=" + d['uname'] + "&upass=" + d['upass'],
+                cache: false
+            })
+                .done(function( html ) {
+                    document.getElementById("install_results").innerHTML = html;
+                    console.log(html);
+                })
+
+
     })
 
     $("#test_sql").click(function(){

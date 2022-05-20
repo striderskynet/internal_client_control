@@ -38,8 +38,11 @@
 
     function users_verify(){
         global $db;
-        
-        return json_encode($db->query("SELECT * FROM general_users WHERE `username`='{$_GET['username']}' AND `password`='{$_GET['password']}'")->fetchArray());
+
+
+        $result = $db->query("SELECT * FROM general_users WHERE `username`='{$_GET['username']}' AND `password`='{$_GET['password']}'")->fetchArray();
+
+        return json_encode($result);
     }
         
 ?>

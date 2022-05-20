@@ -52,8 +52,6 @@
         $data = null;
         $q = 1;
 
-        debug(4, "asd");
-
         $accounts = $db->query('SELECT * FROM main_clients')->fetchAll();
         foreach ($accounts as $account) {
             $data[] = $account;

@@ -1,6 +1,12 @@
 <?php
     session_start();
 
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+    $_DEBUG = true;
+
+
     // --------------------------- \\
     // Do not touch below this point
     require_once ("./config.php");
@@ -46,7 +52,7 @@
         $password = md5($_POST['password']);
         //$result = json_decode(file_get_contents($_ADDRESS . "core/api/main.php?users&verify&username={$_POST['user']}&password={$password}"));
         $result = api("users","verify","username={$_POST['user']}&password={$password}", true);
-
+        
         if ( isset($result->role) )
         {
             $_SESSION['userUUID']['username'] = $result->username;
@@ -59,6 +65,7 @@
         } else {
             debug(1, "Failed login attempt for ({$_POST['user']}) from ({$_SERVER['REMOTE_ADDR']})");
             $login_error = "<br>Username or password incorrect";
+            
         }
     }
 
