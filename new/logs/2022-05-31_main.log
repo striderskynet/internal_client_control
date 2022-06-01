@@ -1,0 +1,11 @@
+2022-05-31 16:35:51	| Data	|	INSERT INTO `main_vouchers` (`main_client`, `type`, `data`, `in_date`, `out_date`, `information`, `service_partner`) VALUES
+        ('66', 'Hotel / House', 'Hotel Nacional', '2022-12-1', '2022-12-15', 'Probando... todo OK', 'Gaviota');
+2022-05-31 16:37:15	| Data	|	INSERT INTO `main_vouchers` (`main_client`, `type`, `data`, `in_date`, `out_date`, `information`, `service_partner`) VALUES
+        ('15', 'Event / Show', 'Copacabana', '2022-12-1', '2022-12-1', 'Otros', 'Cubadebate');
+2022-05-31 16:42:24	| Data	|	DELETE FROM main_vouchers WHERE `id` = 1
+2022-05-31 16:50:26	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sra.', 'Angela', 'Pita Perez', '88090800307', '+53 5 3498546', 'os.nesty@gmail.com', 'US', now(), 'Microsoft Inc.', 'Arriving', 'Todo OK', 'ahora');
+2022-05-31 16:50:41	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '73'; DELETE FROM main_clients WHERE `id` = '73';
+2022-05-31 18:36:40	| Data	|	DELETE FROM main_vouchers WHERE `id` = 4
+2022-05-31 18:56:44	| Data	|	INSERT INTO `main_vouchers` (`main_client`, `type`, `data`, `in_date`, `out_date`, `information`, `service_partner`) VALUES
+        ('66', 'Event / Show', 'Copacabana', '2022-12-1', '2022-12-15', 'Todo OK', 'Gaviota');

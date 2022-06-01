@@ -21,7 +21,7 @@
 
         $query = 'SELECT * FROM `main_vouchers` WHERE `id` = ' . $_GET['id'] . ' LIMIT 1';
 
-       // debug(4, $query);
+        debug(4, $query);
         $voucher = $db->query($query)->fetchArray();
         
         $client_name = $db->query('SELECT concat(prefix, " ", NAME, " ",  lastname) AS full_name FROM main_clients WHERE id = ?', $voucher['main_client'])->fetchArray();
@@ -44,42 +44,25 @@
             $rebound = false;
         }
 
-        if ( !$rebound )
-            $visible = "none";
-        //debug(4, $query);
+        debug(4, $query);
         $dat = $db->query($query)->fetchAll();
         
         ?>
         <div class='search-input-div'>
-      <input style='display: <?php echo $visible ?>;' id='search-input' class="search-input" type='text' placeholder="Buscar..." onkeyup="searchInput()">
+      <input id='search-input' class="search-input" type='text' placeholder="Buscar..." onkeyup="searchInput()">
     </div>
 <div role="table" aria-label="Clients Table" aria-describedby="QuanticaLabs">
     <input id="wrap-text" name="#" type="checkbox">
-        <div style='display: <?php echo $visible ?>; visibility: hidden;' class="table-desc">
+        <div class="table-desc">
            <span></span>
-            <div class="filter-panel">
-                <label for="filter-column">Filtros</label>
-                <a href="#_" class="add-content" data-bs-toggle="modal" data-bs-target="#modal_contact">Agregar</a>                
-                
-                <ul>
-                    <li><label for="col-1">ID</label></li>
-                    <li><label for="col-2">Nombre</label></li>
-                    <li><label for="col-3">Pasaporte</label></li>
-                    <li><label for="col-4">Telefono</label></li>
-                    <li><label for="col-5">eMail</label></li>
-                    <li><label for="col-6">Pais</label></li>
-                    <li><label for="col-7">Fecha</label></li>
-                    <li><label for="col-8">Empresa</label></li>
-                    <li><label for="col-9">Datos</label></li>
-                </ul>			
-            </div>
         </div>
+			  
 	<!--TABLE HEADER-->
         <div role="row-group">
             <div role="row">
                 <span role="column-header" style='text-align: center;'>ID</span>
-                <span role="column-header" >Cliente</span>
-                <span role="column-header">Cantidad</span>
+                <span role="column-header">Cliente</span>
+                <span role="column-header">Cantidad de Personas</span>
                 <span role="column-header">Tipo</span>
                 <span role="column-header">Info</span>
                 <span role="column-header">Entrada</span>
@@ -87,8 +70,25 @@
                 <span role="column-header">Voucher</span>
             </div>
         </div>
+        <div role="row-group" id='row-group'>
+	    </div>
+</div>
 
-<div role="row-group" id='row-group2'>
+        <table class="table table-sm table-light table-striped table-hover table-bordered caption-top table-responsive">
+        <caption>Listado de reservas</caption>
+        <thead class='reservHead'>
+            <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Cliente</th>
+            <th scope="col">Cantidad de Personas</th>
+            <th scope="col">Tipo</th>
+            <th scope="col">Info</th>
+            <th scope="col">Entrada</th>
+            <th scope="col">Salida</th>
+            <th class='text-end' scope="col">Voucher</th>
+            </tr>
+        </thead>
+        <tbody>
         <?php
         
         if ( $dat )
@@ -101,32 +101,31 @@
 
                 $date = DateTime::createFromFormat("Y-m-d", $d['in_date']);
                 $vID = $date->format("Y") . str_pad( $d['id'], 3, '0', STR_PAD_LEFT);
-
-                $output = ("\n<div class=\"mainRow\" role=\"row\">\n" .
-                "<span role=\"cell\" data-toggle=\"Id\" data-placement=\"top\" role=\"cell\" data-header=\"ID\" style='text-align: center;'>{$vID}</span>\n" .
-                "<span role=\"cell\" data-header=\"Cliente\" >{$d['main_client_name']}</span>\n" .
-                "<span role=\"cell\" data-header=\"Cantidad\" style=\"text-align: center;\"><span>" . $d['additional_clients']+1 . "</span></span>\n" . 
-                "<span role=\"cell\" data-header=\"Tipo\">{$d['type']}</span>\n" .
-                "<span role=\"cell\" data-header=\"Info\"><span href='#' class='button' title='{$d['data']}'>{$data_first_line}</span></span>\n" .
-                "<span role=\"cell\" data-header=\"Entrada\">{$d['in_date']}</span>\n" .
-                "<span role=\"cell\" data-header=\"Salida\">{$d['out_date']}</span>\n" .
-                "<span role=\"cell\" data-header=\"Voucher\" style=\"text-align: center; \">
-                <button onClick='delRes({$d['id']}, {$d['main_client']}, {$rebound})' type='button' title='Borrar' class='btn btn-danger btn-sm'><i class=\"fa fa-ban\"></i></button>\n" .
-                "<button onClick='voucher({$d['id']});' type='button' title='Imprimir' class='btn btn-primary btn-sm'><i class=\"fa fa-print\"></i></button></span>\n" . 
-                "</div>");
-
-                echo $output;
+            ?>
+                <tr>
+                <th scope="row"><?php echo $vID?></th>
+                <td id='clientRow'><?php echo $d['main_client_name'] ?></td>
+                <td id='addclientRow'> <b><?php echo $d['additional_clients']+1 ?></b> (total) </td>
+                <td><?php echo $d['type']?></td>
+                <td><a href="#" class='button' title="<?php echo $d['data']?>"><?php echo $data_first_line?></a></td>
+                <td><?php echo $d['in_date']?></td>
+                <td><?php echo $d['out_date']?></td>
+                <td class='text-end'>
+                <button onClick='delRes(<?php echo $d['id']?>, <?php echo $d['main_client']?>, <?php echo $rebound ?>)' type="button" class="btn btn-danger btn-sm">Eliminar</button>
+                <button onClick='voucher(<?php echo $d['id']?>);' type="button" class="btn btn-primary btn-sm">Imprimir</button></td>
+                </tr>
+                </tbody>
+            <?php
             }
         }
     ?>
-    </div></div>
-    <br>
+    </table>
     <div class='text-end'>
     <?php if ( @isset($_GET['client']) ) { ?>
     <button type="button" class="btn btn-success btn-sm" onclick="showAddReserv(<?php echo $_GET['client'] ?>, '<?php echo $client_name['full_name'] ?>');" data-bs-target="#addReservation" data-bs-toggle="modal" data-bs-dismiss="modal">Agregar</button>
     <?php } ?>
     <button type="button" class="btn btn-primary btn-sm">Imprimir todos</button>
-    </div></div>
+    </div>
     <?php
 }
 
@@ -135,7 +134,6 @@
         
         $accounts = $db->query("DELETE FROM main_vouchers WHERE `id` = {$_GET['id']}");
 
-        debug(4, $query);
         return true;
     }
 

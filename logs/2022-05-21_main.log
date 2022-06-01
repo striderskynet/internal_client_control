@@ -1,0 +1,2 @@
+2022-05-21 19:01:27	| Data	|	INSERT INTO `main_vouchers` (`main_client`, `additional_clients`, `type`, `data`, `in_date`, `out_date`, `observations`, `service_partner`, `confirmation_number`) VALUES
+        ('9', '5', 'Hotel / House', 'asdasd', '2022-04-20', '2022-04-27', 'asda', 'asdasd', '123123');
