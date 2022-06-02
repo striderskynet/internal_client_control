@@ -23,7 +23,7 @@
 
 </head>
 <body>
-  
+
 <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light shadow-box">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><i class="fa fa-plane text-primary fa-2x" aria-hidden="true"></i></a>
@@ -44,23 +44,23 @@
       </ul>
     </div>
           <form class="d-flex" name='main_search'>
-              <input class="form-control" type="search" placeholder="Buscar" name="main_search" id="main_search" aria-label="Search" />
-              <button type="button" class="btn btn-primary"><i class="fas fa-search"></i></button>
+              <input class="form-control no-right-round" type="search" placeholder="Buscar" name="main_search" id="main_search" aria-label="Search" />
+              <button type="button" class="btn btn-primary no-left-round"><i class="fas fa-search"></i></button>
           </form>
           <div class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle hidden-arrow" href="#" id="userDropDown" role="button" data-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown hidden-arrow" href="#" id="userDropDown" role="button" data-toggle="dropdown" aria-expanded="false">
             <i class="fas fa-user-circle fa-2x"></i></a>
 
             <ul class="dropdown-menu left-100" aria-labelledby="navbarDropdownMenuAvatar">
                 <li><a class="dropdown-item" href="#"><?php echo @ucfirst($_SESSION['USERID']) ?></a></li>
                 <li><a class="dropdown-item" href="#" >Ajustes &raquo;</a>
-                <ul class="dropdown-menu dropdown-submenu dropleft">
-                    <li><a class="dropdown-item" href="#"><input class="form-check-input" type="checkbox" value="" id="small_table_value" />
+                <ul class="dropdown-menu dropdown-submenu dropdown-submenu-left">
+                    <li><a class="dropdown-item" href="#"><input class="form-check-input" type="checkbox" value="" name='small_table_value' id="small_table_value" />
                     <label class="form-check-label" for="small_table_value">Small table</label></a></li>
                 </ul>
                 </li>
                 <li><hr class="dropdown-divider" /></li>
-                <li><a id='logout_button' class="dropdown-item" href="#">Salir <i style='float:right;' class="fas fa-sign-out-alt"></i></a></li>
+                <li><a id='logout_button' class="dropdown-item" href="#"><i style='float:right; margin-top: 5px;' class="fas fa-sign-out-alt"></i>Salir </a></li>
             </ul>
           </div>
   </div>
@@ -74,4 +74,3 @@
     </nav>
     <!-- Breadcrumb -->
 </div>
-

@@ -19,39 +19,6 @@ $("#button_voucher_add").click(function(){
 $('#main_search').prop("disabled", true);
 $('#main_search').prop("title", "Deshabilitada la busqueda hasta nueva version");
 
-
-$("#add_voucher_form").submit(function(e) {
-
-    e.preventDefault();
-
-    // Getting the form and the validator data
-    var form = $(this);
-   
-    // Execute only of validator is passed
-        var form_data = new FormData(form[0]);
-        
-    // Execute the Database Query
-        $.ajax({
-            url: './api/?vouchers&add',
-            type: 'post',
-            data: form_data,
-            contentType: false,
-            processData: false,
-            success: function(msg){
-           
-                add_voucher_modal.hide();
-                show_alert( "success", "Se ha agregado correctamente la reserva" );
-                
-                $("#add_voucher_form")[0].reset();
-                // Reload the main table data
-                $.get( "./api/?vouchers&list", function( data ) {
-                    populate_data(JSON.parse(data),1 , voucher_main_table, voucher_default_row, "voucher"); 
-                });
-        }
-    });
-    
-});
-
 // Execute when "DEL Voucher" button is pressed
 function button_voucher_del(button){
     //$("#button_user_del").click(function(){

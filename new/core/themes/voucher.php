@@ -17,7 +17,7 @@
     var clients_data_api = null;
 </script>
 <!-- Voucher Table Wrapper -->
-    <main class="main_wrapper mx-auto m-5 flex-shrink-0">
+    <main class="main_wrapper mx-auto flex-shrink-0">
         <div class="form-check left-absolute">
         
         </div>
@@ -26,7 +26,7 @@
         </div>
         
         
-        <table id='voucher_table' class="table table-striped table-hover align-middle mb-0 bg-white rounded-top">
+        <table id='main-table' class="table table-striped table-hover align-middle mb-0 bg-white rounded-top">
             <thead class="table-dark">
             <tr>
                 <th>A nombre de</th>
@@ -46,7 +46,7 @@
                         <div class="d-flex align-items-center">
                         {profile_picture}</i>
                             <div class="ml-3">
-                            <p class="fw-bold mb-1">{name} {lastname}</p>
+                            <p class="fw-bold mb-1"><strong>{prefix}</strong> {name} {lastname}</p>
                             </div>
                         </div>
                     </td>

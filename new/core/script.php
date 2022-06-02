@@ -20,7 +20,7 @@
                 break;
         }
 
-        if ( _DEBUG ){
+        if ( !_DEBUG ){
         
             require_once ("./minifier.php");
             $script = \JShrink\Minifier::minify($script);

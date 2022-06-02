@@ -4,20 +4,14 @@ var main_table = $("#main-table-body");
 
 $.get( "./api/?clients&list", function( data ) {
     //console.log(data);
-    populate_data(JSON.parse(data),1 , main_table, main_table_row); 
+    populate_data(JSON.parse(data),offset , main_table, main_table_row); 
 });
 
 // Execute every time there is a click in a pagination element
 $("a[id^='pag_offset']").click(function(){
 });
 
-// Reading sccs_visual_size Cookie and executing code for table size formatting
-let size = getCookie('sccs_visual_size');
-    if (  size == "small" )
-    {
-        $("#small_table_value").prop('checked', true);
-        $("#clients_table").addClass("table-sm");
-    }
+
 
 // Execute every time there is a search in the search bar
 $('#main_search').on("input propertychange", function () { 
@@ -181,25 +175,7 @@ function button_user_del(button){
         }, 200);
     };
 
-
-$("#small_table_value").click(function(){
-    if ( this.checked == true )
-    {
-        $("#clients_table").addClass("table-sm");
-        setCookie('sccs_visual_size', 'small', 7)
-    }
-    else
-    {
-        $("#clients_table").removeClass("table-sm");
-        setCookie('sccs_visual_size', 'normal', 7)
-    }
-
-    console.dir("Cambiando la vista de la tabla principal");
-    //$("#clients_table").classList.add("table-sm");
-    // show_alert('success', "Agregar reserva a usuario: " + this.dataset.userId, 5);
-    //  console.log(document.cookie);
-});
-    
+   
 function button_voucher_add(button){
 
     clientModalShow = false;
@@ -226,6 +202,70 @@ $("#button_client_add").click(function(){
     
 
     //show_alert('success', 'Nuevo cliente agregado', 5);
+});
+
+$("#button_generate_client").click(function(){
+    let name_list, lastname_list, country_list = ""; 
+    const info = [];
+    const prefix = ['Sr.', 'Sra.', 'Dr.', 'Msc'];
+    const traveling = ['Traveling', 'Arriving', 'Arrived', 'Overseas', 'Unknown'];
+    const email = ['gmail.com', 'apple.com', 'yahoo.com', 'outlook.com', 'aol.com'];
+    const company = ['Google', 'Apple', 'Facebook', 'Yahoo', 'Samsung', 'Microsoft'];
+
+   
+    jQuery.ajax({
+        //url: 'https://raw.githubusercontent.com/dominictarr/random-name/master/first-names.txt',
+        url: './debug/first-names.txt',
+        success: function (data) {
+            name_list = data.split("\r\n");
+            info['name'] = name_list[Math.floor( (Math.random() * name_list.length) + 1 )];
+        },
+        async: false
+    });
+
+    jQuery.ajax({
+        //url: 'https://gist.githubusercontent.com/craigh411/19a4479b289ae6c3f6edb95152214efc/raw/d25a1afd3de42f10abdea7740ed098d41de3c330/List%2520of%2520the%25201,000%2520Most%2520Common%2520Last%2520Names%2520(USA)',
+        url: './debug/last-names.txt',
+        success: function (data) {
+            lastname_list = data.split(",");
+            info['lastname'] = lastname_list[Math.floor( (Math.random() * lastname_list.length) + 1 )].trim();
+        },
+        async: false
+    });
+
+    info['passport'] = Math.floor(Math.random() * 100000000000);
+    info['phone'] = "+" + (Math.floor(Math.random() * 100) + 1) + " " + (Math.floor(Math.random() * 10) + 1) + " (" + Math.floor(Math.random() * 1000) + ") " + Math.floor(Math.random() * 10000);
+    info['country'] = Object.keys(C.countries)[ Math.floor(Math.random() * Object.keys(C.countries).length) ];
+    info['prefix'] = prefix[Math.floor(Math.random() * (prefix.length - 1 + 1))];
+    info['traveling'] = traveling[Math.floor(Math.random() * (traveling.length - 1 + 1))];
+    info['email'] = info['name'].substr(0, 4).toLowerCase() + "_" + info['lastname'].toLowerCase() + "@" + email[Math.floor(Math.random() * (email.length - 1 + 1))];
+    info['company'] = company[Math.floor(Math.random() * (company.length - 1 + 1))];
+
+
+    $.ajax({
+        method: "POST",
+        url: "./api/?clients&add",
+        // Passing all the variables
+        data: { 
+            name: info['name'],
+            lastname: info['lastname'],
+            prefix: info['prefix'],
+            passport: info['passport'],
+            phone:  info['phone'],
+            email: info['email'],
+            country: info['country'],
+            company: info['company'],
+            status: info['traveling'],
+            observations: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            last_touch: "ahora" 
+        }
+    })
+
+    show_alert('primary', 'Generando cliente nuevo aleatorio', 5);
+    
+    $.get( "./api/?clients&list", function( data ) {
+        populate_data(JSON.parse(data),1 , main_table, main_table_row); 
+    });
 });
 
     

@@ -10,6 +10,8 @@ var clientModalBody = document.getElementById('clientModalBody');
 
 var default_clientModalBody = null;
 var comp = 1;
+var offset = 1;
+/*setCookie('sccs_visual_size', 'normal', 7)*/
 
 // Configuration definitions
 function setCookie(cname, cvalue, exdays) {
@@ -58,6 +60,56 @@ function set_position(login=false)
         document.getElementById('nav_link_' + position['var']).classList.add('active');
     }
 }
+
+$("#add_voucher_form").submit(function(e) {
+
+    e.preventDefault();
+
+    // Getting the form and the validator data
+    var form = $(this);
+   
+    // Execute only of validator is passed
+        var form_data = new FormData(form[0]);
+        
+    // Execute the Database Query
+        $.ajax({
+            url: './api/?vouchers&add',
+            type: 'POST',
+            data: form_data,
+            contentType: false,
+            processData: false,
+            success: function(msg){
+           
+                add_voucher_modal.hide();
+                show_alert( "success", "Se ha agregado correctamente la reserva" );
+                
+                $("#add_voucher_form")[0].reset();
+                // Reload the main table data
+                $.get( "./api/?vouchers&list", function( data ) {
+                    populate_data(JSON.parse(data),1 , voucher_main_table, voucher_default_row, "voucher"); 
+                });
+        }
+    });
+    
+});
+
+$("#small_table_value").click(function(){
+    if ( this.checked == true )
+    {
+        $("#main-table").addClass("table-sm");
+        setCookie('sccs_visual_size', 'small', 7)
+    }
+    else
+    {
+        $("#main-table").removeClass("table-sm");
+        setCookie('sccs_visual_size', 'normal', 7)
+    }
+
+    console.dir("Cambiando la vista de la tabla principal");
+    
+    // show_alert('success', "Agregar reserva a usuario: " + this.dataset.userId, 5);
+    //  console.log(document.cookie);
+});
 
 function show_alert(type, message, timer = 10)
 {
@@ -109,7 +161,7 @@ function tokenize(rep_array, value)
 }
 
 function populate_data(clients_data, offset = 1, m_table, m_table_row, type='client'){
-console.log("Populating database");
+    console.log("Populating database");
 
   m_table[0].innerHTML = "";
 
@@ -137,6 +189,7 @@ console.log("Populating database");
                 break;
               
               case "voucher":
+                  clients_data[key].profile_picture = "<a class=\"text-dark\" onclick=\"show_client_modal(" + clients_data[key].id + ")\" href='#'>" + clients_data[key].profile_picture + "</a>";
                   clients_data[key].additional_clients = show_companions(clients_data[key].companions);
                 break;
           }
@@ -232,7 +285,13 @@ function generate_pagination(total_pages, offset)
     // Creating pagination "BACK" element
     let pag_nav_back = document.createElement("li");
     pag_nav_back.classList.add("page-item");
-    pag_nav_back.innerHTML = "<a class='page-link'>Atras</a>";
+
+    let pag_nav_back_link = document.createElement("a");
+    pag_nav_back_link.classList.add("page-link");
+    pag_nav_back_link.innerHTML = "Atras";
+
+    
+    pag_nav_back.append(pag_nav_back_link);
     
     // Populating the pagination
     if (offset > 1)
@@ -240,7 +299,13 @@ function generate_pagination(total_pages, offset)
 
     let pag_nav_foward = document.createElement("li");
     pag_nav_foward.classList.add("page-item");
-    pag_nav_foward.innerHTML = "<a class='page-link'>Siguiente</a>";
+
+    let pag_nav_foward_link = document.createElement("a");
+    pag_nav_foward_link.classList.add("page-link");
+    pag_nav_foward_link.innerHTML = "Siguiente";
+
+    
+    pag_nav_foward.append(pag_nav_foward_link);
 
     if (offset != total_pages)
         pag_nav_foward.setAttribute('onclick', "pag_offset(" + (offset + 1 )+ ")");
@@ -250,6 +315,8 @@ function generate_pagination(total_pages, offset)
    for ( q = 1; q <= total_pages; q++ )
    {
         let pag_nav_q = document.createElement("li");
+        let pag_nav_q_link = document.createElement("a");
+
         pag_nav_q.classList.add("page-item");
 
         if ( q == offset)
@@ -257,9 +324,28 @@ function generate_pagination(total_pages, offset)
         else
             pag_nav_q.setAttribute('onclick', "pag_offset(" + q + ")");
 
-        pag_nav_q.innerHTML = "<a id='pag_offset' class='page-link'>" + q + "</a>";
+        pag_nav_q_link.id = "pag_offset";
+        pag_nav_q_link.classList.add("page-link");
+        pag_nav_q_link.innerHTML =  q;
 
-        pag_nav.append(pag_nav_q);
+        pag_nav_q.append(pag_nav_q_link);
+
+        if ( (q === 1 || q === total_pages) && q !== offset){
+           
+            if ( offset > 3 && q === 1 ){
+                pag_nav_q_link.innerHTML =  "Primera...";
+                pag_nav_q_link.title =  "Ir a la primera pagina";
+                pag_nav_q_link.classList.add("btn-white", "text-primary");
+            } else if ( offset < total_pages - 3 && q === total_pages ) {
+                pag_nav_q_link.innerHTML =  "...Ultima";
+                pag_nav_q_link.title =  "Ir a la ultima pagina";
+                pag_nav_q_link.classList.add("btn-white", "text-primary");
+            }
+            
+        }   
+
+        if ( q === 1 || q >= (offset - 2) && q <= (offset + 2) || q === total_pages )
+         pag_nav.append(pag_nav_q);
    }
 
    pag_nav.append(pag_nav_foward);
@@ -458,6 +544,15 @@ function reload_autocomplete(){
 $(document).ready(function() { 
    
     reload_autocomplete();
+
+    // Reading sccs_visual_size Cookie and executing code for table size formatting
+    let size = getCookie('sccs_visual_size');
+    if (  size == "small" )
+    {
+        $("#small_table_value").prop('checked', true);
+        $("#main-table").addClass("table-sm");
+
+    }
 
 });
 

@@ -14,13 +14,15 @@
 
     var clients_data_api = null;
 </script>
-
 <!-- Main Table Wrapper -->
-    <main class="main_wrapper mx-auto m-5 flex-shrink-0">
+    <main class="main_wrapper mx-auto flex-shrink-0">
         <div class="form-check left-absolute">
         
         </div>
         <div class='d-flex justify-content-end'>
+            <?php if ( _DEBUG ) { ?>
+            <button id="button_generate_client" type="button" class="btn btn-primary m-2"><i class="fas fa-plus"></i> Generar Cliente</button>
+            <?php } ?>
             <button id="button_client_add" type="button" class="btn btn-success m-2"><i class="fas fa-plus"></i> Agregar</button>
         </div>
         
@@ -43,9 +45,9 @@
                     <div class="d-flex align-items-center">
                     {profile_picture}</i>
                         <div class="ml-3">
-                            <p class="fw-bold mb-1">{full_name}</p>
-                            <p class="fw-bolder mb-0"><a class='text-info' href='mailto:{email}'>{email}</a></p>
-                            <p class="fw-bolder mb-0"><a class='text-info' href='tel:{phone}'>{phone}</a></p>
+                            <p class="fw-bold mb-1"><strong>{prefix}</strong> {name} {lastname}</p>
+                            <p class="fw-bolder ml-3 mb-0"><a class='text-info' href='mailto:{email}'>{email}</a></p>
+                            <p class="fw-bolder ml-3 mb-0"><a class='text-info' href='tel:{phone}'>{phone}</a></p>
                         </div>
                     </div>
                     </td>
@@ -72,3 +74,4 @@
             </ul>
         </nav>
     </main>
+    <br><br>

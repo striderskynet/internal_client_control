@@ -59,8 +59,6 @@ thead tr th:hover{
     cursor: pointer;
 }
 
-
-
 .left-absolute
 {
     padding-top: 25px;
@@ -73,15 +71,15 @@ thead tr th:hover{
     position: relative;
 }
 
-.dropdown-menu .dropdown-submenu {
-    display: none;
-    position: absolute;
-    left: 100%;
-    top: 0px;
-}
 .dropdown-menu .dropdown-submenu-left {
     right: 100%;
     left: auto;
+    top: 0px;
+    cursor: pointer;
+}
+
+.dropdown-menu .dropdown-submenu-left label{
+    cursor: pointer;
 }
 
 .dropdown-menu > li:hover > .dropdown-submenu {
@@ -103,12 +101,28 @@ main > .container {
     background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
 }
 
-.modal-dialog {
-    max-width: 60% !important; 
+.no-right-round{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+
 }
 
-.hide
-{
+.modal-dialog{
+    border-radius: 15px; 
+    overflow:hidden;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.shadow-5-strong{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.no-left-round{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.hide{
     display: none;
 }
 
@@ -215,4 +229,18 @@ main > .container {
 .auto-element:hover{
     cursor: pointer;
     background: #fff;
+}
+
+.table-striped tbody tr{
+    background: #fafafa;
+    border: 1px solid #eee;
+}
+
+.table-sm tbody td{
+    padding: 0px;
+    font-size: 13px;
+}
+
+.table-sm tbody td .fas{
+    margin-left: 10px;
 }

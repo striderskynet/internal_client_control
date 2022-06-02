@@ -1,5 +1,8 @@
-var login_modal = new bootstrap.Modal(document.getElementById('login-modal'));
-login_modal.show();
+//var login_modal = new bootstrap.Modal(document.getElementById('login-modal'));
+$('#login-modal').modal({
+    backdrop: 'static'
+});
+$('#login-modal').show();
 
 $("#login-form").submit(function(e) {
     e.preventDefault();

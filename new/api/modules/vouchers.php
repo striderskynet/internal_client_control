@@ -231,14 +231,14 @@
         ('{$_POST['avf_client_id']}', '{$_POST['avf_type']}', '{$_POST['avf_data']}', '{$_POST['avf_inDate']}', '{$_POST['avf_outDate']}', '{$_POST['avf_details']}', '{$_POST['avf_servicePartner']}');";
 
         debug(4, $query);
+        $db->query($query);
 
         foreach ($_POST['avf_companion_id'] as $comp){
             $query_comp = "INSERT INTO voucher_client_array SELECT id AS `voucher_id`, {$comp} FROM `main_vouchers` ORDER BY `id` DESC LIMIT 1;";
             $db->query($query_comp);
         }
         
-        if ( $db->query($query) ) return true;
-        else return false;
+        return true;
     }
         
 ?>
