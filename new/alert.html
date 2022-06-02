@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+    .main-alert{
+        text-align: right;
+    }
+    .alert-message{
+        border: 1px solid darkred;
+        background: lightcoral;
+        color: white;
+        text-transform: capitalize;
+        margin: 10px;
+        padding: 10px;
+        width:fit-content;
+        margin-left: auto;
+        border-radius: 10px;
+    }
+    .alert-message span{
+        padding: 3px;
+        margin-left: 10px;
+        cursor: pointer;
+        background: rgb(241, 85, 85);
+        color: #fff;
+        border-radius: 5px;
+    }
+</style>
+</head>
+<body>
+    <a href="#" onclick="alert_show('probando alerta')"">Alerta</a>
+</body>
+<script>
+    var q = 0;
+
+    function alert_show(alert_text){
+        if ( !isNaN(document.getElementById("main-alert"))) {
+            var elem_cont = document.createElement("div");
+            elem_cont.id = "main-alert";
+            elem_cont.classList.add("main-alert");
+            document.body.append(elem_cont);
+        } else {
+            var elem_cont = document.getElementById("main-alert");
+        }
+        
+
+        var elem = document.createElement("div");
+        elem.classList.add("alert-message");
+        elem.id = 'alert-' + q
+        elem.innerHTML = alert_text + " ID: " + q;
+       
+
+        var close = document.createElement("span");
+        close.innerHTML = "X";
+        close.setAttribute('onclick', "close_alert(\"" + q + "\")");
+        elem.append(close);
+
+        elem_cont.append(elem);
+        q++;
+    }
+
+    function close_alert(alert_id){
+        var element = document.getElementById('alert-' + alert_id);
+	    element.parentNode.removeChild(element);
+    }
+</script>
+</html>

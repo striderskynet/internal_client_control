@@ -170,5 +170,3 @@
           move_uploaded_file( $_FILES['file']['tmp_name'] , '../uploaded/'.  $file_name . ".jpg" );
           
     }
-        
-?>

@@ -21,4 +21,24 @@
     {
         die ("<header><script>window.location = '/" . $address . "';</script>");
     }
+
+    // Voucher function
+    function tokenize($rep_array, $value){
+
+        foreach (array_keys($rep_array) as $k){
+            $value = @str_replace("{" . $k . "}", $rep_array[$k], $value);
+        }
+        return $value;
+    }
+
+    // Voucher function
+    function show_companions($companions){
+        $ret = "";
+
+        foreach ($companions as $c){
+            $ret .= "<span class=\"info-secondary\">" . $c->name . " (" . $c->passport . ")</span>\n";
+        }
+            
+        return $ret;
+    }
 ?>

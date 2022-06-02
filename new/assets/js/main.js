@@ -119,6 +119,7 @@ function show_alert(type, message, timer = 10)
         type: type,
         width: "auto",
         offset: {from: 'top', amount: 80},
+        align: "right",
         delay: timer * 1000
     });
 
@@ -189,6 +190,7 @@ function populate_data(clients_data, offset = 1, m_table, m_table_row, type='cli
                 break;
               
               case "voucher":
+                  clients_data[key].data = nl2br(clients_data[key].data, false);
                   clients_data[key].profile_picture = "<a class=\"text-dark\" onclick=\"show_client_modal(" + clients_data[key].id + ")\" href='#'>" + clients_data[key].profile_picture + "</a>";
                   clients_data[key].additional_clients = show_companions(clients_data[key].companions);
                 break;
@@ -235,6 +237,19 @@ function show_client_modal(id){
     }    
 
 }
+
+function nl2br (str, is_xhtml) {
+    if (typeof str === 'undefined' || str === null) {
+        return '';
+    }
+    var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br />' : '<br>';
+    $res = (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1' + breakTag + '$2');
+
+    if ( $res.length > 30) $res = $res.substring(0, 30) + "...";
+
+    return $res;
+}
+
 
 function show_companions(companions){
     var ret = "";

@@ -161,6 +161,12 @@
                                     <textarea class="form-control" placeholder="Informacion" name="avf_details" id="avf_information" style="height: 100px; resize:both;"></textarea>
                                 </div>
                         </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa fa-hashtag"></i></span>
+                                <input type="text" name="avf_confirmationNumber" class="form-control" placeholder="Numero de Confirmacion">
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">CANCELAR</button>

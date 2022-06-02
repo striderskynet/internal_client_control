@@ -22,15 +22,30 @@
     {
         global $db;
 
-        $query = 'SELECT * FROM `main_vouchers` WHERE `id` = ' . $_GET['id'] . ' LIMIT 1';
-
-       // debug(4, $query);
-        $voucher = $db->query($query)->fetchArray();
+        $query = 'SELECT *, `main_vouchers`.`id` as voucher_id FROM main_vouchers, main_clients WHERE `main_vouchers`.`id` = ' . $_GET['id'] . ' AND main_clients.`id` = main_vouchers.`main_client` ORDER BY main_vouchers.`id` DESC;';
+      
+        debug(4, $query);
+        $data = $db->query($query)->fetchArray();
         
-        $client_name = $db->query('SELECT concat(prefix, " ", NAME, " ",  lastname) AS full_name FROM main_clients WHERE id = ?', $voucher['main_client'])->fetchArray();
-        $voucher["full_name"] = $client_name['full_name'];
+        $query_companions = "SELECT client_id FROM `voucher_client_array` WHERE `voucher_id` = {$data['voucher_id']}";
+        $comp = $db->query($query_companions); 
+        $comp =  $comp->fetchAll();
 
-        return json_encode($voucher) ;
+        $q = 0;
+            foreach ( $comp as $c ){
+                $query_comp = "SELECT `id`, `passport`, `name`, `lastname`, concat(prefix, ' ', name, ' ',  lastname) AS full_name FROM `main_clients` WHERE `id` = {$c['client_id']}";
+
+                $co = $db->query($query_comp); 
+                $co =  $co->fetchAll();
+
+                $data['companions'][$q]['id'] = $co[0]['id'];
+                $data['companions'][$q]['name'] = $co[0]['full_name'];
+                $data['companions'][$q]['passport'] = $co[0]['passport'];
+                //$data['companions'][$q]['profile_picture'] = profile_picture ($co[0]['passport'], $co[0]['name'], $co[0]['lastname'], true);
+                $q++;
+            }
+
+        return json_encode($data) ;
     }
 
     function voucher_list(){
@@ -227,8 +242,8 @@
         
         //return json_encode($_POST);
         
-        $query = "INSERT INTO `main_vouchers` (`main_client`, `type`, `data`, `in_date`, `out_date`, `information`, `service_partner`) VALUES
-        ('{$_POST['avf_client_id']}', '{$_POST['avf_type']}', '{$_POST['avf_data']}', '{$_POST['avf_inDate']}', '{$_POST['avf_outDate']}', '{$_POST['avf_details']}', '{$_POST['avf_servicePartner']}');";
+        $query = "INSERT INTO `main_vouchers` (`main_client`, `type`, `data`, `in_date`, `out_date`, `information`, `service_partner`, `confirmation_number`) VALUES
+        ('{$_POST['avf_client_id']}', '{$_POST['avf_type']}', '{$_POST['avf_data']}', '{$_POST['avf_inDate']}', '{$_POST['avf_outDate']}', '{$_POST['avf_details']}', '{$_POST['avf_servicePartner']}', '{$_POST['avf_confirmationNumber']}');";
 
         debug(4, $query);
         $db->query($query);
@@ -240,6 +255,3 @@
         
         return true;
     }
-        
-?>
-
