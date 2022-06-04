@@ -12,7 +12,7 @@ $("#login-form").submit(function(e) {
     var log_user = form_login[0].username_login.value;
     var log_pass = form_login[0].password_login.value;
 
-    console.log("Login as \"" + log_user +"\" Pass: \"" + log_pass +"\"")
+    console.log(`Login as "${log_user}" Pass: "${log_pass}"`);
 
     $.ajax({
         method: "POST",
@@ -24,12 +24,9 @@ $("#login-form").submit(function(e) {
         }
     }).done(function( msg ) {
 
-        console.log(msg);
         if ( msg.length > 3)
         {
             msg_res = JSON.parse(msg);
-
-            console.dir(log_user);
 
             $.ajax({
                 method: "POST",
@@ -43,9 +40,7 @@ $("#login-form").submit(function(e) {
                 });
 
 
-               document.location = "./";
-
-            //show_alert("success", "Se ha logueado correctamente");
+            document.location = "./";
         } else {
             show_alert("danger", "Usuario o Contrasena incorrecto");
         }

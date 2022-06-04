@@ -1,6 +1,6 @@
 <?php
     define("_LOCAL", $_SERVER['DOCUMENT_ROOT'] . "/new/");
-    define("_DEBUG", true);
+    define("_DEBUG", false);
 
 
     $config['title'] = "Endirecto";

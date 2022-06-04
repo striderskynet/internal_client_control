@@ -5,7 +5,7 @@
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <title>Endirecto</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link href="./assets/css/all.min.css" rel="stylesheet"/>
+  <link href="./assets/css/font.awesome.min.css" rel="stylesheet"/>
   <link href="./assets/css/font.google.css" rel="stylesheet"/>
   
   <!-- Material Design Bootstrap -->
@@ -16,8 +16,8 @@
   <link href="./assets/css/flags.css" rel="stylesheet" />
 
   <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-	<script src="//stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./assets/js/popper.min.js"></script>
+	<script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="./assets/js/bootstrap-autocomplete.js"></script>
   <script type="text/javascript" src="./assets/js/jquery.bootstrap-growl.js"></script>
 

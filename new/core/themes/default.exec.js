@@ -20,7 +20,7 @@ $('#main_search').on("input propertychange", function () {
     if (this.value.length >= 3 )
     {
         let search_value = this.value;
-        console.log ( "Searching for '" + search_value + "'");
+        console.log ( `Searching for '${search_value}'`);
 
         $data = "";
         // Executing API request for clients and especific search value
@@ -59,7 +59,6 @@ $("#upload_client_file").on('change', function () {
     $("#upload_client_image")[0].src = URL.createObjectURL(this.files[0]);
     $("#upload_client_image").removeClass("hide");
    
-    //console.dir(this.files[0]);
 });
 
 // Populate the Add Client Form countries select with C
@@ -75,20 +74,6 @@ function populate_countries_select()
 
     });
 }
-/*
-// Some validation custom messages in spanish
-$("#add_client_form").validate({
-    messages: {
-        acf_contact_name: "<span class='valid-error'>Escribe el nombre</span>",
-        acf_contact_lastname: "<span class='valid-error'>Escribe el apellido</span>",
-        acf_contact_email: {
-        required: "<span class='valid-error'>Escribe el correo del contacto</span>",
-        email: "<span class='valid-error'>Tu correo debe ser con formato: name@domain.com</span>"
-      }
-    }
-  });
-*/
-
 
 // Add new client button 
 $("#add_client_form").submit(function(e) {

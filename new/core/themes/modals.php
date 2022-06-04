@@ -38,7 +38,7 @@
                         <div class="form-group">
                             <div class="input-group">
                                         <label class="input-group-text"><i class="fas fa-phone"></i></label>
-                                        <input type="phone" id="acf_contact_phone" placeholder="Telefono" name="acf_contact_phone" class="form-control" />
+                                        <input type="tel" id="acf_contact_phone" placeholder="Telefono" name="acf_contact_phone" class="form-control" />
                                        
                                         <label class="input-group-text"><i class="fas fa-envelope"></i></label>
                                         <input type="email" id="acf_contact_email" placeholder="Email" name="acf_contact_email" class="form-control" required />
@@ -164,7 +164,7 @@
                         <div class="form-group">
                             <div class="input-group">
                                 <span class="input-group-text"><i class="fa fa-hashtag"></i></span>
-                                <input type="text" name="avf_confirmationNumber" class="form-control" placeholder="Numero de Confirmacion">
+                                <input type="text" name="avf_confirmationNumber" class="form-control" placeholder="Numero de Confirmacion" required>
                             </div>
                         </div>
                     </div>

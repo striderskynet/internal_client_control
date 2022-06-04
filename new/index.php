@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/new/" . "core/config.php");
+require_once("./core/config.php");
 
 //Building the website
 require_once(_LOCAL . "core/themes/header.php");
