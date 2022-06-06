@@ -1,5 +1,14 @@
+// COUNTRIES NAME VARIABLE //
 var C={locale:"en",countries:{AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AS:"American Samoa",AD:"Andorra",AO:"Angola",AI:"Anguilla",AQ:"Antarctica",AG:"Antigua and Barbuda",AR:"Argentina",AM:"Armenia",AW:"Aruba",AU:"Australia",AT:"Austria",AZ:"Azerbaijan",BS:"Bahamas",BH:"Bahrain",BD:"Bangladesh",BB:"Barbados",BY:"Belarus",BE:"Belgium",BZ:"Belize",BJ:"Benin",BM:"Bermuda",BT:"Bhutan",BO:"Bolivia",BA:"Bosnia and Herzegovina",BW:"Botswana",BV:"Bouvet Island",BR:"Brazil",IO:"British Indian Ocean Territory",BN:"Brunei Darussalam",BG:"Bulgaria",BF:"Burkina Faso",BI:"Burundi",KH:"Cambodia",CM:"Cameroon",CA:"Canada",CV:"Cape Verde",KY:"Cayman Islands",CF:"Central African Republic",TD:"Chad",CL:"Chile",CN:"China",CX:"Christmas Island",CC:"Cocos (Keeling) Islands",CO:"Colombia",KM:"Comoros",CG:"Congo",CD:"Congo, the Democratic Republic of the",CK:"Cook Islands",CR:"Costa Rica",CI:"Cote D'Ivoire",HR:"Croatia",CU:"Cuba",CY:"Cyprus",CZ:"Czech Republic",DK:"Denmark",DJ:"Djibouti",DM:"Dominica",DO:"Dominican Republic",EC:"Ecuador",EG:"Egypt",SV:"El Salvador",GQ:"Equatorial Guinea",ER:"Eritrea",EE:"Estonia",ET:"Ethiopia",FK:"Falkland Islands (Malvinas)",FO:"Faroe Islands",FJ:"Fiji",FI:"Finland",FR:"France",GF:"French Guiana",PF:"French Polynesia",TF:"French Southern Territories",GA:"Gabon",GM:"Gambia",GE:"Georgia",DE:"Germany",GH:"Ghana",GI:"Gibraltar",GR:"Greece",GL:"Greenland",GD:"Grenada",GP:"Guadeloupe",GU:"Guam",GT:"Guatemala",GN:"Guinea",GW:"Guinea-Bissau",GY:"Guyana",HT:"Haiti",HM:"Heard Island and Mcdonald Islands",VA:"Holy See (Vatican City State)",HN:"Honduras",HK:"Hong Kong",HU:"Hungary",IS:"Iceland",IN:"India",ID:"Indonesia",IR:"Iran, Islamic Republic of",IQ:"Iraq",IE:"Ireland",IL:"Israel",IT:"Italy",JM:"Jamaica",JP:"Japan",JO:"Jordan",KZ:"Kazakhstan",KE:"Kenya",KI:"Kiribati",KP:"North Korea",KR:"South Korea",KW:"Kuwait",KG:"Kyrgyzstan",LA:"Lao People's Democratic Republic",LV:"Latvia",LB:"Lebanon",LS:"Lesotho",LR:"Liberia",LY:"Libyan Arab Jamahiriya",LI:"Liechtenstein",LT:"Lithuania",LU:"Luxembourg",MO:"Macao",MK:"Macedonia, the Former Yugoslav Republic of",MG:"Madagascar",MW:"Malawi",MY:"Malaysia",MV:"Maldives",ML:"Mali",MT:"Malta",MH:"Marshall Islands",MQ:"Martinique",MR:"Mauritania",MU:"Mauritius",YT:"Mayotte",MX:"Mexico",FM:"Micronesia, Federated States of",MD:"Moldova, Republic of",MC:"Monaco",MN:"Mongolia",MS:"Montserrat",MA:"Morocco",MZ:"Mozambique",MM:"Myanmar",NA:"Namibia",NR:"Nauru",NP:"Nepal",NL:"Netherlands",NC:"New Caledonia",NZ:"New Zealand",NI:"Nicaragua",NE:"Niger",NG:"Nigeria",NU:"Niue",NF:"Norfolk Island",MP:"Northern Mariana Islands",NO:"Norway",OM:"Oman",PK:"Pakistan",PW:"Palau",PS:"Palestinian Territory, Occupied",PA:"Panama",PG:"Papua New Guinea",PY:"Paraguay",PE:"Peru",PH:"Philippines",PN:"Pitcairn",PL:"Poland",PT:"Portugal",PR:"Puerto Rico",QA:"Qatar",RE:"Reunion",RO:"Romania",RU:"Russian Federation",RW:"Rwanda",SH:"Saint Helena",KN:"Saint Kitts and Nevis",LC:"Saint Lucia",PM:"Saint Pierre and Miquelon",VC:"Saint Vincent and the Grenadines",WS:"Samoa",SM:"San Marino",ST:"Sao Tome and Principe",SA:"Saudi Arabia",SN:"Senegal",SC:"Seychelles",SL:"Sierra Leone",SG:"Singapore",SK:"Slovakia",SI:"Slovenia",SB:"Solomon Islands",SO:"Somalia",ZA:"South Africa",GS:"South Georgia and the South Sandwich Islands",ES:"Spain",LK:"Sri Lanka",SD:"Sudan",SR:"Suriname",SJ:"Svalbard and Jan Mayen",SZ:"Swaziland",SE:"Sweden",CH:"Switzerland",SY:"Syrian Arab Republic",TW:"Taiwan",TJ:"Tajikistan",TZ:"Tanzania, United Republic of",TH:"Thailand",TL:"Timor-Leste",TG:"Togo",TK:"Tokelau",TO:"Tonga",TT:"Trinidad and Tobago",TN:"Tunisia",TR:"Turkey",TM:"Turkmenistan",TC:"Turks and Caicos Islands",TV:"Tuvalu",UG:"Uganda",UA:"Ukraine",AE:"United Arab Emirates",GB:"United Kingdom",US:"United States of America",UM:"United States Minor Outlying Islands",UY:"Uruguay",UZ:"Uzbekistan",VU:"Vanuatu",VE:"Venezuela",VN:"Viet Nam",VG:"Virgin Islands, British",VI:"Virgin Islands, U.S.",WF:"Wallis and Futuna",EH:"Western Sahara",YE:"Yemen",ZM:"Zambia",ZW:"Zimbabwe",AX:"Åland Islands",BQ:"Bonaire, Sint Eustatius and Saba",CW:"Curaçao",GG:"Guernsey",IM:"Isle of Man",JE:"Jersey",ME:"Montenegro",BL:"Saint Barthélemy",MF:"Saint Martin (French part)",RS:"Serbia",SX:"Sint Maarten (Dutch part)",SS:"South Sudan",XK:"Kosovo"}}
+// CLIENTS STATUS VARIABLE //
+var C_status = [ ['Unknown', 'Desconocido', 'danger'],
+                 ['Arrived', 'en Cuba', 'success'],
+                 ['Overseas', 'en el Extranjero', 'warning'],
+                 ['Arriving', 'Llegando', 'primary'],
+                 ['Traveling', 'Viajando', 'info']
+               ];
 
+// SOME MODAL DEFINITIONS //
 var clientModalShow = true;
 var add_client_modal = new bootstrap.Modal(document.getElementById('add_client_modal'));
 var add_voucher_modal = new bootstrap.Modal(document.getElementById('add_voucher_modal'));
@@ -11,9 +20,9 @@ var clientModalBody = document.getElementById('clientModalBody');
 var default_clientModalBody = null;
 var comp = 1;
 var offset = 1;
-/*setCookie('sccs_visual_size', 'normal', 7)*/
 
-// Configuration definitions
+
+// COOKIES FUNCTIONS //
 function setCookie(cname, cvalue, exdays) {
     const d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
@@ -48,69 +57,17 @@ function deleteAllCookies() {
     }
 }
 
-function set_position(login=false)
-{
-    
+// Function to set the actual position in the NavBar
+function set_position( login = false ){
     document.title = document.title + ' - ' + position['title'];
     document.getElementById('position_title').innerHTML = position['title'];
     document.getElementById('position_sub_title').innerHTML = position['sub_title'];
 
-    if ( login == false )
-    {
+    if ( login === false )
         document.getElementById('nav_link_' + position['var']).classList.add('active');
-    }
 }
 
-$("#add_voucher_form").submit(function(e) {
-
-    e.preventDefault();
-
-    // Getting the form and the validator data
-    var form = $(this);
-   
-    // Execute only of validator is passed
-        var form_data = new FormData(form[0]);
-        
-    // Execute the Database Query
-        $.ajax({
-            url: './api/?vouchers&add',
-            type: 'POST',
-            data: form_data,
-            contentType: false,
-            processData: false,
-            success: function(msg){
-           
-                add_voucher_modal.hide();
-                show_alert( "success", "Se ha agregado correctamente la reserva" );
-                
-                $("#add_voucher_form")[0].reset();
-                // Reload the main table data
-                $.get( "./api/?vouchers&list", function( data ) {
-                    populate_data(JSON.parse(data),1 , voucher_main_table, voucher_default_row, "voucher"); 
-                });
-        }
-    });
-    
-});
-
-$("#small_table_value").click(function(){
-    if ( this.checked == true )
-    {
-        $("#main-table").addClass("table-sm");
-        setCookie('sccs_visual_size', 'small', 7)
-    }
-    else
-    {
-        $("#main-table").removeClass("table-sm");
-        setCookie('sccs_visual_size', 'normal', 7)
-    }
-
-    console.dir("Cambiando la vista de la tabla principal");
-    
-    // show_alert('success', "Agregar reserva a usuario: " + this.dataset.userId, 5);
-    //  console.log(document.cookie);
-});
-
+// Function show_alert with a modified BootStrapGrowl
 function show_alert(type, message, timer = 10)
 {
     console.log("Mostrando alerta de tipo \"" + type + "\" con mensaje \"" + message + "\"" );
@@ -122,39 +79,22 @@ function show_alert(type, message, timer = 10)
         align: "right",
         delay: timer * 1000
     });
-
-
-    /*
-    const alert = document.createElement('div');
-    alert.innerHTML = `<div class="d-flex justify-content-between">
-    <p class="mb-0">${message}</p>
-    <button type="button" class="btn btn-danger btn-sm" data-bs-dismiss="alert" aria-label="Close" ><i class="fa fa-close" aria-hidden="true"></i></button>
-    </div>`;
-
-    alert.style.animationDuration = timer + "s";
-    alert.classList.add('alert', 'fade', 'show', 'alert-stack', 'alert-' + type);
-    document.body.appendChild(alert);
-
-    setTimeout(function(){
-        alert.remove();
-    }, timer * 1000);
-    */
 }
 
-$("#logout_button").click(function() {
-  $.get( "./api/?users&logout" );
-  console.log("Login out user");
-
-  setTimeout(function(){
-    document.location = "./";
-  }, 1 * 500);
-});
-
-
-function tokenize(rep_array, value)
-{
-
+function tokenize(rep_array, value){
     for (var key in rep_array) {
+        
+        if ( key === "status") {
+            
+            switch (rep_array[key]){
+                case C_status[1][0]: rep_array[key] = C_status[1][1]; break;
+                case C_status[2][0]: rep_array[key] = C_status[2][1]; break;
+                case C_status[3][0]: rep_array[key] = C_status[3][1]; break;
+                case C_status[4][0]: rep_array[key] = C_status[4][1]; break;
+                default: rep_array[key] = C_status[0][1]; break;
+            }    
+        }
+
         value = value.replaceAll("{" + key + "}", rep_array[key]);
       }
 
@@ -162,8 +102,7 @@ function tokenize(rep_array, value)
 }
 
 function populate_data(clients_data, offset = 1, m_table, m_table_row, type='client'){
-    console.log("Populating database");
-
+  
   m_table[0].innerHTML = "";
 
   pag_level = Math.ceil(clients_data['info'][0].total / pagination);
@@ -171,15 +110,28 @@ function populate_data(clients_data, offset = 1, m_table, m_table_row, type='cli
   show_total(clients_data['info'][0].total, pagination, offset);
   generate_pagination(pag_level, offset);
  
-
   delete clients_data.info;
+
+  if ( Object.keys(clients_data).length === 0 ){
+    const error_row = document.createElement('td');
+    error_row.classList.add("alert-danger", "text-center");
+    error_row.style="padding: 10px;"
+    switch (type){
+        case "client": error_row.colSpan=6; break;
+        case "voucher": error_row.colSpan=8; break;
+    }
+
+    error_row.innerHTML = "No existen elementos...";
+    m_table.append(error_row);
+    return false;
+  }
+
   $q = 0;
   Object.keys(clients_data).forEach(key => {
           const new_row = document.createElement('tr');
           new_row.id = "data_u" + $q;
           new_row.dataset.userId = "u" + clients_data[key].id;
          
-
           switch (type){
               case "client":
                 new_row.setAttribute('onclick', "show_client_modal(" + clients_data[key].id + ")");
@@ -205,6 +157,7 @@ function populate_data(clients_data, offset = 1, m_table, m_table_row, type='cli
           m_table.append(new_row);
 
           m_table = $("#main-table-body");
+          console.log("Populating database");
           $q++;
   });
 }
@@ -256,7 +209,7 @@ function show_companions(companions){
         
     if ( companions ){
             companions.forEach(val => {
-                ret += "<button onclick=\"show_client_modal(" + val.id + ")\" class=\"btn btn-dark btn-sm ml-1\" title=\"" + val.name + "\">" + val.profile_picture + "</button>";
+                ret += "<button onclick=\"show_client_modal(" + val.id + ")\" class=\"btn btn-dark btn-sm ms-1\" title=\"" + val.name + "\">" + val.profile_picture + "</button>";
                 //console.dir(val);
             });
     } else {
@@ -266,25 +219,15 @@ function show_companions(companions){
     return ret;
 }
 
-function status_type(status)
-    {
+function status_type(status){
         let status_type;
             switch (status.toLowerCase()){
-                case "traveling":
-                    status_type = "primary";
-                    break;
-                case "arriving":
-                    status_type = "warning";
-                    break;
-                case "arrived":
-                    status_type = "success";
-                    break;
-                case "overseas":
-                    status_type = "warning";
-                    break;
-                default:
-                    status_type = "danger";
-                    break;
+
+                case C_status[1][0].toLowerCase(): status_type = C_status[1][2]; break;
+                case C_status[3][0].toLowerCase(): status_type = C_status[3][2]; break;
+                case C_status[2][0].toLowerCase(): status_type = C_status[2][2]; break;
+                case C_status[4][0].toLowerCase(): status_type = C_status[4][2]; break;
+                default: status_type = C_status[0][2]; break;
             }
         return status_type;
     }
@@ -397,12 +340,6 @@ function show_total(total_results, pagination, offset){
     table_label_max.innerHTML = total_max;
     table_label_total.innerHTML = total_results;
 
-    /*
-    if ( total_pages == 1)
-        pag_nav.hide();
-    else
-        pag_nav.show();
-        */
     // if TOTAL is less than the pagination minimun, hide the pagination
     if ( total_results == 0)
         $('.table-label').hide();
@@ -410,13 +347,6 @@ function show_total(total_results, pagination, offset){
         $('.table-label').show();
 
 }
-
-
-
-$("#clientModal").on("hidden.bs.modal", function () {
-    clientModalBody.innerHTML = default_clientModalBody;
-    console.log ("Cerrando modal y restableciendo por defecto...")
-});
 
 function select_name(element, name , id) {
     
@@ -442,9 +372,71 @@ function deselect(element) {
     $(element)[0].value = "";
 }
 
+function autocomplete_clients(element){
 
+    $("#" + element.id + "_autocomplete").empty();
+
+    if (element.value.length > 2)
+    {
+        $.get( "./api/?clients&list_min&data=" + element.value, function( data ) {
+            data = JSON.parse(data);
+            Object.keys(data).forEach(key => {
+                main_element = document.createElement("div");
+                main_element.classList.add("auto-element", "p-2");
+                let full_name = data[key].name + " " + data[key].lastname;
+                main_element.innerHTML = full_name;
+
+                main_element.setAttribute('onclick', "select_name(\"#" + element.id + "\", \"" + full_name + "\", " + data[key].id + " )");
+    
+                $("#" + element.id + "_autocomplete").append(main_element);
+            });
+        });
+    }
+}
+
+function reload_autocomplete(){
+    $('.basicAutoComplete').autoComplete({
+        resolver: 'custom',
+        events: {
+            search: function (qry, callback) {
+                // let's do a custom ajax call
+                $.ajax(
+                    './api/?clients&list_min',
+                    {
+                        data: { 'q': qry}
+                    }
+                ).done(function (res) {
+                    callback(JSON.parse(res))
+                });
+            }
+        }
+    });
+    
+    $('.basicAutoComplete').on('autocomplete.select', function (evt, item) {
+        select_name("#" + this.id, item.text, item.value);
+    });    
+}
+
+// ACTIONS //
+
+// On Logout Button Click just LOGOUT and Reload
+$("#logout_button").click(function() {
+    $.get( "./api/?users&logout" );
+    console.log("Login out user");
+  
+    setTimeout(function(){
+      document.location = "./";
+    }, 1 * 500);
+  });
+  
+// Clear ClientModal and restoring
+$("#clientModal").on("hidden.bs.modal", function () {
+    clientModalBody.innerHTML = default_clientModalBody;
+    console.log ("Cerrando modal y restableciendo por defecto...")
+});
+
+// On Remove Companion inside Modal
 $("#remove_voucher_companion").click(function(){
-
     //console.log( "#companion_div_element_" + (comp - 1) );
     var companion_div = $("#companion_div_element_" + (comp - 1));
     var companion_div_auto = $("#avf_companion_" + (comp - 1) + "_autocomplete");
@@ -456,6 +448,7 @@ $("#remove_voucher_companion").click(function(){
     }
 });
 
+// On Add Companion inside Modal
 $("#add_voucher_companion").click(function(){
     console.log ("Adding voucher companion");
 
@@ -511,62 +504,62 @@ $("#add_voucher_companion").click(function(){
     reload_autocomplete();
 });
 
-function autocomplete_clients(element){
+// On submit the ADD Voucher Form
+$("#add_voucher_form").submit(function(e) {
+    e.preventDefault(); // Avoid form to execute
 
-    $("#" + element.id + "_autocomplete").empty();
-
-    if (element.value.length > 2)
-    {
-        $.get( "./api/?clients&list_min&data=" + element.value, function( data ) {
-            data = JSON.parse(data);
-            Object.keys(data).forEach(key => {
-                main_element = document.createElement("div");
-                main_element.classList.add("auto-element", "p-2");
-                let full_name = data[key].name + " " + data[key].lastname;
-                main_element.innerHTML = full_name;
-
-                main_element.setAttribute('onclick', "select_name(\"#" + element.id + "\", \"" + full_name + "\", " + data[key].id + " )");
-    
-                $("#" + element.id + "_autocomplete").append(main_element);
-            });
-        });
-    }
-}
-
-function reload_autocomplete(){
-    $('.basicAutoComplete').autoComplete({
-        resolver: 'custom',
-        events: {
-            search: function (qry, callback) {
-                // let's do a custom ajax call
-                $.ajax(
-                    './api/?clients&list_min',
-                    {
-                        data: { 'q': qry}
-                    }
-                ).done(function (res) {
-                    callback(JSON.parse(res))
+    // Getting the form and the validator data
+    var form = $(this);
+   
+    // Execute only of validator is passed
+        var form_data = new FormData(form[0]);
+        
+    // Execute the Database Query
+        $.ajax({
+            url: './api/?vouchers&add',
+            type: 'POST',
+            data: form_data,
+            contentType: false,
+            processData: false,
+            success: function(msg){
+           
+                add_voucher_modal.hide();
+                show_alert( "success", "Se ha agregado correctamente la reserva" );
+                
+                $("#add_voucher_form")[0].reset();
+                // Reload the main table data
+                $.get( "./api/?vouchers&list", function( data ) {
+                    populate_data(JSON.parse(data),1 , voucher_main_table, voucher_default_row, "voucher"); 
                 });
-            }
         }
     });
     
-    $('.basicAutoComplete').on('autocomplete.select', function (evt, item) {
-        select_name("#" + this.id, item.text, item.value);
-    });    
-}
+});
+
+// Setting Cookie for table size
+$("#small_table_value").click(function(){
+    if ( this.checked == true ){
+        $("#main-table").addClass("table-sm");
+        setCookie('sccs_visual_size', 'small', 7)
+    } else {
+        $("#main-table").removeClass("table-sm");
+        setCookie('sccs_visual_size', 'normal', 7)
+    }
+    console.dir("Cambiando la vista de la tabla principal");
+    
+    // show_alert('success', "Agregar reserva a usuario: " + this.dataset.userId, 5);
+    //  console.log(document.cookie);
+});
+
 
 $(document).ready(function() { 
    
     reload_autocomplete();
 
     // Reading sccs_visual_size Cookie and executing code for table size formatting
-    let size = getCookie('sccs_visual_size');
-    if (  size == "small" )
-    {
+    if (  getCookie('sccs_visual_size') == "small" ) {
         $("#small_table_value").prop('checked', true);
         $("#main-table").addClass("table-sm");
-
     }
 
 });

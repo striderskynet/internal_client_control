@@ -10,10 +10,15 @@
       $alert.attr("class", "bootstrap-growl alert");
       if (options.type) {
         $alert.addClass("alert-" + options.type);
+        switch(options.type){
+          case "primary": $alert.append(" <svg class=\"bi flex-shrink-0 me-2\" width=\"24\" height=\"24\" role=\"img\" aria-label=\"Info:\"><use xlink:href=\"#info-fill\"/></svg>"); break;
+          case "danger": $alert.append(" <svg class=\"bi flex-shrink-0 me-2\" width=\"24\" height=\"24\" role=\"img\" aria-label=\"Info:\"><use xlink:href=\"#exclamation-triangle-fill\"/></svg>"); break;
+        }
+        
       }
       if (options.allow_dismiss) {
         $alert.addClass("alert-dismissible");
-        $alert.append("<button  class=\"close\" data-dismiss=\"alert\" type=\"button\"><span aria-hidden=\"true\">&#215;</span><span class=\"sr-only\">Close</span></button>");
+        $alert.append("<button  class=\"btn-close\" data-dismiss=\"alert\" type=\"button\"><span aria-hidden=\"true\"></span><span class=\"sr-only\">Close</span></button>");
       }
       $alert.append(message);
       if (options.top_offset) {

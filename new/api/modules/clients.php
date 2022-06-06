@@ -94,10 +94,12 @@
         global $db, $config;
 
         $where = null;
+        $order = "ORDER BY `id`";
+        $dir = "DESC";
         $limit = null;
         $offset = null;
-        if ( @isset($_GET['data']) )
-        {
+
+        if ( @isset($_GET['data']) ) {
             $where  = "WHERE `name` LIKE '%" . $_GET['data'] . "%'";
             $where .= " OR `lastname` LIKE '%" . $_GET['data'] . "%'";
             $where .= " OR `passport` LIKE '%" . $_GET['data'] . "%'";
@@ -105,6 +107,15 @@
             $where .= " OR `phone` LIKE '%" . $_GET['data'] . "%'";
             $where .= " OR `company` LIKE '%" . $_GET['data'] . "%'";
         }
+
+        if ( @isset ($_GET['orderBy'])) {
+            $order = "ORDER by `" . $_GET['orderBy'] . "`";
+        }
+
+        if ( @isset ($_GET['dir'] ) ){
+            $dir = $_GET['dir'];
+        }
+       
             
         $limit = "LIMIT " . $config['misc']['pagination'];
 
@@ -112,9 +123,11 @@
             $offset = "OFFSET " . ( ($_GET['offset'] - 1) * $config['misc']['pagination']);
 
        
-        $query = 'SELECT * FROM main_clients ' . $where . ' ORDER BY `id` DESC ' . $limit .' ' . $offset .';';
+        $query = "SELECT * FROM `main_clients` {$where} {$order} {$dir} {$limit} {$offset};";
+        //$query = 'SELECT * FROM main_clients ' . $where . ' ' . $order . ' DESC ' . $limit .' ' . $offset .';';
         $query_no_limit = 'SELECT count(*) as `total` FROM main_clients ' . $where . ' ORDER BY `id` DESC;';
 
+        //print_r ( $query );
         //debug(4, $query);
         $res = $db->query($query);
         $accounts = $res->fetchAll();
@@ -127,7 +140,7 @@
                 //$account['profile_picture'] = "<img style='width: 45px;' class='rounded-circle' src='./uploaded/" . $profile_picture . ".jpg' />";
                 $account['profile_picture'] = "<img class='ps-45 rounded-circle' src='./uploaded/" . $profile_picture . ".jpg' />";
             else
-                $account['profile_picture'] = "<i class='fas fa-user-alt fa-3x'></i>";
+                $account['profile_picture'] = "<i class='text-dark fas fa-user-alt fa-3x'></i>";
 
             $data[] = $account;
         }

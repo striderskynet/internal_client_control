@@ -1,6 +1,7 @@
 :root
 {
     --table-border: 10px;
+    --bs-font-sans-serif: 'Roboto', sans-serif;
 }
 
 .main_wrapper{
@@ -10,10 +11,6 @@
 
 .main_wrapper table tr{ 
     cursor: pointer;
-}
-
-.main_wrapper table tbody tr td:last-of-type {
-    min-width: 170px !important;
 }
 
 .table-dark th
@@ -36,7 +33,7 @@ thead tr th:hover{
 }
 
 .ps-45{
-    max-width: 45px;
+    max-width: 35px;
 }
 
 .ps-15{
@@ -55,7 +52,7 @@ thead tr th:hover{
 }
 
 #upload_client_picture:hover{
-    color: var(--primary);
+    color: var(--bs-primary);
     cursor: pointer;
 }
 
@@ -132,7 +129,7 @@ main > .container {
 
 .valid-error{
    
-    color: var(--mdb-danger);
+    color: var(--bs-danger);
     margin: -15px 0px 0px 15px;
     font-size: 12px;
     position: absolute;
@@ -142,12 +139,16 @@ main > .container {
 {
     width: 140px; 
     height: 140px;
-    border: 4px solid var(--mdb-primary);
+    border: 4px solid var(--bs-primary);
 }
 
 .detail_info{
-    font-size: 12px;
     text-decoration: underline;
+    font-weight: normal;
+}
+
+.select-item{
+    padding-top: 10px;
 }
 
 .pr-30{
@@ -167,6 +168,9 @@ main > .container {
     margin-left: -100px;
 }
 
+.form-group{
+    margin-top: 15px;
+}
 .form-outline
 {
     border: 1px solid var(--gray);

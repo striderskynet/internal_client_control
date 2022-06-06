@@ -64,13 +64,8 @@
                                         <input type="text" id="acf_contact_company" placeholder="Empresa" name="acf_contact_company" class="form-control" />
 
                                         <label class="input-group-text"><i class="fas fa-flag"></i></label>  
-                                        <select id="acf_contact_status" name='acf_contact_status' value="Unknown" text="Estado" id="acf_contact_status" class="form-control">
-                                            <option selected disabled>Estado</option>    
-                                            <option value='Arrived'>Arrived</option> 
-                                            <option value='Arriving'>Arriving</option> 
-                                            <option value='Traveling'>Traveling</option> 
-                                            <option value='Overseas'>Overseas</option> 
-                                            <option value='Unknown'>Unknown</option>
+                                        <select id="acf_contact_status" name='acf_contact_status' value="Unknown" text="Estado" id="acf_contact_status" class="form-select form-control">
+                                            <option selected disabled>Estado</option>
                                         </select>
                                     
                             </div>
@@ -193,11 +188,11 @@
                     aria-controls="ex-with-icons-tabs-1" aria-selected="true"><i class="fas fa-user-alt fa-fw me-2"></i> Info</a>
                 </li>
                 <li class="nav-item" role="presentation">
-                <a class="nav-link" id="ex-with-icons-tab-2" data-bs-toggle="tab" href="#ex-with-icons-tabs-2" role="tab"
+                <a class="nav-link disabled" id="ex-with-icons-tab-2" data-bs-toggle="tab" href="#ex-with-icons-tabs-2" role="tab"
                     aria-controls="ex-with-icons-tabs-2" aria-selected="false" disabled="disabled"><i class="fas fa-chart-line fa-fw me-3"></i> Registro</a>
                 </li>
                 <li class="nav-item" role="presentation">
-                <a class="nav-link" id="ex-with-icons-tab-3" data-bs-toggle="tab" href="#ex-with-icons-tabs-3" role="tab"
+                <a class="nav-link disabled" id="ex-with-icons-tab-3" data-bs-toggle="tab" href="#ex-with-icons-tabs-3" role="tab"
                     aria-controls="ex-with-icons-tabs-3" aria-selected="false" disabled="disabled"><i class="fas fa-list fa-fw me-2"></i> Detalles</a>
                 </li>
             </ul>
@@ -247,7 +242,7 @@
                                         </div>
                                         <div class="col-6 mb-3">
                                         <h7 class='detail_info'>Estado</h7 class='detail_info'><br><br>
-                                        <h5><span class="p-2 badge badge-{status_type} d-inline">{status}</span></h5>
+                                        <h5><span class="p-2 badge bg-{status_type} d-inline">{status}</span></h5>
                                         </div>
                                     </div>
                                 </div>

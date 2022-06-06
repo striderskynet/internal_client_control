@@ -2,16 +2,6 @@
 const main_table_row = $("#data-default");
 var main_table = $("#main-table-body");
 
-$.get( "./api/?clients&list", function( data ) {
-    //console.log(data);
-    populate_data(JSON.parse(data),offset , main_table, main_table_row); 
-});
-
-// Execute every time there is a click in a pagination element
-$("a[id^='pag_offset']").click(function(){
-});
-
-
 
 // Execute every time there is a search in the search bar
 $('#main_search').on("input propertychange", function () { 
@@ -47,7 +37,6 @@ $('#main_search').on("input propertychange", function () {
 // Execute the upload form
 function upload_client_picture(){
     //var input_dom = document.createElement('input');
-    
     setTimeout(function(){
         $('#upload_client_file').click();
     },200);
@@ -62,8 +51,7 @@ $("#upload_client_file").on('change', function () {
 });
 
 // Populate the Add Client Form countries select with C
-function populate_countries_select()
-{
+function populate_countries_select(){
     country_select = $("#acf_contact_country");
     Object.keys(C['countries']).forEach(key => {
 
@@ -71,18 +59,15 @@ function populate_countries_select()
             value: key,
             text: C['countries'][key]
         }));
-
     });
 }
 
 // Add new client button 
 $("#add_client_form").submit(function(e) {
-
     e.preventDefault();
 
     // Getting the form and the validator data
     var form = $(this);
-   
 
     // Execute only of validator is passed
         var form_data = new FormData();
@@ -184,7 +169,18 @@ $("#button_client_add").click(function(){
     add_client_modal.show();
     console.log("Populando lista de paises");
     populate_countries_select();
-    
+
+    var $select_modal = $("#acf_contact_status");   
+
+    C_status.forEach(function(key){
+        
+        console.log(key);
+        var option = document.createElement("option");
+        option.innerHTML = key[1];
+        option.value = key[0].toLowerCase();
+        option.classList.add(`btn-${key[2]}`, 'select-item');
+        $select_modal.append(option);
+    });
 
     //show_alert('success', 'Nuevo cliente agregado', 5);
 });
@@ -253,7 +249,44 @@ $("#button_generate_client").click(function(){
     });
 });
 
+let oPost = false;
+
+$("#main-table").children("thead").children("tr").children("th").click(function (e){
+    if (e.currentTarget.innerHTML.toLowerCase() === "accion"){
+        return false;
+    }
+    const oElement = e.currentTarget;
     
+    $elements = $("#main-table").children("thead").children("tr").children("th");
+    $elements.each(function(el){
+       $elements[el].classList.remove("text-info");
+        //$elements[el].classList.del("text-info");
+    });
+
+    (oPost === "ASC") ? oPost = "DESC" : oPost = "ASC";
+    oElement.classList.contains("text-info") === false ? oElement.classList.add("text-info") : oElement.classList.remove("text-info");
+    oElement.dataset.orderPos = oPost;
+
+    if (typeof oElement.dataset.orderId !== "undefined" ){
+        $.get( `./api/?clients&list&orderBy=${oElement.dataset.orderId}&dir=${oPost}`, function( data ) {
+            populate_data(JSON.parse(data),1 , main_table, main_table_row); 
+        });
+    
+        show_alert('info', `Ordenando elementos por '${oElement.dataset.orderId}' '${oPost}'`, 2)
+    }
+    
+});
+
+$.get( "./api/?clients&list", function( data ) {
+    //console.log(data);
+    populate_data(JSON.parse(data),offset , main_table, main_table_row); 
+});
+/*
 function insertAfter(referenceNode, newNode) {
     referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
+
+$('#add_client_modal').on('shown.bs.modal', function (e){
+
+});
+*/

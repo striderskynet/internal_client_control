@@ -10,7 +10,7 @@
     $config['db']['host'] = "127.0.0.1";
     $config['db']['user'] = "root";
     $config['db']['pass'] = "";
-    $config['db']['data'] = "endirecto2";
+    $config['db']['data'] = "test";
 
     $config['misc']['pagination'] = 10;
 

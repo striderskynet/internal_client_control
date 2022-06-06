@@ -16,9 +16,6 @@
 </script>
 <!-- Main Table Wrapper -->
     <main class="main_wrapper mx-auto flex-shrink-0">
-        <div class="form-check left-absolute">
-        
-        </div>
         <div class='d-flex justify-content-end'>
             <?php if ( _DEBUG ) { ?>
             <button id="button_generate_client" type="button" class="btn btn-primary m-2"><i class="fas fa-plus"></i> Generar Cliente</button>
@@ -27,15 +24,15 @@
         </div>
         
         
-        <table id='main-table' class="table table-striped table-hover align-middle mb-0 bg-white rounded-top">
+        <table id='main-table' style='table-layout:fixed;' class="table table-striped table-responsive table-hover align-middle mb-0 bg-white rounded-top">
             <thead class="table-dark">
             <tr>
-                <th>Nombre</th>
-                <th>Pasaporte / Pais</th>
-                <th>Estado</th>
-                <th>Fecha</th>
-                <th>Empresa</th>
-                <th>Accion</th>
+                <th style='width: 400px' data-order-id='lastname'>Nombre</th>
+                <th style='width: 200px' data-order-id='country'>Pasaporte / Pais</th>
+                <th style='width: 200px' data-order-id='status'>Estado</th>
+                <th style='width: 250px' data-order-id='date_added'>Fecha</th>
+                <th style='width: 150px' data-order-id='company'>Empresa</th>
+                <th style='width: 100px'>Accion</th>
             </tr>
             </thead>
             <tbody id='main-table-body'>
@@ -44,10 +41,10 @@
                     <td>
                     <div class="d-flex align-items-center">
                     {profile_picture}</i>
-                        <div class="ml-3">
-                            <p class="fw-bold mb-1"><strong>{prefix}</strong> {name} {lastname}</p>
-                            <p class="fw-bolder ml-3 mb-0"><a class='text-info' href='mailto:{email}'>{email}</a></p>
-                            <p class="fw-bolder ml-3 mb-0"><a class='text-info' href='tel:{phone}'>{phone}</a></p>
+                        <div class="ms-3" style='font-size: 15px;'>
+                            <p class="fw-bold mb-0"><strong>{prefix}</strong> {name} {lastname}</p>
+                            <p class="fw-bolder ms-2 mb-0"><a class='text-info' href='mailto:{email}'>{email}</a></p>
+                            <p class="fw-bolder ms-2 mb-0"><a class='text-info' href='tel:{phone}'>{phone}</a></p>
                         </div>
                     </div>
                     </td>
@@ -56,7 +53,7 @@
                     <p class="fw-bolder mb-0"><span class="fi fi-{country_lowercase}"></span> {country} / {country_full}</p>
                     </td>
                     <td class="align-middle">
-                        <h5><span class="badge badge-{status_type} p-2">{status}</span></h5>
+                        <h5><span class="badge bg-{status_type} p-2">{status}</span></h5>
                     </td>
                     <td class="align-middle">{date_added}</td>
                     <td class="align-middle">{company}</td>

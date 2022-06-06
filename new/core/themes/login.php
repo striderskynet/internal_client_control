@@ -35,7 +35,7 @@
                         <div class="form-group">
                             <div class="input-group">
                                 <span class="input-group-text"><i class="fa fa-asterisk"></i></span>
-                                <input autocomplete='current-password' placeholder="Password" type="password" id="password_login" name="assword_login" class="form-control form-icon-trailing" required="required" />
+                                <input autocomplete='current-password' placeholder="Password" type="password" id="password_login" name="password_login" class="form-control form-icon-trailing" required="required" />
                             </div>
                         </div>
                 </div>

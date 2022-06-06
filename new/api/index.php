@@ -1,12 +1,12 @@
 <?php
     session_start();
     
-    require_once ($_SERVER['DOCUMENT_ROOT'] . "/new" . '/core/config.php');
+    @require_once ($_SERVER['DOCUMENT_ROOT'] . "/new" . '/core/config.php');
 
     $api_directory = _LOCAL . "api/";
    
     //debug(3, "Connecting to mysql database: " . str_replace("\n", "", var_export($database, true)));
-    $db = new db($config['db']['host'], $config['db']['user'], $config['db']['pass'], $config['db']['data']);
+    $db = @new db($config['db']['host'], $config['db']['user'], $config['db']['pass'], $config['db']['data']);
    
     switch(array_keys($_GET)[0]){
             case "users":

@@ -118,7 +118,7 @@
             
         if ( $small == true )
             $small = array ("ps-15", "fa-1x");
-        else $small = array ("ps-45", "fa-3x");
+        else $small = array ("ps-45", "fa-2x");
 
             if ( file_exists ('../uploaded/'.  $profile_picture . ".jpg") )
                 return "<img class='{$small[0]} rounded-circle' src='./uploaded/" . $profile_picture . ".jpg' />";

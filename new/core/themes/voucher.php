@@ -25,7 +25,7 @@ $theme_script = "voucher";
     </div>
 
 
-    <table id='main-table' class="table table-striped table-hover align-middle mb-0 bg-white rounded-top">
+    <table id='main-table' style='table-layout:fixed;' class="table table-striped table-hover align-middle mb-0 bg-white rounded-top">
         <thead class="table-dark">
             <tr>
                 <th>A nombre de</th>
@@ -44,7 +44,7 @@ $theme_script = "voucher";
                 <td>
                     <div class="d-flex align-items-center">
                         {profile_picture}</i>
-                        <div class="ml-3">
+                        <div class="ms-3" style='font-size: 15px;'>
                             <p class="fw-bold mb-1"><strong>{prefix}</strong> {name} {lastname}</p>
                         </div>
                     </div>

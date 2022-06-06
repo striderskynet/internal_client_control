@@ -1,7 +1,0 @@
-2022-06-03 00:00:21	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '438'; DELETE FROM main_clients WHERE `id` = '438';
-2022-06-03 13:23:27	| Data	|	SELECT *, `main_vouchers`.`id` as voucher_id FROM main_vouchers, main_clients WHERE `main_vouchers`.`id` = 18 AND main_clients.`id` = main_vouchers.`main_client` ORDER BY main_vouchers.`id` DESC;
-2022-06-03 13:28:05	| Data	|	SELECT * FROM general_users WHERE `username`='asdasd' AND `password`='a8f5f167f44f4964e6c998dee827110c'
-2022-06-03 13:28:12	| Data	|	SELECT * FROM general_users WHERE `username`='asdasd' AND `password`='a8f5f167f44f4964e6c998dee827110c'
-2022-06-03 13:28:18	| Data	|	SELECT * FROM general_users WHERE `username`='asdasd' AND `password`='a8f5f167f44f4964e6c998dee827110c'
-2022-06-03 13:28:35	| Data	|	SELECT * FROM general_users WHERE `username`='asdasd' AND `password`='a8f5f167f44f4964e6c998dee827110c'
-2022-06-03 13:29:04	| Data	|	SELECT * FROM general_users WHERE `username`='nesty' AND `password`='a4fd01f750dabff701339a213c3be6af'

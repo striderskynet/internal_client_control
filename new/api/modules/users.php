@@ -6,6 +6,9 @@ switch (array_keys($_GET)[1]) {
     case "add":
         echo users_add();
         break;
+    case "install":
+        echo users_install();
+        break;
     case "verify":
         echo users_verify();
         break;
@@ -23,13 +26,18 @@ function users_total()
     return $db->query('SELECT * FROM general_users')->numRows();
 }
 
+function users_install()
+{
+    return users_add();
+}
+
 function users_add()
 {
     global $db;
 
-    $val['user'] = $_GET['username'];
-    $val['pass1'] = $_GET['password'];
-    $val['pass2'] = $_GET['password2'];
+    $val['user']    = $_POST['username'];
+    $val['pass1']   = $_POST['password'];
+    $val['pass2']   = $_POST['password2'];
     $val['pass'] = md5($val['pass1']);
     $val['role'] = "root";
 

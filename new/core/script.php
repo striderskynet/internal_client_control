@@ -18,6 +18,9 @@
             case "login":
                 $script = file_get_contents( "./themes/login.exec.js" );
                 break;
+            case "panel":
+                $script = file_get_contents( "./themes/panel.exec.js" );
+                break;
         }
 
         if ( !_DEBUG ){

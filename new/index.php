@@ -17,10 +17,21 @@ if (isset($_SESSION['USERID'])) {
     case "panel":
       include_once(_LOCAL . "core/themes/panel.php");
       break;
+    case "logs":
+      include_once(_LOCAL . "core/themes/logs.php");
+      break;
   }
 } else {
 
-  include_once(_LOCAL . "core/themes/login.php");
+  // Check if this is a new Install and Execute Install.php
+
+  if (api("users", "total") == 1){
+    include_once(_LOCAL . "core/themes/login.php");
+  } else {
+    if ( file_exists(_LOCAL . "core/themes/install.php") )
+      include_once(_LOCAL . "core/themes/install.php");
+  }
+    
 }
 
 

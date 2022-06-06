@@ -1,0 +1,134 @@
+2022-06-06 01:18:32	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
+        VALUES ('','d41d8cd98f00b204e9800998ecf8427e','root');
+2022-06-06 01:20:06	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
+        VALUES ('nesty','3f7bc4844d3f86ae87da95ff75464231','root');
+2022-06-06 01:23:50	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
+        VALUES ('nesty','a4fd01f750dabff701339a213c3be6af','root');
+2022-06-06 01:24:27	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
+        VALUES ('nesty','a4fd01f750dabff701339a213c3be6af','root');
+2022-06-06 01:24:29	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
+        VALUES ('nesty','a4fd01f750dabff701339a213c3be6af','root');
+2022-06-06 01:25:29	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
+        VALUES ('nesty','a4fd01f750dabff701339a213c3be6af','root');
+2022-06-06 01:27:05	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
+        VALUES ('nesty','a4fd01f750dabff701339a213c3be6af','root');
+2022-06-06 01:30:41	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
+        VALUES ('nesty','a4fd01f750dabff701339a213c3be6af','root');
+2022-06-06 02:09:38	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
+        VALUES ('nesty','a4fd01f750dabff701339a213c3be6af','root');
+2022-06-06 02:11:57	| Data	|	SELECT * FROM general_users WHERE `username`='nesty' AND `password`='a4fd01f750dabff701339a213c3be6af'
+2022-06-06 02:16:58	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
+        VALUES ('nesty','a4fd01f750dabff701339a213c3be6af','root');
+2022-06-06 02:18:20	| Data	|	SELECT * FROM general_users WHERE `username`='nesty' AND `password`='a4fd01f750dabff701339a213c3be6af'
+2022-06-06 02:18:23	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Msc', 'Arlana', 'Zavala', '56989612209', '+22 4 (747) 7247', 'arla_zavala@yahoo.com', 'DK', now(), 'Yahoo', 'Traveling', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 02:18:25	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sra.', 'Carmencita', 'Hickman', '44377810422', '+62 7 (228) 3863', 'carm_hickman@gmail.com', 'CX', now(), 'Samsung', 'Arrived', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 02:18:27	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '492'; DELETE FROM main_clients WHERE `id` = '492';
+2022-06-06 02:18:28	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '491'; DELETE FROM main_clients WHERE `id` = '491';
+2022-06-06 02:18:48	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sr.', 'Jose', 'Olazabal', '88090800317', '88090800307', 'os.nesty@gmail.com', 'US', now(), 'Microsoft Inc.', 'arrived', 'Ninguna', 'ahora');
+2022-06-06 02:19:14	| Data	|	INSERT INTO `main_vouchers` (`main_client`, `type`, `data`, `in_date`, `out_date`, `information`, `service_partner`, `confirmation_number`) VALUES
+        ('493', 'Hotel / House', 'asdasd', '2022-06-08', '2022-06-07', 'Probando', 'Gaviota', '1521121');
+2022-06-06 02:19:59	| Data	|	SELECT *, `main_vouchers`.`id` as voucher_id FROM main_vouchers, main_clients WHERE `main_vouchers`.`id` = 19 AND main_clients.`id` = main_vouchers.`main_client` ORDER BY main_vouchers.`id` DESC;
+2022-06-06 02:21:59	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
+        VALUES ('nesty','3f7bc4844d3f86ae87da95ff75464231','root');
+2022-06-06 02:22:03	| Data	|	SELECT * FROM general_users WHERE `username`='nesty' AND `password`='3f7bc4844d3f86ae87da95ff75464231'
+2022-06-06 02:22:23	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sra.', 'Ami', 'Knapp', '94843866445', '+21 1 (196) 5342', 'ami_knapp@yahoo.com', 'JO', now(), 'Facebook', 'Unknown', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 02:22:23	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Msc', 'Dorothy', 'Spears', '72324039049', '+88 2 (25) 1408', 'doro_spears@yahoo.com', 'CW', now(), 'Facebook', 'Unknown', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 02:22:23	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Dr.', 'Malinde', 'Dunn', '97160618673', '+47 10 (825) 9209', 'mali_dunn@yahoo.com', 'BO', now(), 'Apple', 'Traveling', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 02:31:20	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
+        VALUES ('nesty','a4fd01f750dabff701339a213c3be6af','root');
+2022-06-06 02:31:25	| Data	|	SELECT * FROM general_users WHERE `username`='nesty' AND `password`='a4fd01f750dabff701339a213c3be6af'
+2022-06-06 02:33:19	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
+        VALUES ('nesty','a4fd01f750dabff701339a213c3be6af','root');
+2022-06-06 02:33:38	| Data	|	SELECT * FROM general_users WHERE `username`='nesty' AND `password`='a4fd01f750dabff701339a213c3be6af'
+2022-06-06 02:40:09	| Data	|	INSERT INTO general_users( `username`, `password`, `role`)
+        VALUES ('nesty','a4fd01f750dabff701339a213c3be6af','root');
+2022-06-06 02:40:13	| Data	|	SELECT * FROM general_users WHERE `username`='nesty' AND `password`='a4fd01f750dabff701339a213c3be6af'
+2022-06-06 02:43:22	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Msc', 'Dacia', 'Cano', '45619149700', '+93 6 (948) 1382', 'daci_cano@yahoo.com', 'GU', now(), 'Apple', 'Arriving', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 02:43:28	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '491'; DELETE FROM main_clients WHERE `id` = '491';
+2022-06-06 02:45:36	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sr.', 'Ailina', 'Norris', '18639593749', '+83 8 (993) 8047', 'aili_norris@yahoo.com', 'SZ', now(), 'Samsung', 'Unknown', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 02:47:20	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '492'; DELETE FROM main_clients WHERE `id` = '492';
+2022-06-06 02:55:13	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Dr.', 'Karalynn', 'Nixon', '15234044545', '+51 7 (979) 6968', 'kara_nixon@yahoo.com', 'MP', now(), 'Yahoo', 'Unknown', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 02:55:13	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Dr.', 'Shirley', 'Dunlap', '26424184620', '+49 9 (387) 134', 'shir_dunlap@yahoo.com', 'MZ', now(), 'Yahoo', 'Unknown', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 02:55:14	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sr.', 'Pierette', 'Fox', '54413442801', '+57 6 (117) 5190', 'pier_fox@gmail.com', 'BZ', now(), 'Apple', 'Traveling', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 02:56:51	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '493'; DELETE FROM main_clients WHERE `id` = '493';
+2022-06-06 02:56:51	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '494'; DELETE FROM main_clients WHERE `id` = '494';
+2022-06-06 02:56:52	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '495'; DELETE FROM main_clients WHERE `id` = '495';
+2022-06-06 02:57:56	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sr.', 'Maribel', 'Mclaughlin', '79093719266', '+13 6 (571) 8457', 'mari_mclaughlin@gmail.com', 'PR', now(), 'Microsoft', 'Arriving', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 02:58:40	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '496'; DELETE FROM main_clients WHERE `id` = '496';
+2022-06-06 02:58:44	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Dr.', 'Marget', 'Briggs', '20373857600', '+78 1 (411) 1239', 'marg_briggs@apple.com', 'RO', now(), 'Google', 'Arrived', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 02:59:25	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '497'; DELETE FROM main_clients WHERE `id` = '497';
+2022-06-06 03:00:22	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sra.', 'Linn', 'Rogers', '36377725811', '+88 7 (945) 7332', 'linn_rogers@aol.com', 'CF', now(), 'Microsoft', 'Arrived', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:00:23	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sra.', 'Hope', 'Porter', '26187444971', '+70 3 (101) 894', 'hope_porter@aol.com', 'IN', now(), 'Facebook', 'Unknown', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:00:23	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Dr.', 'Kirstyn', 'Acosta', '20377921655', '+78 1 (593) 7943', 'kirs_acosta@gmail.com', 'XK', now(), 'Yahoo', 'Arriving', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:00:24	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Dr.', 'Cathrin', 'Felix', '12782404586', '+54 3 (612) 6292', 'cath_felix@apple.com', 'BV', now(), 'Microsoft', 'Overseas', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:00:25	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Dr.', 'Eve', 'Lin', '86379180945', '+33 9 (529) 7767', 'eve_lin@aol.com', 'PR', now(), 'Apple', 'Traveling', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:00:27	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sra.', 'Hinda', 'Franklin', '45219042770', '+31 2 (77) 9755', 'hind_franklin@aol.com', 'SD', now(), 'Google', 'Unknown', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:00:28	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Msc', 'Antonie', 'Horn', '60803129348', '+65 6 (529) 4387', 'anto_horn@outlook.com', 'BL', now(), 'Facebook', 'Traveling', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:00:31	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sra.', 'Mufinella', 'Duffy', '89655622705', '+59 6 (771) 7141', 'mufi_duffy@apple.com', 'MQ', now(), 'Facebook', 'Unknown', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:00:32	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sr.', 'Tamarah', 'Gregory', '18428332536', '+51 4 (278) 1868', 'tama_gregory@yahoo.com', 'YT', now(), 'Microsoft', 'Unknown', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:00:32	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sra.', 'Colene', 'Knapp', '8149265557', '+11 3 (611) 9154', 'cole_knapp@yahoo.com', 'IL', now(), 'Samsung', 'Overseas', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:00:33	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sr.', 'Callida', 'Zhang', '636665350', '+19 8 (654) 1708', 'call_zhang@outlook.com', 'MZ', now(), 'Samsung', 'Unknown', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:00:33	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sr.', 'Fredi', 'Walls', '81813697858', '+70 10 (357) 3475', 'fred_walls@yahoo.com', 'DJ', now(), 'Yahoo', 'Arriving', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:00:33	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Msc', 'Charity', 'Lewis', '21631850297', '+80 1 (968) 2233', 'char_lewis@aol.com', 'DM', now(), 'Samsung', 'Unknown', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:00:34	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sr.', 'Clemmy', 'Woods', '7337892093', '+3 4 (718) 223', 'clem_woods@yahoo.com', 'UY', now(), 'Google', 'Unknown', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:00:34	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Dr.', 'Lorne', 'Brandt', '74956785785', '+30 3 (62) 1711', 'lorn_brandt@apple.com', 'SX', now(), 'Google', 'Overseas', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:00:35	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sr.', 'Leisha', 'Cordova', '59247538839', '+65 3 (472) 7820', 'leis_cordova@apple.com', 'RO', now(), 'Facebook', 'Traveling', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:00:51	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '504'; DELETE FROM main_clients WHERE `id` = '504';
+2022-06-06 03:00:52	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '505'; DELETE FROM main_clients WHERE `id` = '505';
+2022-06-06 03:00:54	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '502'; DELETE FROM main_clients WHERE `id` = '502';
+2022-06-06 03:00:54	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '503'; DELETE FROM main_clients WHERE `id` = '503';
+2022-06-06 03:00:57	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '500'; DELETE FROM main_clients WHERE `id` = '500';
+2022-06-06 03:00:58	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '501'; DELETE FROM main_clients WHERE `id` = '501';
+2022-06-06 03:00:59	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '498'; DELETE FROM main_clients WHERE `id` = '498';
+2022-06-06 03:01:00	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '499'; DELETE FROM main_clients WHERE `id` = '499';
+2022-06-06 03:01:01	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '506'; DELETE FROM main_clients WHERE `id` = '506';
+2022-06-06 03:01:01	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '507'; DELETE FROM main_clients WHERE `id` = '507';
+2022-06-06 03:01:02	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '508'; DELETE FROM main_clients WHERE `id` = '508';
+2022-06-06 03:01:03	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '509'; DELETE FROM main_clients WHERE `id` = '509';
+2022-06-06 03:01:04	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '510'; DELETE FROM main_clients WHERE `id` = '510';
+2022-06-06 03:01:05	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '511'; DELETE FROM main_clients WHERE `id` = '511';
+2022-06-06 03:01:07	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '512'; DELETE FROM main_clients WHERE `id` = '512';
+2022-06-06 03:01:09	| Data	|	DELETE FROM main_vouchers WHERE `main_client` = '513'; DELETE FROM main_clients WHERE `id` = '513';
+2022-06-06 03:49:29	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sra.', 'Rodie', 'Meadows', '51217109852', '+14 7 (870) 9137', 'rodi_meadows@aol.com', 'TC', now(), 'Yahoo', 'Unknown', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:49:29	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sr.', 'Petra', 'Mills', '25965161929', '+99 9 (306) 6486', 'petr_mills@aol.com', 'KH', now(), 'Samsung', 'Arriving', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:49:29	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sra.', 'Reine', 'Knight', '23306558968', '+58 4 (757) 9790', 'rein_knight@aol.com', 'IQ', now(), 'Apple', 'Unknown', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:49:31	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Sra.', 'Blaire', 'Oliver', '88767239361', '+17 3 (453) 8021', 'blai_oliver@yahoo.com', 'MK', now(), 'Facebook', 'Overseas', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:49:31	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Dr.', 'Lisbeth', 'Barron', '60114689281', '+78 1 (234) 6765', 'lisb_barron@yahoo.com', 'PA', now(), 'Apple', 'Arriving', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:49:32	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Dr.', 'Babs', 'Velez', '83424931002', '+26 1 (176) 1675', 'babs_velez@gmail.com', 'BV', now(), 'Microsoft', 'Arriving', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');
+2022-06-06 03:49:32	| Data	|	INSERT INTO `main_clients` (`prefix`, `name`, `lastname`, `passport`, `phone`, `email`, `country`, `date_added`, `company`, `status`, `observations`, `last_touch`) VALUES
+        ('Dr.', 'Stacey', 'Wilkerson', '41317680138', '+31 2 (86) 7470', 'stac_wilkerson@aol.com', 'ID', now(), 'Facebook', 'Unknown', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'ahora');

@@ -16,6 +16,8 @@ $.get("./api/?vouchers&list", function (data) {
 $("#button_voucher_add").click(function () {
   console.log("Mostrando modal de Reserva Nueva");
 
+               
+
   // Show "ADD Voucher" modal
   add_voucher_modal.show();
 });
@@ -38,7 +40,7 @@ function button_voucher_del(button) {
 
   // Executing the API for VOUCHER DELETION
   $.get(url_del_voucher, function (data) {
-    show_alert("danger", `"Se ha eliminado el Voucher con ID: ${voucher_id},`, 5);
+    show_alert("danger", `Se ha eliminado el Voucher con ID: ${voucher_id},`, 5);
 
     // Populate the main Table
     $.get("./api/?vouchers&list", function (data) {
@@ -58,12 +60,9 @@ function button_voucher_del(button) {
   }, 200);
 }
 
-var add_voucher_modal_shown = document.getElementById("add_voucher_modal");
-add_voucher_modal_shown.addEventListener("shown.bs.modal", function (event) {});
-
 function button_voucher_print(element) {
   voucher_id = element.dataset.voucherId;
   show_alert("primary", `Imprimiendo voucher ID ${voucher_id}`, 5);
 
-  //window.open("./api/voucher.php?id=" + voucher_id, "_blank").focus();
+  window.open("./api/voucher.php?id=" + voucher_id, "_blank").focus();
 }
